@@ -1,0 +1,1 @@
+python bert_classificator.py --output_dir output_bert_context --do_train --do_predict --data_dir data_bert_context --train_batch_size 8 --num_train_epochs 10 --with_context True

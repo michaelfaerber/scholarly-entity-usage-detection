@@ -1,0 +1,335 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.0 20120330//EN" "JATS-archivearticle1.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="article-commentary"><?properties open_access?><front><journal-meta><journal-id journal-id-type="nlm-ta">PLoS Biol</journal-id><journal-id journal-id-type="iso-abbrev">PLoS Biol</journal-id><journal-id journal-id-type="publisher-id">plos</journal-id><journal-id journal-id-type="pmc">plosbiol</journal-id><journal-title-group><journal-title>PLoS Biology</journal-title></journal-title-group><issn pub-type="ppub">1544-9173</issn><issn pub-type="epub">1545-7885</issn><publisher><publisher-name>Public Library of Science</publisher-name><publisher-loc>San Francisco, USA</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmid">19809570</article-id><article-id pub-id-type="pmc">2730035</article-id><article-id pub-id-type="publisher-id">09-PLBI-P-2939R2</article-id><article-id pub-id-type="doi">10.1371/journal.pbio.1000192</article-id><article-categories><subj-group subj-group-type="heading"><subject>Primer</subject></subj-group><subj-group subj-group-type="Discipline"><subject>Cell Biology/Membranes and Sorting</subject></subj-group></article-categories><title-group><article-title>Clathrin Couture: Fashioning Distinctive Membrane Coats at the Cell Surface</article-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Traub</surname><given-names>Linton M.</given-names></name><xref ref-type="aff" rid="aff1"/><xref ref-type="corresp" rid="cor1">
+<sup>&#x0002a;</sup>
+</xref></contrib></contrib-group><aff id="aff1"><addr-line>Department of Cell Biology and Physiology, University of Pittsburgh School of Medicine, Pittsburgh, Pennsylvania, United States of America</addr-line></aff><author-notes><corresp id="cor1">&#x0002a; E-mail: <email>traub@pitt.edu</email></corresp></author-notes><pub-date pub-type="collection"><month>9</month><year>2009</year></pub-date><pub-date pub-type="epub"><day>8</day><month>9</month><year>2009</year></pub-date><pub-date pub-type="pmc-release"><day>8</day><month>9</month><year>2009</year></pub-date><!-- PMC Release delay is 0 months and 0 days and was based on the <pub-date pub-type="epub"/>. --><volume>7</volume><issue>9</issue><elocation-id>e1000192</elocation-id><permissions><copyright-statement>Linton M. Traub.</copyright-statement><copyright-year>2009</copyright-year><license xlink:href="http://creativecommons.org/licenses/by/4.0/"><license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are properly credited.</license-p></license></permissions><related-article id="RA1" related-article-type="companion" vol="7" page="e1000191" ext-link-type="pmc"><!--related-article was converted to @ext-link-type="pmc" and original @xlink:href value
+						was info:doi/10.1371/journal.pbio.1000191-->
+<article-title>Distinct Dynamics of Endocytic Clathrin Coated Pits and Plaques</article-title>
+</related-article><counts><page-count count="5"/></counts></article-meta></front><body><p>Eukaryotic cells utilize intricate mechanisms for the uptake and intracellular sorting of various macromolecules, such as membrane components and extracellular proteins. Microscopic imaging studies have helped considerably to describe and define important steps of the uptake process. It has been shown that the cytosolic face of the plasma membrane is studded with small, domed assemblages of peripheral membrane proteins. These constitute transitory sorting stations that dynamically remodel the composition of the cell surface in response to both intracellular and extracellular stimuli. Typically, within a minute of forming, these assemblages invaginate to generate &#x0201c;buds&#x0201d; that then detach, generating small (&#x0223c;60 nm), membrane-bound transport vesicles that deliver their contents (often receptors) to specific intracellular compartments&#x02014;namely acceptor early endosomes&#x02014;for further dissemination within the cell (<xref ref-type="fig" rid="pbio-1000192-g001">Figure 1</xref>). This invagination and sorting process is called endocytosis, and although several morphologically and structurally distinct endocytic sorting assemblies occur at the surface of most cells <xref rid="pbio.1000192-Mayor1" ref-type="bibr">[1]</xref>, perhaps the most recognizable are polyhedral clathrin-coated structures. First identified to be cargo-selective transport carriers during yolk uptake and storage within oocytes of blood-fed mosquitoes <xref rid="pbio.1000192-Roth1" ref-type="bibr">[2]</xref>, clathrin-coated vesicles are now known to support many vital cellular processes, ranging from nutrient uptake, cellular locomotion, and transcriptional regulation and proliferation to complex developmental morphogenetic events. Clathrin-mediated endocytosis also seems important for the efficacy of anti-receptor monoclonal antibody-based tumor therapy <xref rid="pbio.1000192-BenKasus1" ref-type="bibr">[3]</xref> and for susceptibility to double-stranded RNA&#x02013;mediated gene silencing <xref rid="pbio.1000192-Saleh1" ref-type="bibr">[4]</xref>.</p><fig id="pbio-1000192-g001" position="float"><object-id pub-id-type="doi">10.1371/journal.pbio.1000192.g001</object-id><label>Figure 1</label><caption><title>Clathrin-regulated uptake and the endocytic pathway.</title><p>Schematic illustration of a cultured cell showing surface-positioned clathrin-coated buds, ventrally located large, flat clathrin &#x0201c;plaques,&#x0201d; and the major internal endosomal sorting stations. After clathrin coat uncoating, transport vesicles quickly fuse with the peripheral early endosome compartment, mingling incoming cargo molecules in this initial sorting endosome. Transmembrane cargo can return either directly to the plasma membrane from the early endosome, or be sorted into tubules that are delivered to the juxtanuclear recycling endosome compartment, from which cargo can also be directed back to the cell surface. The bulbous vacuolar portion of the early endosome, containing a flat, bilayered clathrin coat, matures into a multivesicular body for delivery of selected components to lysosomes for degradation. The inset shows the basic composition and organization of a clathrin-coated vesicle, with the three major layers: the inner membrane vesicle with various embedded transmembrane cargo (blue and green), an intermediate layer of adaptors including AP-2 (gray), and the outer clathrin polyhedral lattice (red).</p></caption><graphic xlink:href="pbio.1000192.g001"/></fig><sec id="s2"><title>The Mysteries of Clathrin-Coated Structure Initiation and Function</title><p>Clathrin assembles at discrete patches on the plasma membrane through cooperative interactions involving a large set of endocytic proteins <xref rid="pbio.1000192-Schmid1" ref-type="bibr">[5]</xref>. Chief among these are adaptor proteins, which, as the name suggests, link membrane components with the outer layer of the vesicle coat, which is composed of clathrin trimers (<xref ref-type="fig" rid="pbio-1000192-g001">Figure 1</xref>, inset). While the principal role of clathrin-coated buds is to gather appropriate transmembrane proteins, generically designated &#x0201c;cargo,&#x0201d; for selective delivery to the cell interior, cargo capture is not the driving force for the deposition of coat components at a nascent bud site. AP-2, a major adaptor complex within clathrin-coated structures, has two separate cargo-binding surfaces that are probably both inaccessible when AP-2 first docks onto the plasma membrane <xref rid="pbio.1000192-Collins1" ref-type="bibr">[6]</xref>,<xref rid="pbio.1000192-Kelly1" ref-type="bibr">[7]</xref>. This means that although cargo depends on a sorting signal(s) for its incorporation into clathrin-coated vesicles, recognition of these signals is unlikely to be the event that recruits adaptors and thus allows clathrin coats to form on bare membrane. Instead, the rare and spatially restricted phospholipid phosphatidylinositol 4,5-bisphosphate (PtdIns(4,5)P<sub>2</sub>) seems to play a major role in placing coat protomers on the plasma membrane to begin clathrin assembly <xref rid="pbio.1000192-Abe1" ref-type="bibr">[8]</xref>&#x02013;<xref rid="pbio.1000192-Boucrot1" ref-type="bibr">[11]</xref>; AP-2 and several other important coat and accessory proteins bind physically to PtdIns(4,5)P<sub>2</sub>
+<xref rid="pbio.1000192-Schmid1" ref-type="bibr">[5]</xref>. Perturbing PtdIns(4,5)P<sub>2</sub> production in cultured cells leads to an almost immediate dissolution of preexisting clathrin-coated structures at the cell surface <xref rid="pbio.1000192-Abe1" ref-type="bibr">[8]</xref>,<xref rid="pbio.1000192-Zoncu1" ref-type="bibr">[10]</xref>,<xref rid="pbio.1000192-Boucrot1" ref-type="bibr">[11]</xref>.</p><p>Because transmission electron microscope (EM) images typically reveal isolated, invaginating coated buds all along the cell surface, and clathrin immunolabeling often shows a profusion of small, separated puncta apparently randomly scattered over the surface membrane (<xref ref-type="fig" rid="pbio-1000192-g002">Figure 2</xref>), it seems reasonable to suspect that clathrin-coated vesicles might form de novo for each internalization cycle. There is indeed evidence for this from live-cell imaging. In the unicellular yeast <italic>Saccharomyces cerevisiae</italic>, the predictable kinetic behavior of coat components has led to a thorough cataloging of temporally resolved protein entry and exit at single-turnover endocytic sites <xref rid="pbio.1000192-Kaksonen1" ref-type="bibr">[12]</xref>. In BS-C-1 cells, an African green monkey&#x02013;derived cell line, clathrin coats at the surface are similarly uniform. The stereotyped behavior of these structures has allowed the definition of coat lifetimes and revealed different types of failure events <xref rid="pbio.1000192-Ehrlich1" ref-type="bibr">[13]</xref>,<xref rid="pbio.1000192-Loerke1" ref-type="bibr">[14]</xref> for these canonical constructions, which are known as clathrin-coated pits. Most importantly, insufficient (or perhaps inappropriate) cargo packaging appears to presage nonproductive collapse of an incipient bud <xref rid="pbio.1000192-Ehrlich1" ref-type="bibr">[13]</xref>,<xref rid="pbio.1000192-Loerke1" ref-type="bibr">[14]</xref>. So, while cargo clearly does not actively recruit coat machinery to the membrane, it plays an important role in driving the process forward to the next step: the budding of vesicles.</p><fig id="pbio-1000192-g002" position="float"><object-id pub-id-type="doi">10.1371/journal.pbio.1000192.g002</object-id><label>Figure 2</label><caption><title>Morphology of clathrin-coated structures at the cell surface.</title><p>(A) Confocal optical section of a HeLa cell immunolabeled with antibodies to AP-2 to reveal clathrin-coated structures on the adherent plasma membrane. Selected examples of diffraction-limited spots (arrowheads) and large clathrin assemblies (arrows) are shown. (B) Freeze-etch EM image of the adherent surface of a cultured cell, showing both flat and rounded, budding polygonal clathrin structures (pseudocolored in red) on the plasma membrane and the proximity of budding vesicles to the planar sheets.</p></caption><graphic xlink:href="pbio.1000192.g002"/></fig><p>Yet, in other cell lines <xref rid="pbio.1000192-Gaidarov1" ref-type="bibr">[15]</xref>&#x02013;<xref rid="pbio.1000192-Keyel1" ref-type="bibr">[19]</xref> and isolated primary cells <xref rid="pbio.1000192-Bellve1" ref-type="bibr">[20]</xref>, the size distribution of clathrin-coated structures on the cell surface is far less regular than in BS-C-1 cells. For example, in HeLa cells, in addition to transient diffraction-limited objects (&#x0003c;200 nm), large, long-lived and rather sedentary clathrin spots (&#x0003e;500 nm) are observed (<xref ref-type="fig" rid="pbio-1000192-g002">Figure 2</xref>). Both EM <xref rid="pbio.1000192-Maupin1" ref-type="bibr">[21]</xref>,<xref rid="pbio.1000192-Heuser1" ref-type="bibr">[22]</xref> and time-resolved fluorescence imaging techniques, like total internal reflection fluorescence microscopy (TIR-FM) <xref rid="pbio.1000192-Merrifield1" ref-type="bibr">[17]</xref>,<xref rid="pbio.1000192-Rappoport1" ref-type="bibr">[18]</xref>,<xref rid="pbio.1000192-Keyel2" ref-type="bibr">[23]</xref>,<xref rid="pbio.1000192-BarrosoGonzalez1" ref-type="bibr">[24]</xref>, have been used to visualize the bulky clathrin structures on the basal adherent surface, but EM-based visualization of isolated dorsal plasma membrane also shows regions of extensive flat clathrin lattice <xref rid="pbio.1000192-Sanan1" ref-type="bibr">[25]</xref>,<xref rid="pbio.1000192-Miller1" ref-type="bibr">[26]</xref>. Why are there different clathrin assemblies at the plasma membrane and what, if any, is the functional significance of this dichotomy? The variability in position, size, and dynamic behavior of diverse clathrin structures has made global computational analysis of large data sets of time-resolved events very challenging. For one thing, the kinetic inconsistency makes modeling difficult and much depends upon whether, despite morphological and temporal plasticity, the sorting and functional properties of the different patches is basically the same.</p></sec><sec id="s3"><title>Clathrin-Coated Pits versus Clathrin-Coated Plaques</title><p>In this issue of <italic>PLoS Biology</italic>, the Kirchhausen laboratory delves into this issue by utilizing quantitative live-cell imaging of several distinct cell types <xref rid="pbio.1000192-Saffarian1" ref-type="bibr">[27]</xref>. Their overarching conclusion is that two mechanistically distinct modes of clathrin assembly and internalization occur at the ventral plasma membrane of different cells. They deduce that rounded buds correspond to de novo&#x02013;forming, canonical clathrin-coated pits on naked membrane, while clathrin-coated &#x0201c;plaques&#x0201d; are equivalent to the persistent, flat clathrin sheets, and are found only on the basal adherent surface. A pivotal finding is that plaques apparently remain roughly planar throughout, including when an abrupt inward trajectory signifies entry into the cell interior. In curved coated pits, the distribution of AP-2 and epsin, another adaptor, relative to the clathrin coat appears asymmetric, but not in plaques <xref rid="pbio.1000192-Saffarian1" ref-type="bibr">[27]</xref>. This again suggests that the underlying plasma membrane is not deformed into a spherical vesicle, typical of most coat-mediated transport events; plaques seemingly maintain a constant arrangement throughout their functional lifetime.</p><p>Saffarian et al. provocatively argue that their characterization of general plaque behavior rationalizes a rather discrepant literature, yet the work also raises several fundamental questions. Foremost is whether the plaques they catalog are generally equivalent to the extensive, long-lived, and immobile clathrin patches seen by others. In contrasting ultrastructural studies from other laboratories, the flat patches can be considerably larger <xref rid="pbio.1000192-Maupin1" ref-type="bibr">[21]</xref>,<xref rid="pbio.1000192-Sanan1" ref-type="bibr">[25]</xref>,<xref rid="pbio.1000192-Miller1" ref-type="bibr">[26]</xref>,<xref rid="pbio.1000192-Heuser2" ref-type="bibr">[28]</xref>,<xref rid="pbio.1000192-Akisaka1" ref-type="bibr">[29]</xref>, and internalization en masse could possibly generate a large puncture in the basal membrane unless much circumferential uncoated membrane is also incorporated into the incoming vesicle, with concomitant reorganization of the underlying surface bilayer (<xref ref-type="fig" rid="pbio-1000192-g003">Figure 3</xref>). Do plaques invariably enter as intact structures? And, if so, how mechanistically does this occur without compromising the bulk membrane structure? Curiously, despite being plentiful at the adherent surface, thin-section EM images of plaques captured precisely at the instant of internalization are not available. Saffarian et al. assert that the slow relative rate of plaque internalization makes this visualization unlikely. Still, a striking feature of clathrin structures in freeze-etch images of the adherent cell surface is the frequent close proximity of emerging rounded buds to adjacent flat arrays (<xref ref-type="fig" rid="pbio-1000192-g002">Figure 2</xref>). Corroborating thin-section EM images have been published previously in which buds within, or immediately adjacent to, plaques are plainly seen <xref rid="pbio.1000192-Maupin1" ref-type="bibr">[21]</xref>. One interpretation of this juxtaposed positioning is that flat clathrin arrays could operate as staging scaffolds for spherical bud production. This idea is in accord with observed fluctuations in TIR-FM fluorescence intensity within the persistent lattice population <xref rid="pbio.1000192-Bellve1" ref-type="bibr">[20]</xref>, which are compatible with loss of (peripheral) subregions of an extended patch, leaving portions remaining at the plasma membrane <xref rid="pbio.1000192-Gaidarov1" ref-type="bibr">[15]</xref>. Labeled cargo molecules also have been seen emerging from stationary clathrin patches <xref rid="pbio.1000192-Bellve1" ref-type="bibr">[20]</xref>,<xref rid="pbio.1000192-Miller1" ref-type="bibr">[26]</xref>.</p><fig id="pbio-1000192-g003" position="float"><object-id pub-id-type="doi">10.1371/journal.pbio.1000192.g003</object-id><label>Figure 3</label><caption><title>Internalizing clathrin-coated buds and plaques.</title><p>Schematic depiction of a deeply invaginated clathrin-coated bud and a flat clathrin-coated plaque undergoing endocytic uptake and the resultant uncoated vesicles. Both transmembrane cargo (green and blue receptors) that are selectively sorted into clathrin-coated vesicles and bulk membrane-associated cell surface proteins (orange and magenta) that are perhaps nonselectively incorporated into plaques are shown.</p></caption><graphic xlink:href="pbio.1000192.g003"/></fig><p>Next, we do not understand clearly how, when compared with pits, flat arrays are differentially nucleated and apparently restricted to the adherent surface of the cell. The requirement for a very large excess of hexagonal facets to construct a planar lattice differs obviously from de novo&#x02013;nucleated buds. Yet, flat lattices must require PtdIns(4,5)P<sub>2</sub> for assembly, as consumption of this lipid leads to prompt loss of most clathrin structures and adaptors at the ventral surface <xref rid="pbio.1000192-Zoncu1" ref-type="bibr">[10]</xref>,<xref rid="pbio.1000192-Boucrot1" ref-type="bibr">[11]</xref>. Fluorescence recovery after photobleaching (FRAP) experiments indicate that during assembly, clathrin and AP-2 molecules rapidly enter and exit small and large structures alike <xref rid="pbio.1000192-Wu1" ref-type="bibr">[16]</xref>,<xref rid="pbio.1000192-Rappoport2" ref-type="bibr">[30]</xref>. That both structures are dynamic at the microscopic level suggests similar overall apparatus and assembly mechanisms. And if cargo is needed to stabilize coats <xref rid="pbio.1000192-Ehrlich1" ref-type="bibr">[13]</xref>,<xref rid="pbio.1000192-Loerke1" ref-type="bibr">[14]</xref>, then long-lived plaques must contain and sequester cargo, just as pits do. This is borne out experimentally: fluorescently tagged transferrin (a serum iron transporter that engages the transmembrane transferrin receptor for clathrin-dependent import of iron into the cell interior) labels essentially all surface clathrin structures in HeLa and other cells <xref rid="pbio.1000192-Merrifield1" ref-type="bibr">[17]</xref>,<xref rid="pbio.1000192-Keyel1" ref-type="bibr">[19]</xref>,<xref rid="pbio.1000192-Bellve1" ref-type="bibr">[20]</xref>,<xref rid="pbio.1000192-Rappoport2" ref-type="bibr">[30]</xref>. The density of transferrin receptor in flat lattice is proportional to receptor concentration <xref rid="pbio.1000192-Miller1" ref-type="bibr">[26]</xref>, and the rate and quantitative nature of transferrin uptake makes it highly unlikely that cargo concentrated within plaques fails to internalize rapidly. Thus, morphologically discernible clathrin structures do appear to cluster the same constitutively internalized cargo.</p><p>Another (possibly related) issue is, what prevents the flat clathrin arrays from forming invaginated buds? Perhaps information can be gleaned from comparison with another membrane compartment where flat clathrin arrays also form with no evidence of rounded bud production: on early endosomes maturing into multivesicular bodies (<xref ref-type="fig" rid="pbio-1000192-g001">Figure 1</xref>). Originally discovered in 1964 <xref rid="pbio.1000192-Rosenbluth1" ref-type="bibr">[31]</xref>, we now know that these endosomal clathrin assemblies operate by sequestering cargo, just like clathrin-coated structures at the plasma membrane <xref rid="pbio.1000192-Raiborg1" ref-type="bibr">[32]</xref>. However, these so-called bilayered clathrin coats do not contain AP-2 and have an unusual EM morphology that is not seen at plasma membrane plaques. The odd appearance of bilayered clathrin coats could indicate inclusion of structural components that preclude lattice curvature. In canonical, de novo&#x02013;forming rounded buds, it is thought that the force to sculpt the plasma membrane may come from assembling clathrin, which has inherent curvature when pentagonal facets are incorporated into the lattice <xref rid="pbio.1000192-Heuser1" ref-type="bibr">[22]</xref>,<xref rid="pbio.1000192-Saffarian1" ref-type="bibr">[27]</xref>,<xref rid="pbio.1000192-Kirchhausen1" ref-type="bibr">[33]</xref>; or, instead of inducing curvature itself, clathrin may stabilize curvature resulting from thermal fluctuation&#x02013;driven membrane rearrangements <xref rid="pbio.1000192-Hinrichsen1" ref-type="bibr">[34]</xref>. Do plasma membrane plaques then, like bilayered clathrin coats on early endosomes, incorporate some additional structural component(s) that blocks clathrin-mediated induction or stabilization of membrane curvature?</p><p>An alternative model for what prevents the basally located, flat clathrin arrays from forming invaginated buds is that it is due to a unique role for the actin cytoskeleton in plaque formation, coupled with the strength of adhesion of the basal cell surface to the underlying substrate on which cells are growing. Saffarian et al. find that actin nucleation is unnecessary for the budding of spherical coats, although it is worth noting that at the apical surface of polarized epithelial cells, where clathrin buds are incontestably spherical, actin does regulate vesicle internalization <xref rid="pbio.1000192-Gottlieb1" ref-type="bibr">[35]</xref> and also drives entry of rounded clathrin-coated structures housing vesicular stomatitis virus <xref rid="pbio.1000192-Cureton1" ref-type="bibr">[36]</xref>. In contrast to what Saffarian et al. observe for bud formation, nucleation of branched actin microfilaments appears to drive plaque movement into the cell <xref rid="pbio.1000192-Saffarian1" ref-type="bibr">[27]</xref> (<xref ref-type="fig" rid="pbio-1000192-g003">Figure 3</xref>). This conclusion is based on the observations that depolymerization of the actin cytoskeleton with the sponge toxin latrunculin A arrests development and internalization of extant plaques and that the branched actin regulators cortactin and Arp2/3 build up at plaques just prior to movement away from the cell cortex <xref rid="pbio.1000192-Saffarian1" ref-type="bibr">[27]</xref>. Because latrunculin A application also prevents the formation of new plaques <xref rid="pbio.1000192-Saffarian1" ref-type="bibr">[27]</xref>, an additional activity of the actin cytoskeleton may be to maintain the planar topology of plaques, perhaps in concert with resistance to deformation caused by tight cell adhesion to the underlying substrate. These observations of actin contributions to plaque formation in particular are intriguing, as the closest mechanistic parallels to the behavior of plaques seem to come from cortical actin patches in <italic>S. cerevisiae</italic>, the sites of clathrin-mediated endocytosis <xref rid="pbio.1000192-Kaksonen1" ref-type="bibr">[12]</xref>. While absolutely actin-dependent, cortical patches remodel the plasma membrane into tubulovesicular profiles upon internalization <xref rid="pbio.1000192-Idrissi1" ref-type="bibr">[37]</xref>, quite unlike what is suggested for higher eukaryotic plaques.</p><p>Irrespective of mechanism, the current schematic depiction suggests that uptake of a flat clathrin sheet leads to extraneous (noncoated) membrane around the perimeter of the plaque also being internalized (<xref ref-type="fig" rid="pbio-1000192-g003">Figure 3</xref>). Superficially, this seemingly defies the whole elegant selectivity of coat-mediated sorting. Two important questions arise from this model: how can this membrane excess prevent endocytosis of inappropriate plasma membrane segments, and how is scission regulated at the molecular level?</p><p>But perhaps the most important lingering question is what the functional significance of the flat clathrin arrays is, if they have no operative relationship to buds. Two different types of clathrin assemblies could be a physical manifestation of compositionally discrete sorting stations operating in parallel to presort cargo at the cell surface. Data to support the idea of cargo-selective clathrin coats are accumulating <xref rid="pbio.1000192-Puthenveedu1" ref-type="bibr">[38]</xref>&#x02013;<xref rid="pbio.1000192-Leonard1" ref-type="bibr">[41]</xref>, but do not seem to strictly reflect selective partitioning of different membrane-embedded proteins into either pits or plaques. There are, in fact, suggestions that even in BS-C-1 cells, which lack plaques, different types of clathrin sorting structures occur <xref rid="pbio.1000192-Lakadamyali1" ref-type="bibr">[40]</xref>. Doubtless, more work is needed to establish the precise functional interrelationships between different types of clathrin-coated structures, but, unarguably, the new results from Saffarian et al. have given cell biologists much to ponder.</p></sec></body><back><ack><p>I am grateful to Jake Thieman and Ernst Ungewickell for insightful comments and to John Heuser for the freeze-etch EM image.</p></ack><fn-group><fn fn-type="financial-disclosure"><p>Work in the Traub laboratory is supported by the US National Institutes of Health (R01 DK53249) and the American Heart Association (0540007N). The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</p></fn></fn-group><ref-list><title>References</title><ref id="pbio.1000192-Mayor1"><label>1</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mayor</surname><given-names>S</given-names></name><name><surname>Pagano</surname><given-names>R. E</given-names></name></person-group>
+<year>2007</year>
+<article-title>Pathways of clathrin-independent endocytosis.</article-title>
+<source>Nat Rev Mol Cell Biol</source>
+<volume>8</volume>
+<fpage>603</fpage>
+<lpage>612</lpage>
+<pub-id pub-id-type="pmid">17609668</pub-id></element-citation></ref><ref id="pbio.1000192-Roth1"><label>2</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Roth</surname><given-names>T. F</given-names></name><name><surname>Porter</surname><given-names>K. R</given-names></name></person-group>
+<year>1964</year>
+<article-title>Yolk protein uptake in the oocyte of the mosquito <italic>Aedes aegypti</italic>.</article-title>
+<source>L. J Cell Biol</source>
+<volume>20</volume>
+<fpage>313</fpage>
+<lpage>332</lpage>
+<pub-id pub-id-type="pmid">14126875</pub-id></element-citation></ref><ref id="pbio.1000192-BenKasus1"><label>3</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ben-Kasus</surname><given-names>T</given-names></name><name><surname>Schechter</surname><given-names>B</given-names></name><name><surname>Lavi</surname><given-names>S</given-names></name><name><surname>Yarden</surname><given-names>Y</given-names></name><name><surname>Sela</surname><given-names>M</given-names></name></person-group>
+<year>2009</year>
+<article-title>Persistent elimination of ErbB-2/HER2-overexpressing tumors using combinations of monoclonal antibodies: Relevance of receptor endocytosis.</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>106</volume>
+<fpage>3294</fpage>
+<lpage>3299</lpage>
+<pub-id pub-id-type="pmid">19218427</pub-id></element-citation></ref><ref id="pbio.1000192-Saleh1"><label>4</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Saleh</surname><given-names>M. C</given-names></name><name><surname>van Rij</surname><given-names>R. P</given-names></name><name><surname>Hekele</surname><given-names>A</given-names></name><name><surname>Gillis</surname><given-names>A</given-names></name><name><surname>Foley</surname><given-names>E</given-names></name><etal/></person-group>
+<year>2006</year>
+<article-title>The endocytic pathway mediates cell entry of dsRNA to induce RNAi silencing.</article-title>
+<source>Nat Cell Biol</source>
+<volume>8</volume>
+<fpage>793</fpage>
+<lpage>802</lpage>
+<pub-id pub-id-type="pmid">16862146</pub-id></element-citation></ref><ref id="pbio.1000192-Schmid1"><label>5</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Schmid</surname><given-names>E. M</given-names></name><name><surname>McMahon</surname><given-names>H. T</given-names></name></person-group>
+<year>2007</year>
+<article-title>Integrating molecular and network biology to decode endocytosis.</article-title>
+<source>Nature</source>
+<volume>448</volume>
+<fpage>883</fpage>
+<lpage>888</lpage>
+<pub-id pub-id-type="pmid">17713526</pub-id></element-citation></ref><ref id="pbio.1000192-Collins1"><label>6</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Collins</surname><given-names>B. M</given-names></name><name><surname>McCoy</surname><given-names>A. J</given-names></name><name><surname>Kent</surname><given-names>H. M</given-names></name><name><surname>Evans</surname><given-names>P. R</given-names></name><name><surname>Owen</surname><given-names>D. J</given-names></name></person-group>
+<year>2002</year>
+<article-title>Molecular architecture and functional model of the endocytic AP2 complex.</article-title>
+<source>Cell</source>
+<volume>109</volume>
+<fpage>523</fpage>
+<lpage>535</lpage>
+<pub-id pub-id-type="pmid">12086608</pub-id></element-citation></ref><ref id="pbio.1000192-Kelly1"><label>7</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kelly</surname><given-names>B. T</given-names></name><name><surname>McCoy</surname><given-names>A. J</given-names></name><name><surname>Spate</surname><given-names>K</given-names></name><name><surname>Miller</surname><given-names>S. E</given-names></name><name><surname>Evans</surname><given-names>P. R</given-names></name><etal/></person-group>
+<year>2008</year>
+<article-title>A structural explanation for the binding of endocytic dileucine motifs by the AP2 complex.</article-title>
+<source>Nature</source>
+<volume>456</volume>
+<fpage>976</fpage>
+<lpage>979</lpage>
+<pub-id pub-id-type="pmid">19140243</pub-id></element-citation></ref><ref id="pbio.1000192-Abe1"><label>8</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Abe</surname><given-names>N</given-names></name><name><surname>Inoue</surname><given-names>T</given-names></name><name><surname>Galvez</surname><given-names>T</given-names></name><name><surname>Klein</surname><given-names>L</given-names></name><name><surname>Meyer</surname><given-names>T</given-names></name></person-group>
+<year>2008</year>
+<article-title>Dissecting the role of PtdIns(4,5)P<sub>2</sub> in endocytosis and recycling of the transferrin receptor.</article-title>
+<source>J Cell Sci</source>
+<volume>121</volume>
+<fpage>1488</fpage>
+<lpage>1494</lpage>
+<pub-id pub-id-type="pmid">18411250</pub-id></element-citation></ref><ref id="pbio.1000192-Varnai1"><label>9</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Varnai</surname><given-names>P</given-names></name><name><surname>Thyagarajan</surname><given-names>B</given-names></name><name><surname>Rohacs</surname><given-names>T</given-names></name><name><surname>Balla</surname><given-names>T</given-names></name></person-group>
+<year>2006</year>
+<article-title>Rapidly inducible changes in phosphatidylinositol 4,5-bisphosphate levels influence multiple regulatory functions of the lipid in intact living cells.</article-title>
+<source>J Cell Biol</source>
+<volume>175</volume>
+<fpage>377</fpage>
+<lpage>382</lpage>
+<pub-id pub-id-type="pmid">17088424</pub-id></element-citation></ref><ref id="pbio.1000192-Zoncu1"><label>10</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Zoncu</surname><given-names>R</given-names></name><name><surname>Perera</surname><given-names>R. M</given-names></name><name><surname>Sebastian</surname><given-names>R</given-names></name><name><surname>Nakatsu</surname><given-names>F</given-names></name><name><surname>Chen</surname><given-names>H</given-names></name><etal/></person-group>
+<year>2007</year>
+<article-title>Loss of endocytic clathrin-coated pits upon acute depletion of phosphatidylinositol 4,5-bisphosphate.</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>104</volume>
+<fpage>3793</fpage>
+<lpage>3798</lpage>
+<pub-id pub-id-type="pmid">17360432</pub-id></element-citation></ref><ref id="pbio.1000192-Boucrot1"><label>11</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Boucrot</surname><given-names>E</given-names></name><name><surname>Saffarian</surname><given-names>S</given-names></name><name><surname>Massol</surname><given-names>R</given-names></name><name><surname>Kirchhausen</surname><given-names>T</given-names></name><name><surname>Ehrlich</surname><given-names>M</given-names></name></person-group>
+<year>2006</year>
+<article-title>Role of lipids and actin in the formation of clathrin-coated pits.</article-title>
+<source>Exp Cell Res</source>
+<volume>312</volume>
+<fpage>4036</fpage>
+<lpage>4048</lpage>
+<pub-id pub-id-type="pmid">17097636</pub-id></element-citation></ref><ref id="pbio.1000192-Kaksonen1"><label>12</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kaksonen</surname><given-names>M</given-names></name><name><surname>Toret</surname><given-names>C. P</given-names></name><name><surname>Drubin</surname><given-names>D. G</given-names></name></person-group>
+<year>2006</year>
+<article-title>Harnessing actin dynamics for clathrin-mediated endocytosis.</article-title>
+<source>Nat Rev Mol Cell Biol</source>
+<volume>7</volume>
+<fpage>404</fpage>
+<lpage>414</lpage>
+<pub-id pub-id-type="pmid">16723976</pub-id></element-citation></ref><ref id="pbio.1000192-Ehrlich1"><label>13</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ehrlich</surname><given-names>M</given-names></name><name><surname>Boll</surname><given-names>W</given-names></name><name><surname>Van Oijen</surname><given-names>A</given-names></name><name><surname>Hariharan</surname><given-names>R</given-names></name><name><surname>Chandran</surname><given-names>K</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>Endocytosis by random initiation and stabilization of clathrin-coated pits.</article-title>
+<source>Cell</source>
+<volume>118</volume>
+<fpage>591</fpage>
+<lpage>605</lpage>
+<pub-id pub-id-type="pmid">15339664</pub-id></element-citation></ref><ref id="pbio.1000192-Loerke1"><label>14</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Loerke</surname><given-names>D</given-names></name><name><surname>Mettlen</surname><given-names>M</given-names></name><name><surname>Yarar</surname><given-names>D</given-names></name><name><surname>Jaqaman</surname><given-names>K</given-names></name><name><surname>Jaqaman</surname><given-names>H</given-names></name><etal/></person-group>
+<year>2009</year>
+<article-title>Cargo and dynamin regulate clathrin-coated pit maturation.</article-title>
+<source>PLoS Biol</source>
+<volume>7</volume>
+<fpage>e57</fpage>
+<comment>doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pbio.1000057">10.1371/journal.pbio.1000057</ext-link></comment>
+<pub-id pub-id-type="pmid">19296720</pub-id></element-citation></ref><ref id="pbio.1000192-Gaidarov1"><label>15</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gaidarov</surname><given-names>I</given-names></name><name><surname>Santini</surname><given-names>F</given-names></name><name><surname>Warren</surname><given-names>R. A</given-names></name><name><surname>Keen</surname><given-names>J. H</given-names></name></person-group>
+<year>1999</year>
+<article-title>Spatial control of coated-pit dynamics in living cells.</article-title>
+<source>Nat Cell Biol</source>
+<volume>1</volume>
+<fpage>1</fpage>
+<lpage>7</lpage>
+<pub-id pub-id-type="pmid">10559856</pub-id></element-citation></ref><ref id="pbio.1000192-Wu1"><label>16</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wu</surname><given-names>X</given-names></name><name><surname>Zhao</surname><given-names>X</given-names></name><name><surname>Puertollano</surname><given-names>R</given-names></name><name><surname>Bonifacino</surname><given-names>J. S</given-names></name><name><surname>Eisenberg</surname><given-names>E</given-names></name><etal/></person-group>
+<year>2003</year>
+<article-title>Adaptor and clathrin exchange at the plasma membrane and <italic>trans</italic>-Golgi network.</article-title>
+<source>Mol Biol Cell</source>
+<volume>14</volume>
+<fpage>516</fpage>
+<lpage>528</lpage>
+<pub-id pub-id-type="pmid">12589051</pub-id></element-citation></ref><ref id="pbio.1000192-Merrifield1"><label>17</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Merrifield</surname><given-names>C. J</given-names></name><name><surname>Perrais</surname><given-names>D</given-names></name><name><surname>Zenisek</surname><given-names>D</given-names></name></person-group>
+<year>2005</year>
+<article-title>Coupling between clathrin-coated-pit invagination, cortactin recruitment, and membrane scission observed in live cells.</article-title>
+<source>Cell</source>
+<volume>121</volume>
+<fpage>593</fpage>
+<lpage>606</lpage>
+<pub-id pub-id-type="pmid">15907472</pub-id></element-citation></ref><ref id="pbio.1000192-Rappoport1"><label>18</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rappoport</surname><given-names>J. Z</given-names></name><name><surname>Benmerah</surname><given-names>A</given-names></name><name><surname>Simon</surname><given-names>S. M</given-names></name></person-group>
+<year>2005</year>
+<article-title>Analysis of the AP-2 adaptor complex and cargo during clathrin-mediated endocytosis.</article-title>
+<source>Traffic</source>
+<volume>6</volume>
+<fpage>539</fpage>
+<lpage>547</lpage>
+<pub-id pub-id-type="pmid">15941406</pub-id></element-citation></ref><ref id="pbio.1000192-Keyel1"><label>19</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Keyel</surname><given-names>P. A</given-names></name><name><surname>Mishra</surname><given-names>S. K</given-names></name><name><surname>Roth</surname><given-names>R</given-names></name><name><surname>Heuser</surname><given-names>J. E</given-names></name><name><surname>Watkins</surname><given-names>S. C</given-names></name><etal/></person-group>
+<year>2006</year>
+<article-title>A single common portal for clathrin-mediated endocytosis of distinct cargo governed by cargo-selective adaptors.</article-title>
+<source>Mol Biol Cell</source>
+<volume>17</volume>
+<fpage>4300</fpage>
+<lpage>4317</lpage>
+<pub-id pub-id-type="pmid">16870701</pub-id></element-citation></ref><ref id="pbio.1000192-Bellve1"><label>20</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bellve</surname><given-names>K. D</given-names></name><name><surname>Leonard</surname><given-names>D</given-names></name><name><surname>Standley</surname><given-names>C</given-names></name><name><surname>Lifshitz</surname><given-names>L. M</given-names></name><name><surname>Tuft</surname><given-names>R. A</given-names></name><etal/></person-group>
+<year>2006</year>
+<article-title>Plasma membrane domains specialized for clathrin-mediated endocytosis in primary cells.</article-title>
+<source>J Biol Chem</source>
+<volume>281</volume>
+<fpage>16139</fpage>
+<lpage>16146</lpage>
+<pub-id pub-id-type="pmid">16537543</pub-id></element-citation></ref><ref id="pbio.1000192-Maupin1"><label>21</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Maupin</surname><given-names>P</given-names></name><name><surname>Pollard</surname><given-names>T. D</given-names></name></person-group>
+<year>1983</year>
+<article-title>Improved preservation and staining of HeLa cell actin filaments, clathrin-coated membranes, and other cytoplasmic structures by tannic acid-glutaraldehyde-saponin fixation.</article-title>
+<source>J Cell Biol</source>
+<volume>96</volume>
+<fpage>51</fpage>
+<lpage>62</lpage>
+<pub-id pub-id-type="pmid">6186673</pub-id></element-citation></ref><ref id="pbio.1000192-Heuser1"><label>22</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Heuser</surname><given-names>J</given-names></name></person-group>
+<year>1989</year>
+<article-title>Effects of cytoplasmic acidification on clathrin lattice morphology.</article-title>
+<source>J Cell Biol</source>
+<volume>108</volume>
+<fpage>401</fpage>
+<lpage>411</lpage>
+<pub-id pub-id-type="pmid">2563729</pub-id></element-citation></ref><ref id="pbio.1000192-Keyel2"><label>23</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Keyel</surname><given-names>P. A</given-names></name><name><surname>Thieman</surname><given-names>J. R</given-names></name><name><surname>Roth</surname><given-names>R</given-names></name><name><surname>Erkan</surname><given-names>E</given-names></name><name><surname>Everett</surname><given-names>E. T</given-names></name><etal/></person-group>
+<year>2008</year>
+<article-title>The AP-2 adaptor &#x003b2;2 appendage scaffolds alternate cargo endocytosis.</article-title>
+<source>Mol Biol Cell</source>
+<volume>19</volume>
+<fpage>5309</fpage>
+<lpage>5326</lpage>
+<pub-id pub-id-type="pmid">18843039</pub-id></element-citation></ref><ref id="pbio.1000192-BarrosoGonzalez1"><label>24</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Barroso-Gonzalez</surname><given-names>J</given-names></name><name><surname>Machado</surname><given-names>J. D</given-names></name><name><surname>Garcia-Exposito</surname><given-names>L</given-names></name><name><surname>Valenzuela-Fernandez</surname><given-names>A</given-names></name></person-group>
+<year>2009</year>
+<article-title>Moesin regulates the trafficking of nascent clathrin-coated vesicles.</article-title>
+<source>J Biol Chem</source>
+<volume>284</volume>
+<fpage>2419</fpage>
+<lpage>2434</lpage>
+<pub-id pub-id-type="pmid">19047065</pub-id></element-citation></ref><ref id="pbio.1000192-Sanan1"><label>25</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sanan</surname><given-names>D. A</given-names></name><name><surname>Anderson</surname><given-names>R. G</given-names></name></person-group>
+<year>1991</year>
+<article-title>Simultaneous visualization of LDL receptor distribution and clathrin lattices on membranes torn from the upper surface of cultured cells.</article-title>
+<source>J Histochem Cytochem</source>
+<volume>39</volume>
+<fpage>1017</fpage>
+<lpage>1024</lpage>
+<pub-id pub-id-type="pmid">1906908</pub-id></element-citation></ref><ref id="pbio.1000192-Miller1"><label>26</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Miller</surname><given-names>K</given-names></name><name><surname>Shipman</surname><given-names>M</given-names></name><name><surname>Trowbridge</surname><given-names>I. S</given-names></name><name><surname>Hopkins</surname><given-names>C. R</given-names></name></person-group>
+<year>1991</year>
+<article-title>Transferrin receptors promote the formation of clathrin lattices.</article-title>
+<source>Cell</source>
+<volume>65</volume>
+<fpage>621</fpage>
+<lpage>632</lpage>
+<pub-id pub-id-type="pmid">1903330</pub-id></element-citation></ref><ref id="pbio.1000192-Saffarian1"><label>27</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Saffarian</surname><given-names>S</given-names></name><name><surname>Cocucci</surname><given-names>E</given-names></name><name><surname>Kirchhausen</surname><given-names>T</given-names></name></person-group>
+<year>2009</year>
+<article-title>Distinct dynamics of endocytic clathrin coated pits and coated plaques.</article-title>
+<source>PLoS Biol</source>
+<fpage>e1000191</fpage>
+<comment>doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pbio.1000191">10.1371/journal.pbio.1000191</ext-link></comment>
+<pub-id pub-id-type="pmid">19809571</pub-id></element-citation></ref><ref id="pbio.1000192-Heuser2"><label>28</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Heuser</surname><given-names>J</given-names></name></person-group>
+<year>1980</year>
+<article-title>Three-dimensional visualization of coated vesicle formation in fibroblasts.</article-title>
+<source>J Cell Biol</source>
+<volume>84</volume>
+<fpage>560</fpage>
+<lpage>583</lpage>
+<pub-id pub-id-type="pmid">6987244</pub-id></element-citation></ref><ref id="pbio.1000192-Akisaka1"><label>29</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Akisaka</surname><given-names>T</given-names></name><name><surname>Yoshida</surname><given-names>H</given-names></name><name><surname>Suzuki</surname><given-names>R</given-names></name><name><surname>Shimizu</surname><given-names>K</given-names></name><name><surname>Takama</surname><given-names>K</given-names></name></person-group>
+<year>2003</year>
+<article-title>Clathrin sheets on the protoplasmic surface of ventral membranes of osteoclasts in culture.</article-title>
+<source>J Electron Microsc (Tokyo)</source>
+<volume>52</volume>
+<fpage>535</fpage>
+<lpage>543</lpage>
+<pub-id pub-id-type="pmid">14756241</pub-id></element-citation></ref><ref id="pbio.1000192-Rappoport2"><label>30</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rappoport</surname><given-names>J. Z</given-names></name><name><surname>Kemal</surname><given-names>S</given-names></name><name><surname>Benmerah</surname><given-names>A</given-names></name><name><surname>Simon</surname><given-names>S. M</given-names></name></person-group>
+<year>2006</year>
+<article-title>Dynamics of clathrin and adaptor proteins during endocytosis.</article-title>
+<source>Am J Physiol Cell Physiol</source>
+<volume>291</volume>
+<fpage>C1072</fpage>
+<lpage>1081</lpage>
+<pub-id pub-id-type="pmid">17035303</pub-id></element-citation></ref><ref id="pbio.1000192-Rosenbluth1"><label>31</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rosenbluth</surname><given-names>J</given-names></name><name><surname>Wissig</surname><given-names>S. L</given-names></name></person-group>
+<year>1964</year>
+<article-title>The distribution of exogenous ferritin in toad spinal ganglia and the mechanism of its uptake by neurons.</article-title>
+<source>J Cell Biol</source>
+<volume>23</volume>
+<fpage>307</fpage>
+<lpage>325</lpage>
+<pub-id pub-id-type="pmid">14222816</pub-id></element-citation></ref><ref id="pbio.1000192-Raiborg1"><label>32</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Raiborg</surname><given-names>C</given-names></name><name><surname>Wesche</surname><given-names>J</given-names></name><name><surname>Malerod</surname><given-names>L</given-names></name><name><surname>Stenmark</surname><given-names>H</given-names></name></person-group>
+<year>2006</year>
+<article-title>Flat clathrin coats on endosomes mediate degradative protein sorting by scaffolding Hrs in dynamic microdomains.</article-title>
+<source>J Cell Sci</source>
+<volume>119</volume>
+<fpage>2414</fpage>
+<lpage>2424</lpage>
+<pub-id pub-id-type="pmid">16720641</pub-id></element-citation></ref><ref id="pbio.1000192-Kirchhausen1"><label>33</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kirchhausen</surname><given-names>T</given-names></name></person-group>
+<year>2000</year>
+<article-title>Clathrin.</article-title>
+<source>Annu Rev Biochem</source>
+<volume>69</volume>
+<fpage>699</fpage>
+<lpage>727</lpage>
+<pub-id pub-id-type="pmid">10966473</pub-id></element-citation></ref><ref id="pbio.1000192-Hinrichsen1"><label>34</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hinrichsen</surname><given-names>L</given-names></name><name><surname>Meyerholz</surname><given-names>A</given-names></name><name><surname>Groos</surname><given-names>S</given-names></name><name><surname>Ungewickell</surname><given-names>E. J</given-names></name></person-group>
+<year>2006</year>
+<article-title>Bending a membrane: How clathrin affects budding.</article-title>
+<source>Proc Nat Acad Sci U S A</source>
+<volume>103</volume>
+<fpage>8715</fpage>
+<lpage>8720</lpage>
+</element-citation></ref><ref id="pbio.1000192-Gottlieb1"><label>35</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gottlieb</surname><given-names>T. A</given-names></name><name><surname>Ivanov</surname><given-names>I. E</given-names></name><name><surname>Adesnik</surname><given-names>M</given-names></name><name><surname>Sabatini</surname><given-names>D. D</given-names></name></person-group>
+<year>1993</year>
+<article-title>Actin microfilaments play a critical role in endocytosis at the apical but not the basolateral surface of polarized epithelial cells.</article-title>
+<source>J Cell Biol</source>
+<volume>120</volume>
+<fpage>695</fpage>
+<lpage>710</lpage>
+<pub-id pub-id-type="pmid">8381123</pub-id></element-citation></ref><ref id="pbio.1000192-Cureton1"><label>36</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cureton</surname><given-names>D. K</given-names></name><name><surname>Massol</surname><given-names>R. H</given-names></name><name><surname>Saffarian</surname><given-names>S</given-names></name><name><surname>Kirchhausen</surname><given-names>T. L</given-names></name><name><surname>Whelan</surname><given-names>S. P</given-names></name></person-group>
+<year>2009</year>
+<article-title>Vesicular stomatitis virus enters cells through vesicles incompletely coated with clathrin that depend upon actin for internalization.</article-title>
+<source>PLoS Pathog</source>
+<volume>5</volume>
+<fpage>e1000394</fpage>
+<comment>doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.ppat.1000394">10.1371/journal.ppat.1000394</ext-link></comment>
+<pub-id pub-id-type="pmid">19390604</pub-id></element-citation></ref><ref id="pbio.1000192-Idrissi1"><label>37</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Idrissi</surname><given-names>F. Z</given-names></name><name><surname>Grotsch</surname><given-names>H</given-names></name><name><surname>Fernandez-Golbano</surname><given-names>I. M</given-names></name><name><surname>Presciatto-Baschong</surname><given-names>C</given-names></name><name><surname>Riezman</surname><given-names>H</given-names></name><etal/></person-group>
+<year>2008</year>
+<article-title>Distinct acto/myosin-I structures associate with endocytic profiles at the plasma membrane.</article-title>
+<source>J Cell Biol</source>
+<volume>180</volume>
+<fpage>1219</fpage>
+<lpage>1232</lpage>
+<pub-id pub-id-type="pmid">18347067</pub-id></element-citation></ref><ref id="pbio.1000192-Puthenveedu1"><label>38</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Puthenveedu</surname><given-names>M. A</given-names></name><name><surname>von Zastrow</surname><given-names>M</given-names></name></person-group>
+<year>2006</year>
+<article-title>Cargo regulates clathrin-coated pit dynamics.</article-title>
+<source>Cell</source>
+<volume>127</volume>
+<fpage>113</fpage>
+<lpage>124</lpage>
+<pub-id pub-id-type="pmid">17018281</pub-id></element-citation></ref><ref id="pbio.1000192-Mundell1"><label>39</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mundell</surname><given-names>S. J</given-names></name><name><surname>Luo</surname><given-names>J</given-names></name><name><surname>Benovic</surname><given-names>J. L</given-names></name><name><surname>Conley</surname><given-names>P. B</given-names></name><name><surname>Poole</surname><given-names>A. W</given-names></name></person-group>
+<year>2006</year>
+<article-title>Distinct clathrin-coated pits sort different G protein-coupled receptor cargo.</article-title>
+<source>Traffic</source>
+<volume>7</volume>
+<fpage>1420</fpage>
+<lpage>1431</lpage>
+<pub-id pub-id-type="pmid">16899088</pub-id></element-citation></ref><ref id="pbio.1000192-Lakadamyali1"><label>40</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lakadamyali</surname><given-names>M</given-names></name><name><surname>Rust</surname><given-names>M. J</given-names></name><name><surname>Zhuang</surname><given-names>X</given-names></name></person-group>
+<year>2006</year>
+<article-title>Ligands for clathrin-mediated endocytosis are differentially sorted into distinct populations of early endosomes.</article-title>
+<source>Cell</source>
+<volume>124</volume>
+<fpage>997</fpage>
+<lpage>1009</lpage>
+<pub-id pub-id-type="pmid">16530046</pub-id></element-citation></ref><ref id="pbio.1000192-Leonard1"><label>41</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Leonard</surname><given-names>D</given-names></name><name><surname>Hayakawa</surname><given-names>A</given-names></name><name><surname>Lawe</surname><given-names>D</given-names></name><name><surname>Lambright</surname><given-names>D</given-names></name><name><surname>Bellve</surname><given-names>K. D</given-names></name><etal/></person-group>
+<year>2008</year>
+<article-title>Sorting of EGF and transferrin at the plasma membrane and by cargo-specific signaling to EEA1-enriched endosomes.</article-title>
+<source>J Cell Sci</source>
+<volume>121</volume>
+<fpage>3445</fpage>
+<lpage>3458</lpage>
+<pub-id pub-id-type="pmid">18827013</pub-id></element-citation></ref></ref-list><glossary><title>Abbreviations</title><def-list><def-item><term>EM</term><def><p>transmission electron microscope</p></def></def-item><def-item><term>PtdIns(4,5)P<sub>2</sub></term><def><p>phosphatidylinositol 4,5-bisphosphate</p></def></def-item><def-item><term>TIR-FM</term><def><p>total internal reflection fluorescence microscopy</p></def></def-item></def-list></glossary></back></article>

@@ -1,0 +1,6 @@
+method
+algorithm
+heuristic
+technique
+program
+classifier

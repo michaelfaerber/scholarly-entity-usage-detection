@@ -1,0 +1,9 @@
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX datacite: <http://purl.org/spar/datacite/>
+
+SELECT ?paper ?paper_title
+WHERE {
+?paper datacite:doi "10.1109/3DV.2016.79"^^xsd:string .
+?paper dcterms:title ?paper_title
+}
+LIMIT 1

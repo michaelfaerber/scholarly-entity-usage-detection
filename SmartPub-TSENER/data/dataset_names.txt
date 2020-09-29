@@ -1,0 +1,74 @@
+Standford Sentiment Treebank
+World Bank Open Data
+Labeled Faces In The Wild
+UMDFaces
+Imagenet
+MIMIC Critical Care Database
+BuzzFeed Media dataset
+Flickr Audio Caption Corpus
+Linemod
+NABirds
+WMT
+PASCAL VOC
+WikiText
+IMDB-WIKI
+SUN Database
+Caltech 101
+CIFAR-10
+OIRDS
+YouTube-8M
+Amazon reviews
+MovieLens
+Urban Dictionary Dataset
+TIMIT
+Arabic Speech Corpus
+Common Voice
+Enron Email
+Chatbot Intents Dataset
+Flickr30k
+Parkinson Dataset
+Iris Dataset
+Mall Customers Dataset
+Google Trends Data Portal
+Boston Housing
+Uber Pickups Dataset
+UCI Spambase
+GTSRB
+Cityscapes
+Librispeech
+Breast Histopathology Images
+YFCC100M
+SpaceNet
+United States Census Data
+CelebA
+Common Crawl’s Web Crawl Corpus
+CoNLL
+COCO
+MNIST
+CIFAR
+Amazon review dataset
+ICDAR
+SQuAD
+Robust04
+ClueWeb
+DBNQA
+GLUE
+XNLI
+SWAG
+Daily Mail
+HANS
+T-REx 
+Urban Dictionary Dataset 
+Stanford Natural Language Inference 
+BlogFeedback Dataset 
+MovieTweetings
+Twitter100k
+Sentiment140
+NYSK 
+RE3D
+Reuters News Wire Headline
+OpinRank Review Dataset 
+Skytrax User Reviews Dataset 
+Chars74K
+Omniglot dataset
+CINIC-10

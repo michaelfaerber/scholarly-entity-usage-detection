@@ -1,0 +1,40 @@
+This is the TSE-NER Labeller
+Call this with a piece of text and NER model to get the labelled entities
+---
+tags:
+  - Label Long-tail Entities
+parameters:
+  - name: text
+    in: path
+    type: string
+    maxLength: 10000
+    required: true
+    description: The text that will be labelled by the model
+  - name: model
+    in: query
+    type: string
+    description: Selected model
+responses:
+  501:
+    description: Error The model does not exist!
+  502:
+    description: Error Input text is too long!
+  200:
+    description: Entities from text
+    schema:
+      id: labelling
+      properties:
+        text:
+          type: string
+          description: The text that will be labelled by the model
+          default: In this work, we evaluate our algorithm using the Imagenet corpus, as well as Flickr
+        model:
+          type: string
+          description: The selected model
+          default: dataset_TSE_model_5
+        entities:
+          type: array
+          description: Labelled entities
+          items:
+            type: string
+          default: ["imagenet", "flickr"]

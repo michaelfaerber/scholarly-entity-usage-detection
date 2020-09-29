@@ -1,0 +1,71 @@
+This is the TSE-NER model training
+Call this with the required parameters to train a model
+---
+tags:
+  - Train NER Model
+parameters:
+  - name: model_name
+    in: path
+    type: string
+    required: true
+    description: The name of the model, it should be a representative name for the type of entity
+  - name: cycles
+    in: query
+    type: integer
+    description: Number of training cycles required
+  - name: seeds
+    in: query
+    type: array
+    items:
+      type: string
+      example: ["webkb", "imagenet"]
+    description: Set of seed words to start the training process
+  - name: context_words
+    in: query
+    type: array
+    items:
+      type: string
+      example: ["corpus", "collection"]
+    description: Set of terms that are usually in the same sentence as current entities
+  - name: sentence_expansion
+    in: query
+    type: boolean
+    description: Execute or not sentence expansion
+  - name: filter_pmi
+    in: query
+    type: boolean
+    description: Execute or not PMI filtering
+  - name: filter_st
+    in: query
+    type: boolean
+    description: Execute or not Similar Term filtering
+  - name: filter_ws
+    in: query
+    type: boolean
+    description: Execute or not WordNet + Stopword filtering
+  - name: filter_kbl
+    in: query
+    type: boolean
+    description: Execute or not Knolwedge Base (DBpedia) Lookup filtering
+responses:
+  500:
+    description: Error Configuration is not correct
+  200:
+    description: Training is in process
+    schema:
+      id: training
+      properties:
+        name:
+          type: string
+          description: Model name
+          default: dataset
+        model:
+          type: string
+          description: The selected model
+          default: dataset_TSE_model_5
+        entities:
+          type: array
+          description: Labelled entities
+          items:
+            type: string
+          default: ["imagenet", "flickr"]

@@ -1,0 +1,1090 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /vol3/mag/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.4-SNAPSHOT" ident="GROBID" when="2019-02-04T20:51+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Wisdom of Artificial Crowds-A Metaheuristic Algorithm for Optimization</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2012">2012</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Roman</forename><forename type="middle">V</forename><surname>Yampolskiy</surname></persName>
+							<email>roman.yampolskiy@louisville.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Engineering and Computer Science Department</orgName>
+								<orgName type="institution">University of Louisville</orgName>
+								<address>
+									<settlement>Louisville</settlement>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Leif</forename><surname>Ashby</surname></persName>
+							<email>lhashb01@louisville.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Engineering and Computer Science Department</orgName>
+								<orgName type="institution">University of Louisville</orgName>
+								<address>
+									<settlement>Louisville</settlement>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Lucas</forename><surname>Hassan</surname></persName>
+							<email>lwhass01@louisville.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Computer Engineering and Computer Science Department</orgName>
+								<orgName type="institution">University of Louisville</orgName>
+								<address>
+									<settlement>Louisville</settlement>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Wisdom of Artificial Crowds-A Metaheuristic Algorithm for Optimization</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Journal of Intelligent Learning Systems and Applications</title>
+						<imprint>
+							<biblScope unit="volume">4</biblScope>
+							<biblScope unit="page" from="98" to="107"/>
+							<date type="published" when="2012">2012</date>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.4236/jilsa.2012.42009</idno>
+					<note type="submission">Received August 6 th , 2011; revised March 27 th , 2012; accepted April 5 th , 2012</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>NP-Complete</term>
+					<term>Optimization</term>
+					<term>TSP</term>
+					<term>Bio-Inspired</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ABSTRACT</head><p>Finding optimal solutions to NP-Hard problems requires exponential time with respect to the size of the problem. Consequently, heuristic methods are usually utilized to obtain approximate solutions to problems of such difficulty. In this paper, a novel swarm-based nature-inspired metaheuristic algorithm for optimization is proposed. Inspired by human collective intelligence, Wisdom of Artificial Crowds (WoAC) algorithm relies on a group of simulated intelligent agents to arrive at independent solutions aggregated to produce a solution which in many cases is superior to individual solutions of all participating agents. We illustrate superior performance of WoAC by comparing it against another bio-inspired approach, the Genetic Algorithm, on one of the classical NP-Hard problems, the Travelling Salesperson Problem. On average a 3% -10% improvement in quality of solutions is observed with little computational overhead.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>A large number of important problems have been shown to be NP-Hard <ref type="bibr" target="#b0">[1]</ref>. Problems in that computational class are believed to require exponential time, in the worst case, to be solved. Since it is not feasible to practically solve such problems using Turing/Von-Neumann computational architecture optimal methods are replaced with heuristic algorithms that usually need polynomial time to provide approximate solutions <ref type="bibr" target="#b1">[2]</ref>.</p><p>Heuristic algorithms capable of addressing an array of diverse problems are known as metaheuristics. Such algorithms are computational methods that attempt to find a close approximation to an optimal solution by iteratively trying to improve a candidate answer with regard to a given measure of quality. Metaheuristic algorithms don't make any assumptions about the problem being optimized and are capable of searching very large spaces of potential solutions. Unfortunately, metaheuristic algorithms are unlikely to arrive at an optimal solution for the majority of large real world problems. However, research continues to find asymptotically better metaheuristic algorithms for specific problems.</p><p>Most metaheuristic algorithms in optimization and search have been modeled on processes observed in biological systems <ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref><ref type="bibr" target="#b4">[5]</ref>: Genetic Algorithms (GA) <ref type="bibr" target="#b5">[6]</ref>, Genetic Programming (GP) <ref type="bibr" target="#b6">[7]</ref>, Cellular Automata (CA) <ref type="bibr" target="#b7">[8]</ref>, Artificial Neural Networks (ANN), Artificial Immune System (AIS) <ref type="bibr" target="#b8">[9]</ref>, or in the surrounding environment:</p><p>Intelligent Water Drops (IWD) <ref type="bibr" target="#b9">[10]</ref>, Gravitational Search Algorithm (GSA) <ref type="bibr" target="#b10">[11]</ref>, Stochastic Diffusion Search (SDS) <ref type="bibr" target="#b11">[12]</ref>, River Formation Dynamics (RFD) <ref type="bibr" target="#b1">[2]</ref>, Electromagnetism-Like Mechanism (EM) <ref type="bibr" target="#b12">[13]</ref>, Particle Swarm Optimization (PSO) <ref type="bibr" target="#b13">[14]</ref>, Charged System Search (CSS) <ref type="bibr" target="#b14">[15]</ref>, Big Bang-Big Crunch (BB-BC) <ref type="bibr" target="#b15">[16]</ref>. Continuing this trend of nature-inspired solutions a large number of animal or plant behavior-based algorithms have been proposed in recent years: Ant Colony Optimization (ACO) <ref type="bibr" target="#b16">[17]</ref>, Bee Colony Optimization (BCO) <ref type="bibr" target="#b17">[18]</ref>, Bacterial Foraging Optimization (BFO) <ref type="bibr" target="#b18">[19]</ref>, Glowworm Swarm Optimization (GSO) <ref type="bibr" target="#b19">[20]</ref>, Firefly Algorithm (FA) <ref type="bibr" target="#b20">[21]</ref>, Cuckoo Search (CS) <ref type="bibr" target="#b21">[22]</ref>, Flocking Birds (FB) <ref type="bibr">[23]</ref>, Harmony Search (HS) <ref type="bibr" target="#b23">[24]</ref>, Monkey Search (MS) <ref type="bibr" target="#b24">[25]</ref> and Invasive Weed Optimization (IWO) <ref type="bibr" target="#b25">[26]</ref>. In this paper we propose a novel algorithm modeled on the natural phenomenon known as the Wisdom of Crowds (WoC) <ref type="bibr" target="#b26">[27]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Wisdom of Crowds</head><p>In his 1907 publication in Nature, Francis Galton reports on a crowd at a state fair, which was able to guess the weight of an ox better than any cattle expert <ref type="bibr" target="#b27">[28]</ref>. Intrigued by this phenomenon James Surowiecki in 2004 publishes: "The Wisdom of Crowds: Why the Many are Smarter than the Few and How Collective Wisdom Shapes Business, Economies, Societies and Nations" <ref type="bibr" target="#b26">[27]</ref>. In that book Surowiecki explains that "Under the right circumstances, groups are remarkably intelligent, and are often smarter than the smartest people in them. Groups do not need to be dominated by exceptionally intelligent people in order to be smart. Even if most of the people within a group are not especially well-informed or rational, it can still reach a collectively wise decision" <ref type="bibr" target="#b26">[27]</ref>. Surowiecki further explains that for a crowd to be wise it has to satisfy four criteria:  Cognitive diversity-individuals should have private information.  Independence-opinions of individuals should be autonomously generated.  Decentralization-individual should be able to specialize and draw on local knowledge.  Aggregation-a methodology should be available for arriving at a common answer.</p><p>Since the publication of Surowiecki's book, the WoC algorithm has been applied to many important problems both by social scientists <ref type="bibr" target="#b28">[29,</ref><ref type="bibr" target="#b29">30]</ref> and computer scientists <ref type="bibr" target="#b30">[31]</ref><ref type="bibr" target="#b31">[32]</ref><ref type="bibr" target="#b32">[33]</ref><ref type="bibr" target="#b33">[34]</ref><ref type="bibr" target="#b34">[35]</ref><ref type="bibr" target="#b35">[36]</ref>. However, all such research used real human beings either in person or via a network to obtain the crowd effect. In this work we propose a way to generate an artificial crowd of intelligent agents capable of coming up with independent solutions to a complex problem.</p><p>Overall, the paper is organized as follows: in Section 2 we introduce the developed Wisdom of Artificial Crowds algorithm. In Section 3 the Traveling Salesman Problem is motivated as the canonical NP-Complete problem. In Section 4 we provide a detailed description of the Genetic Algorithm which is used to generate the intelligent crowd for the post-processing algorithm to operate on. In Section 5 we explain how the aggregate of the crowds' decision is computed. Finally in Section 6 we report the results of our experiments and in Section 7 we look at potential future directions for research on Wisdom of Artificial Crowds.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Wisdom of Artificial Crowds</head><p>Wisdom of Artificial Crowds (WoAC) is a novel swarmbased nature-inspired metaheuristic algorithm for optimization. WoAC is a post-processing algorithm in which independently-deciding artificial agents aggregate their individual solutions to arrive at an answer which is superior to all solutions present in the population. The algorithm is inspired by the natural phenomenon known as the Wisdom of Crowds <ref type="bibr" target="#b26">[27]</ref>. WoAC is designed to serve as a post-processing step for any swarm-based optimization algorithm in which a population of intermediate solution is produced, for example in this paper we will illustrate how WoAC can be applied to a standard Genetic Algorithm (GA).</p><p>The population of intermediate solutions to a problem is treated as a crowd of intelligent agents. For a specific problem an aggregation method is developed which allows individual solutions present in the population to be combined to produce a superior solution. The approach is somewhat related to ensemble learning <ref type="bibr" target="#b36">[37]</ref> methods such as boosting or bootstrap aggregation <ref type="bibr" target="#b37">[38,</ref><ref type="bibr" target="#b38">39]</ref> in the context of classifier fusion in which decisions of independent classifiers are combined to produce a superior meta-algorithm. The main difference is that in ensembles "when combing multiple independent and diverse decisions each of which is at least more accurate than random guessing, random errors cancel each other out, correct decisions are reinforced <ref type="bibr" target="#b39">[40]</ref>", but in WoAC individual agents are not required to be more accurate than random guessing.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Travelling Salesperson Problem</head><p>Travelling Salesperson Problem (TSP) has attracted a lot of attention over the years <ref type="bibr" target="#b40">[41]</ref><ref type="bibr" target="#b41">[42]</ref><ref type="bibr" target="#b42">[43]</ref> because finding optimal paths is a requirement that frequently appears in real world applications and because it is a well-defined benchmark problem to test newly developed heuristic approaches <ref type="bibr" target="#b1">[2]</ref>. TSP is a combinatorial optimization problem and could be represented by the following model <ref type="bibr" target="#b16">[17]</ref>:</p><formula xml:id="formula_0">  , , P S f  </formula><p>in which S is a search space defined over a finite set of discrete decision variables X i , i = 1,…, n; a set of constraints  ; and an objective function f to be minimized.</p><p>TSP is a well-known NP-Hard problem meaning that an efficient algorithm for solving TSP will be an efficient algorithm for other NP-Complete problems. In simple terms the problem could be stated as follows: a salesman is given a list of cities and a cost to travel between each pair of cities (or a list of city locations). The salesman must select a starting city and visit each city exactly once and return to the starting city. His problem is to find the route (also known as a Hamiltonian Cycle) that will have the lowest cost. In this paper we will use TSP as a nontrivial testing ground for our algorithm.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Dataset</head><p>Data for testing of our algorithm has been generated using a piece of software called Concorde <ref type="bibr" target="#b43">[44]</ref>. Concorde is a C program written for solving the symmetric TSP and some related network optimization problems and is freely available for academic use. The program also allows one to generate new instances of the TSP of any size either with random distribution of nodes, or with predefined coordinates. For problems of moderate size, the software could be used to obtain optimal solutions to specific TSP instances. Appendix contains an example of a Concorde data file with 7 cities.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Genetic Algorithms</head><p>Inspired by evolution, genetic algorithms constitute a powerful set of optimization tools that have demonstrated good performance on a wide variety of problems including some classical NP-complete problems such as the Traveling Salesperson Problem (TSP) and Multiple Sequence Alignment (MSA) <ref type="bibr" target="#b44">[45]</ref>. GAs search the solution space using a simulated "Darwinian" evolution that favors survival of the fittest individuals. Survival of such population members is ensured by the fact that fitter individuals get a higher chance at reproduction and survive to the next generation in larger numbers <ref type="bibr" target="#b5">[6]</ref>.</p><p>GAs have been shown to solve linear and nonlinear problems by exploring all regions of the state space and exponentially exploiting promising areas through standard genetic operators, eventually converging populations of candidate solutions to a single global optimum. However, some optimization problems contain numerous local optima which are difficult to distinguish from the global maximum and therefore result in sub-optimal solutions. As a consequence, several population diversity mechanisms have been proposed to delay or counteract the convergence of the population by maintaining a diverse population of members throughout its search.</p><p>A typical GA follows the following steps <ref type="bibr" target="#b45">[46]</ref>: 1) A population of N possible solutions is created.</p><p>2) The fitness value of each individual is determined.</p><p>3) Repeat the following steps N/2 times to create the next generation. a) Choose two parents using tournament selection. b) With probability p c , crossover the parents to create two children; otherwise simply pass parents to the next generation.</p><p>c) With probability p m for each child, mutate that child. d) Place the two new children into the next generation. 4) Repeat new generation creation until a satisfactory solution is found or the search time is exhausted.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Implemented GA for Solving TSP</head><p>Solutions are encoded as chromosomes which traditionally are represented by data arrays, but can be represented in other ways. Each solution is rated according to its fitness which is based on the quality of the solution. A population of chromosomes that are initially generated randomly, continually goes through processes of inheritance, mutation, selection, and crossover based on fitness of the individual chromosomes. Hamiltonian cycles or paths traveling all nodes only once are encoded as a list of nodes in chromosomes. An initial population is generated randomly. Successive populations, generated by operations of mutation and crossover on a prior population, will replace the prior population. Each generation is likely to yield chromosomes more similar to chromosomes representing optimal solutions based on fitness.</p><p>This experimental code was implemented as a Windows Presentation Foundation (WPF) Application using C#. Net 4.0 framework in Visual Studio 2010 running on Windows 7. The application has an "Open" menu item to show a dialog box to browse for .tsp files and load them. The application initializes from the data provided by the file and displays the data graphically. The "Settings" menu item will open a dialog allowing a user to set parameters of the genetic algorithm. The user can start the process with a new population by pressing "Start" or continue with the existing population by pressing "Continue". The best, average, worst, or any combination can be selected to be graphed as the algorithm is processing. Any of the parameters may be changed during the execution of the algorithm. The application domain is divided into several classes for representing the TSP, and the genetic algorithm. FileData and Node classes are used to read a TSP file and represent the graph of the TSP. Class Solver implements the genetic algorithm. Solver is a strategy pattern with the method, Solve, relying on implementations of interfaces defining parts of an algorithm. A combination of concrete implementations that would make up a running instance of Solver is grouped together by an instance of EAConfiguration. The EAConfiguration object is passed to the constructor of Solver. The combination includes instances of Population, IChromosomeFactory, ICrossoverPolicy, ICrossoverOperator, IMutationPolicy, IMutationOperator, and ITerminationCriteria classes.</p><p>The method, Solve, first takes the instance of Population and adds instances of IChromosome created by the instance of IChromosomeFactory. Population is a container for ICromosome instances and keeps track of the sum of all chromosome fitness and current generation. IChromosome is an interface, defining that chromosomes need to provide read-only properties of the underlying data, the fitness and path distance, and provide methods to be able to clone its type but with different data, and to convert its data to a standard format to representing the path. IChromosomeFactory is an interface for factories that produce IChromosome. Next Solve reduces the size of Population. If a new EAConfiguration was created, and it required the size to be smaller than the previous generation of Population. This is only to allow change of population size in runtime and not necessarily a general part of the genetic algorithm. Now that an initial population is generated, Solve enters a while loop terminating on criteria defined by an instance of ITerminationCriteria.</p><p>For each iteration of the loop, an instance of ICrossoverPolicy performs a transformation on Population producing a new Population, and an instance of IMutaionPolicy, also performs a transformation on Population producing a new Population. ICrossoverPolicy and IMutationPolicy are strategy patterns themselves. ICrossoverPolicy takes an instance of ICrossoverOperator and defines how that operator is applied to the entire population. ICrossoverOperator itself is a strategy pattern which if given two chromosomes produces two new chromosomes based on the ones given. Similarly, IMutationPolicy is an interface for instances to define how to perform IMutationOperator instances on the entire population. IMutationOperator is an interface for instances to mutate a given chromosome.</p><p>To clarify, there are three tiers of strategy patterns. At the bottom ICrossoverOperator and IMutationOperator provide interfaces for instances, to define operations on interfaces of IChromosome. The next tier, ICrossoverPolicy and IMutationPolicy are interfaces for instances to define "policies" on how the operations are applied to the entire population. The top tier is the skeleton layout of the genetic algorithm Solver itself. The loop also fires an event at each generation so that a handler may analyze or display data as the algorithm is running. The use of events allows UI code to be decoupled with the genetic algorithm. This describes the general outline of the application presenting many interfaces to allow concrete implementations to "plug into".</p><p>IChromosome is the interface for a solution representtation for which two concrete classes are implemented; OrderedPath and NumberedPermutation. Both OrderdPath and NumberedPermutation use classes, Permutation <ref type="bibr" target="#b46">[47]</ref> and BigInteger <ref type="bibr" target="#b47">[48]</ref>. OrderedPath simply describes a solution to the TSP as an array of the nodes in the order traveled. NumberedPermutation represents a solution as a number that maps to a specific permutation of the set of nodes. Given a set of size n, there is n! permutations of that set. In a Hamiltonian cycle, starting from any node in the cycle and maintaining all the edges in the cycle results in equivalent length of the path. Eliminating equivalent cycles will yield a search space of size (n -1)!. Also, traveling a cycle in reverse will have the same distance. Removing the reverses will reduce the number of cycles in a set to ((n -1)/2)!. In the creation of a NumberedPermutation chromosome, a number between 1 and (n -1)! is given to reduce the solution space as any number above that will represent a permutation that is equivalent to a permutation represented by a number below or equal to (n -1)!.</p><p>A similar affect is used on the OrderedPath chromosomes by always setting the first node traveled as node 0. The creation of chromosomes is abstracted away by the use of an abstract factory IChromosomeFactory. Or-deredPathFactory and NumberedPermutation implement the interface by simply calling the constructor of their respected product classes and returning the created instance. OrderedPathFirstNodeZeroFactory produces OrderedPath chromosomes with the first node set to zero. NoRepeats implements ICrossoverOperator by taking the given chromosomes, the parents, and splicing both at some random mark. The first half or each is copied directly to the two chromosomes to be returned to the children. The second half of the two parents is read one gene at a time and the nodes are added to the end of the respected child as long as the node has not occurred already in the chromosome. If it has, a node that does not occur in the child chromosome is added by reading from the beginning of the parent chromosome. NoRepeatsFirstNodeZero does the exact same, but ensures that the first node is zero. This is to be used with OrderedPathNodeZeroFactory and SwapBitsFirstNodeZero, but not necessarily enforced. IMutatorOperator guarantees that implementations provide method Operated which will produce one chromosome based on the chromosome given. SwapBits implements IMutatorOperator by taking the given chromosomes and selecting two genes at random and simply swapping them. SwapBitsFirstNodeZero does exactly the same but ensures that the first node is zero.</p><p>The next level is the policies. Policies define how the selected operator is to be used on the entire population. ICrossoverPolicy implementations have the method Evaluate and the property PercentageRate. Evaluate takes as parameters Population, and ICrossoverOperator and returns a new Population. RouletteWheel implements ICrossoverPolicy by taking the population and selecting two parent chromosomes at random but with chromosomes with higher fitness being more likely to be selected. This is done by taking the summation of fitness in the population, and multiplying it by a random value between zero and one. This will be a value between zero and the summed fitness. For each chromosome in the population the value calculated is tested to see if it is lower than that of the chromosome's fitness. If it is, then that chromosome is selected; if not, the calculated value is subtracted and the chromosome's fitness value is reduced for the next iteration.</p><p>This process yields a chromosome chosen with a probability of fitness/total fitness. After two parents are selected this way, they have a probability defined in PercentageRate property of being operated on by the ICrossoverOperator. If the operator is not applied, the two selected parents are simply added to the new population. If the operator is applied, the ICrossoverOperator method, Operate, is used on the two parents, yielding two children. If the child's fitness is greater than the parents' the child is placed in the population; if not the parents are chosen instead. This tends to keep chromosomes with higher fitness and kills off those with lower fitness.</p><p>Once the new population is filled, it is returned back as the next generation. KeepElite is another implementation of ICrossoverOperator. This implementation will keep the best chromosomes in a given population, and apply the same roulette wheel selection on the rest of the population. The number of best chromosomes selected from the population is given by PercentageRate. OccurrenceRate implements IMutationPolicy by simply applying its mutation operator for each chromosome, by a probability given by PersentageRate.</p><p>A population of solutions produced by a GA tends to quickly converge on a local maxima point <ref type="bibr" target="#b44">[45]</ref> resulting in a population of almost identical solutions <ref type="figure" target="#fig_0">(Figure 1)</ref>. Two countermeasures against this problem have been developed. One is an early termination of the GA just prior to the point of solution convergence, and cognitive diversity elimination. The other way to maximize diversity of solutions present in the crowd of intelligent agents provided to the WoAC algorithm by the GA algorithm is to conduct multiple runs of the GA on the same dataset. Resulting populations are then merged and provide necessary cognitive diversity for the WoAC algorithm.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">WoAC Aggregation Method</head><p>Building on the work of Yi et al. <ref type="bibr" target="#b29">[30]</ref> who used a group of volunteers to solve instances of TSP and aggregated their answers, we have developed an automatic aggregation method which takes individual solutions and produces a common solution which reflects frequent local structures of individual answers. The approach is based on the belief that good local connections between nodes will tend to be present in many solutions, while bad local structures will be relatively rare. After constructing an agreement matrix, Yi et al. <ref type="bibr" target="#b29">[30]</ref> applied a nonlinear monotonic transformation function in order to transform agreements between answers into costs. They focused on the function:</p><formula xml:id="formula_1"> 1 1 2 1 , ij ij a c I b b      ,<label>(1)</label></formula><p>where</p><formula xml:id="formula_2"> 1 1 2 , ij a I b b  (2)</formula><p>is the inverse regularized beta function with parameters b 1 and b 2 both taking a value of at least 1 <ref type="bibr" target="#b29">[30]</ref>.</p><p>In our implementation of the aggregation function we continue working with agreements between local components of the solutions. The process in which this implementation aggregates chromosomes is via recording the number of occurrences of edges, creating a new path traveling along edges that have occurred the most in the population of the solutions. First, an occurrence matrix is created to accumulate the number of times each edge shows up. This is done by constructing an n × n matrix with n i , where 0 &lt; i ≤ n. Each cell stores the number of edge occurrences with the cell's row number corresponding to one node of the edge and the cell's column number corresponding to the other node in the edge. This matrix ends up being a symmetric matrix, and to save memory, only the lower triangle is stored. An example, of only two paths on 11 nodes can be seen in <ref type="figure" target="#fig_1">Figure 2</ref>.</p><p>To get every value of a row as if the entire matrix was completed, values of the column that lie on the last displayed value of the row, are used to complete the row. This is possible because of matrix symmetry. <ref type="figure" target="#fig_2">Figure 3</ref> demonstrates this concept, highlighting what is to be considered the entire row five. Now that the number of edge occurrences has been tallied, a new path is to be constructed using the most occurring edges. The algorithm starts with the most occurring edge. In the case of multiple max occurrences being equal, as in this example, the first one is used. In our example, the new path will start using the   Copyright © 2012 SciRes. JILSA cell (5,4) meaning that the nodes 5 and 4 make the most frequently occurring edge. To find the next node, the algorithm searches the most occurring edge that shares one of the nodes used in the last step. This is done by looking at all the cells that share either the same row or same column. As mentioned earlier, a row's data is completed by using the data of the column of the last cell in the row. This implies that any column's data is part of some row.</p><p>populations. WoAC was applied to each of these populations, using all chromosomes of the population. <ref type="figure" target="#fig_4">Figure 5</ref> shows 6 tables, each listing the best, average, worst, and WoAC for each population that resulted from the genetic algorithm. The results of WoAC are highlighted light blue if the results are equal to the best or highlighted dark blue if the results of WoAC are better than the best.</p><p>To continue this example, in order to find the next node connecting to the edge (5,4), the cells that make up the row and column of <ref type="formula">(5,4)</ref> are examined. This can be seen in <ref type="figure" target="#fig_3">Figure 4</ref>. This process is continued until all nodes are connected to construct a new path. To make sure that a node is not used twice, a checklist is used to mark which rows have been used; nodes in these rows will be ignored. As the algorithm is run, sometimes a node cannot be found. In this case a node with the closest distance to the last node inserted into the new path, and that is not checked off, is used to continue the process.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.">Experimental Results</head><p>The GA was run 10 times, on 6 data sets, producing 60   <ref type="figure" target="#fig_5">Figure 6</ref> shows scatter plots graphing similarity to distance. Proportion of coincidence of path with other subjects was calculated by counting the number of edges a solution has in common with other solutions, and then dividing the number of agreeing edges by the number of cities to get the percentage of agreement. These are then averaged for all the cities to find the final value. WoAC was then applied to all populations of each given data set. This was done for the best chromosome from each population starting with top 5, then top 10, and so on incrementing by 5 up to the total population size of 100. <ref type="figure" target="#fig_6">Fig- ure 7</ref> shows a table displaying the best results from the genetic algorithm alone, result of applying WoAC to all chromosomes from the population, result of applying WoAC to the top 1 percent of chromosomes from the population, result of applying WoAC to the best number of chromosomes from the population, and the best number that was used. Highlighted in blue are the best results from all cases. On average a 3% -10% improvement could be seen in cases where WoAC had improvement over standalone GA. Graphical representations of the best WoAC results for different datasets are displayed in <ref type="figure" target="#fig_0">Figures 8-13</ref>. The blue dots represent the nodes, gray lines are paths from the chromosomes, and orange lines are the path generated from WoAC.</p><p>We have performed additional experiments to verify cross-domain applicability of WoAC and the results are encouraging. In solving instances of NP-Complete game -Light Up, improvement due to WoAC over pure GA varied from 3.5% to 35% <ref type="bibr" target="#b3">[4]</ref>. For another canonical NPComplete problem-Knapsack, improvements as a result of postprocessing by WoAC varied from 1.0% to 1.8% <ref type="bibr" target="#b2">[3]</ref>.       </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="7.">Conclusions</head><p>We have presented a novel swarm-based nature-inspired metaheuristic algorithm for optimization. In many cases WoAC outperformed even the best solutions produced by the genetic algorithm. In the case of running WoAC on a single population, better results seemed to appear more frequently in the larger data sets. Improved results are also seen in the case of running WoAC on groups of populations after reducing the number of chromosomes to use from each population. In both cases, the larger independent variance in the set used for WoAC, whether a single population or multiple, seemed to yield better results. On the small instances of TSP, the genetic algorithm is quick to find good solutions and the entire population tends to converge on best chromosome in the population. This gives poor independent variance and WoAC results in equal or worse results after processing the population.</p><p>As the data sets increase in size, the genetic algorithm performs worse, but this allows more room for improvement for WoAC. In using WoAC on multiple populations, the analysis gave varying results on different percentages of best chromosomes in each population. This parameter can be changed and WoAC tested to compare results, but a common value does not seem to generalize across different size data sets. This is due to high dependence on the data used. The larger data sets used with multiple populations did show more consistent improvement after the application of WoAC. Running WoAC on datasets with several hundred cities and subsampling any number of top chromosomes yielded better results than the best result from the genetic algorithm alone. Even running WoAC on each single population seemed to show improvement, giving better results on 5 of the 10 populations generated.</p><p>WoAC is a postprocessing algorithm with running time in milliseconds which is negligible in comparison to the algorithm it attempts to improve, genetic search. While, WoAC does not always produce a superior solution, in cases where it fails it can be simply ignored since the GA itself provides a better solution in such cases. Consequently, WoAC is computationally efficient and can only improve the quality of solutions, never hurting the overall outcome.</p><p>In the future we plan on conducting additional experiments aimed at improving overall performance of the WoAC algorithm. In particular we are going to investigate how WoAC could be combined with non-GA, swarm-based approaches such as ACO <ref type="bibr" target="#b16">[17]</ref>, BCO <ref type="bibr" target="#b17">[18]</ref>, (BFO) <ref type="bibr" target="#b18">[19]</ref>, or (GSO) <ref type="bibr" target="#b19">[20]</ref>. Special attention should be given to discovering better aggregation rules and optimal ways of achieving diversity in the populations. An important question to ask, deals with an optimal percentage of the population to be used in the crowd. In other words, should the whole population be used or is it better to select a sub-group of "experts". Finally we are very interested in applying WoAC to other NP-Hard problems.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Paths get shorter with successive generations.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>An example matrix with two paths shown.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3 .</head><label>3</label><figDesc>Representative selection of the entire row five.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 4 .</head><label>4</label><figDesc>The cells that make up row and column of (5,4).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 5 .</head><label>5</label><figDesc>Comparison of GA vs. WoAC on six progressively larger TSP instances.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure 6 .</head><label>6</label><figDesc>Scatter plots for 22, 44, 77, 97 and 222 city TSP.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Figure 7 .</head><label>7</label><figDesc>Best results from GA and expert agents.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Figure 8 .</head><label>8</label><figDesc>11 nodes: Top 30 from each population.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Figure 9 .</head><label>9</label><figDesc>22 nodes: Top 80 from each population.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Figure 10 .</head><label>10</label><figDesc>44 nodes: Top 90 from each population.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head>Figure 11 .</head><label>11</label><figDesc>77 nodes: Top 10 from each population.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_11"><head>Figure 12 .</head><label>12</label><figDesc>97 nodes: Top 45 from each population. Figure 13. 222 nodes: Top 15 from each population.</figDesc></figure>
+
+			<note place="foot">Copyright © 2012 SciRes. JILSA</note>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Reducibility among Combinatorial Problems</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">M</forename><surname>Karp</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Complexity of Computer Computations, Plenum</title>
+		<editor>R. E. Miller and J. W. Thatcher</editor>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1972" />
+			<biblScope unit="page" from="85" to="103" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Using River Formation Dynamics to Design Heuristic Algorithms</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Rabanal</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Rodriguez</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Rubio</surname></persName>
+		</author>
+		<idno type="doi">doi:10.1007/978-3-540-73554-0_16</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Lecture Notes in Computer Science</title>
+		<imprint>
+			<biblScope unit="volume">4618</biblScope>
+			<biblScope unit="page" from="163" to="177" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Wisdom of Artificial Crowds Algorithm for Solving NP-Hard Problems</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">V</forename><surname>Yampolskiy</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>El-Barkouky</surname></persName>
+		</author>
+		<idno type="doi">doi:10.1504/IJBIC.2011.043624</idno>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Bio-Inspired Computation</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="358" to="369" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Genetic Algorithm and Wisdom of Artificial Crowds Algorithm Applied to Light Up</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">H</forename><surname>Ashby</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">V</forename><surname>Yampolskiy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">The 16th International Conference on Computer Games</title>
+		<meeting><address><addrLine>Louisville</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2011" />
+			<biblScope unit="page" from="27" to="32" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">GA with Wisdom of Artificial Crowds for Solving Mastermind Satisfiability Problem</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">B</forename><surname>Khalifa</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">V</forename><surname>Yampolskiy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Intelligent Games &amp; Simulation</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="12" to="17" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<title level="m" type="main">Genetic Algorithms in Search, Optimization and Machine Learning</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">E</forename><surname>Goldberg</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1989" />
+			<publisher>Addison Wesley Publishing Company</publisher>
+			<pubPlace>Boston</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title level="m" type="main">Genetic Programming: A Paradigm for Genetically Breeding Populations of Computer Programs to Solve Problems</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">R</forename><surname>Koza</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1990" />
+		</imprint>
+		<respStmt>
+			<orgName>Stanford University. Stanford</orgName>
+		</respStmt>
+	</monogr>
+<note type="report_type">Technical Report</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<title level="m" type="main">A New Kind of Science</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Wolfram</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2002" />
+			<publisher>Wolfram Media Inc</publisher>
+			<pubPlace>Champaign</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">The Immune System, Adaptation and Machine Learning</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">D</forename><surname>Farmer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Packard</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Perelson</surname></persName>
+		</author>
+		<idno type="doi">doi:10.1016/0167-2789</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physica D</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">1-3</biblScope>
+			<biblScope unit="page">90240</biblScope>
+			<date type="published" when="1986" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">The Intelligent Water Drops Algorithm: A Nature-Inspired Swarm-Based Optimization Algorithm</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Shah-Hosseini</surname></persName>
+		</author>
+		<idno type="doi">doi:10.1504/IJBIC.2009.022775</idno>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Bio-Inspired Computation</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="issue">1-2</biblScope>
+			<biblScope unit="page" from="71" to="79" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">GSA: A Gravitational Search Algorithm</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Rashedi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Nezamabadi-Pour</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Saryazdi</surname></persName>
+		</author>
+		<idno type="doi">doi:10.1016/j.ins.2009.03.004</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Information Sciences</title>
+		<imprint>
+			<biblScope unit="volume">179</biblScope>
+			<biblScope unit="issue">13</biblScope>
+			<biblScope unit="page" from="2232" to="2248" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Stochastic Searching Networks</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">M</forename><surname>Bishop</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">1st IEE International Conference on Artificial Neural Networks</title>
+		<meeting><address><addrLine>London</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1989-10" />
+			<biblScope unit="page" from="329" to="331" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Electromagnetism-Like Mechanism Based Algorithm for Neural Network Training</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">X.-J</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C.-Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<idno type="doi">doi:10.1007/978-3-540-85984-0_5</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Lecture Notes in Computer Science</title>
+		<imprint>
+			<biblScope unit="volume">5227</biblScope>
+			<biblScope unit="page" from="40" to="45" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Particle Swarm Optimization</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Kennedy</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Eberhart</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">IEEE International Conference on Neural Networks</title>
+		<meeting><address><addrLine>Perth</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1995-12-01" />
+			<biblScope unit="page" from="1942" to="1948" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">A Novel Heuristic Optimization Method: Charged System Search</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Kaveh</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Talatahari</surname></persName>
+		</author>
+		<idno type="doi">doi:10.1007/s00707-009-0270-4</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mechanica</title>
+		<imprint>
+			<biblScope unit="volume">213</biblScope>
+			<biblScope unit="issue">3-4</biblScope>
+			<biblScope unit="page" from="267" to="289" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">A New Optimization Method: Big Bang-Big Crunch</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">O</forename><forename type="middle">K</forename><surname>Erol</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Eksim</surname></persName>
+		</author>
+		<idno type="doi">doi:10.1016/j.advengsoft.2005.04.005</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Advances in Engineering Software</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="106" to="111" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Ant Colony Optimization: Artificial Ants as a Computational Intelligence Technique</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Dorigo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Birattari</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Stutzle</surname></persName>
+		</author>
+		<idno type="doi">doi:10.1109/MCI.2006.329691</idno>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Computational Intelligence Magazine</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="28" to="39" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">The Bees Algorithm-A Novel Tool for Complex Optimisation Problems</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">T</forename><surname>Pham</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Ghanbarzadeh</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Koc</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Otri</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Rahim</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Zaidi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Virtual International Conference on Intelligent Production Machines and Systems</title>
+		<meeting><address><addrLine>Cardiff</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2006-07" />
+			<biblScope unit="page" from="454" to="459" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Biomimicry of Bacterial Foraging for Distributed Optimization and Control</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">M</forename><surname>Passino</surname></persName>
+		</author>
+		<idno type="doi">doi:10.1109/MCS.2002.1004010</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Control Systems Magazine</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="52" to="67" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Detection of Multiple Source Locations Using a Glowworm Metaphor With Applications to Collective Robotics</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">N</forename><surname>Krishnanand</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Ghose</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Swarm Intelligence Symposium</title>
+		<imprint>
+			<biblScope unit="page" from="84" to="91" />
+			<date type="published" when="2005-06" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Firefly Algorithms for Multimodal Optimization</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">X</forename><forename type="middle">S</forename><surname>Yang</surname></persName>
+		</author>
+		<idno type="doi">doi:10.1007/978-3-642-04944-6</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Lecture Notes in Computer Sciences</title>
+		<imprint>
+			<biblScope unit="volume">5792</biblScope>
+			<biblScope unit="page" from="169" to="178" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Cuckoo Search via Levy Flights</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">X.-S</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Deb</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">World Congress on Nature &amp; Biologically Inspired Computing</title>
+		<imprint>
+			<biblScope unit="page" from="210" to="214" />
+			<date type="published" when="2009-12-11" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">Computer Graphics and Interactive Techniques</title>
+		<imprint>
+			<biblScope unit="page" from="25" to="34" />
+			<date type="published" when="1987-07" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<monogr>
+		<title level="m" type="main">A New Heuristic Optimization Algorithm: Harmony Search</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Z</forename><forename type="middle">W</forename><surname>Geem</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">H</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">V</forename><surname>Loganathan</surname></persName>
+		</author>
+		<idno type="doi">doi:10.1177/003754970107600201</idno>
+		<imprint>
+			<date type="published" when="2001" />
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="page" from="60" to="68" />
+		</imprint>
+	</monogr>
+	<note>Simulation</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Monkey Search: A Novel Metaheuristic Search for Global Optimization</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Mucherino</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">O</forename><surname>Seref</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">AIP Conference on Data Mining, Systems Analysis and Optimization in Biomedicine</title>
+		<meeting><address><addrLine>Gainesville</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2007-03-30" />
+			<biblScope unit="page" from="162" to="173" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">A Novel Numerical Optimization Algorithm Inspired from Weed Colonization</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">R</forename><surname>Mehrabian</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Lucas</surname></persName>
+		</author>
+		<idno type="doi">doi:10.1016/j.ecoinf.2006.07.003</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Ecological Informatics</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="355" to="366" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<monogr>
+		<title level="m" type="main">The Wisdom of Crowds: Why the Many Are Smarter than the Few and How Collective Wisdom Shapes Business, Economies, Societies and Nations</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Surowiecki</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2004" />
+			<publisher>Doubleday</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Vox Populi</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Galton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="page" from="450" to="451" />
+			<date type="published" when="1907" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Wisdom of Crowds in Minimum Spanning Tree Problems</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">K M</forename><surname>Yi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Steyvers</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">D</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Dry</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 32nd Annual Conference of the Cognitive Science Society</title>
+		<meeting>the 32nd Annual Conference of the Cognitive Science Society<address><addrLine>Austin</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2010" />
+			<biblScope unit="page" from="1840" to="1845" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<monogr>
+		<title level="m" type="main">Wisdom of the Crowds in Traveling Salesman Problems</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">K M</forename><surname>Yi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Steyvers</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">D</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Dry</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note>socsci.uci.edu/~mdlee/YiEtAl2010.pdf</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">The Wisdom of Reluctant Crowds</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Wagner</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Schneider</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">43rd Hawaii International Conference on System Sciences</title>
+		<meeting><address><addrLine>Honolulu</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2010-01" />
+			<biblScope unit="page" from="1" to="10" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Optimal Predictions in Everyday Cognition: The Wisdom of Individuals or Crowds?</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">C</forename><surname>Mozer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Pashler</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Homaei</surname></persName>
+		</author>
+		<idno type="doi">doi:10.1080/03640210802353</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cognitive Science</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="1133" to="1147" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Exploiting the Wisdom of the Crowd: Localized, Distributed Information-Centric VANETs</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Bai</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Krishnamachari</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Communications Magazine</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1" to="8" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Evaluating the Wisdom of Crowds in Assessing Phishing Websites</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Moore</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Clayton</surname></persName>
+		</author>
+		<idno type="doi">doi:10.1007/978-3-540-85230-8_2</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Lecture Notes in Computer Science</title>
+		<imprint>
+			<biblScope unit="volume">5143</biblScope>
+			<biblScope unit="page" from="16" to="30" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Finding Unknown Interests Utilizing the Wisdom of Crowds in a Social Bookmark Service</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Shiratsuchi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Yoshii</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Furukawa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">IEEE/WIC/ACM International Conference on Intelligence and Intelligent Agent Technology</title>
+		<meeting><address><addrLine>Hong Kong</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2006-12-22" />
+			<biblScope unit="page" from="421" to="424" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Trust, the Wisdom of Crowds, and Societal Norms</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><forename type="middle">C C</forename><surname>Osorio</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Whitney</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">1st International Conference on Security and Privacy for Emerging Areas in Communication Networks</title>
+		<meeting><address><addrLine>Athens</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2005-09-09" />
+			<biblScope unit="page" from="199" to="208" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Popular Ensemble Methods: An Empirical Study</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Opitz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Maclin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Artificial Intelligence Research</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="169" to="198" />
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Diverse Ensembles for Active Learning</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Melville</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">J</forename><surname>Mooney</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">21st International Conference on Machine Learning</title>
+		<meeting><address><addrLine>Banff</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2004-07" />
+			<biblScope unit="page" from="584" to="591" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Constructing Diverse Classifier Ensembles Using Artificial Training Examples</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Melville</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">J</forename><surname>Mooney</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">18th International Joint Conference on Artificial Intelligence</title>
+		<meeting><address><addrLine>Acapulco</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2003-08" />
+			<biblScope unit="page" from="505" to="510" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">J</forename><surname>Mooney</surname></persName>
+		</author>
+		<ptr target="2011.cs.utexas.edu/~mooney/cs391L/slides/ensembles.ppt" />
+		<title level="m">Machine Learning: Ensembles</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">The Traveling Salesman Problem: A Survey</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Bellmore</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">L</forename><surname>Nemhauser</surname></persName>
+		</author>
+		<idno type="doi">doi:10.1287/opre.16</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Operations Research</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="538" to="558" />
+			<date type="published" when="1968" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Ant Colonies for the Traveling Salesman Problem</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Dorigo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">M</forename><surname>Gambardella</surname></persName>
+		</author>
+		<idno type="doi">doi:10.1016/S0303-2647(97)01708-5</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biosystems</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="73" to="81" />
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Well-Solvable Special Cases of the Traveling Salesman Problem: A Survey</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">E</forename><surname>Burkard</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><forename type="middle">G</forename><surname>Deineko</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">V</forename><surname>Dal</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A A V D</forename><surname>Veen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">J</forename><surname>Woeginger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">SIAM Review</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="496" to="546" />
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<monogr>
+		<title level="m" type="main">Concorde TSP Solver</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Cook</surname></persName>
+		</author>
+		<ptr target="2010.tsp.gatech.edu/concorde/index.html" />
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Application of Bio-Inspired Algorithm to the Problem of Integer Factorisation</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">V</forename><surname>Yampolskiy</surname></persName>
+		</author>
+		<idno type="doi">doi:10.1504/IJBIC.2010.032127</idno>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Bio-Inspired Computation</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="115" to="123" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Printer Model Integrating Genetic Algorithm for Improvement of Halftone Patterns</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Yampolskiy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Western New York Image Processing Workshop</title>
+		<meeting><address><addrLine>Rochester</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<monogr>
+		<title level="m" type="main">Using Permutations in NET for Improved Systems Security</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Mccaffrey</surname></persName>
+		</author>
+		<ptr target="2003.msdn.microsoft.com/en-us/library/Aa302371" />
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">C# BigInteger Class-CodeProject</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">K</forename><surname>Tan</surname></persName>
+		</author>
+		<idno>Concorde7 TYPE: TSP DIMENSION: 7 EDGE_WEIGHT_TYPE: EUC_2D NODE_COORD_SECTION 1) 87.951292 2.658162 2) 33.466597 66.682943 3) 91.778314 53.807184 4) 20.526749 47.633290 5) 9.006012 81.185339 6) 20.032350 2.761925 7) 77.181310 31.922361</idno>
+		<ptr target="http://www.codeproject.com/KB/cs/biginteger.aspxAppendix" />
+	</analytic>
+	<monogr>
+		<title level="m">Concorde Data File NAME</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

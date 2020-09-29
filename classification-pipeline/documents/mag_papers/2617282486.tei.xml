@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /vol3/mag/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.4-SNAPSHOT" ident="GROBID" when="2019-02-06T01:38+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Japan Society for Fuzzy Theory and intelligent informatics NII-Electronic Library Service Japan Sooiety for Fuzzy Theory and intelligent informatios ヱ8 Entertainment System for the Blind using Tactile Graphic Display Makoto KOBAYASHI 492 ＞oL16 NO ． 6 N 工 工 一 Eleotronio Library</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">黼</forename><forename type="middle">解</forename><surname>触覚 デ ィ ス プ レ イ に よ る 視 覚 障害者 用 エ ン タ テ イ ン メ ン ト シ ス テ ム † 小 林 真 ＊ 1． は じ め に テ レ ビ と接 続 し， ジ ョ イ ス テ ィ ッ ク や 方 向 キ ー ，ボ タ ン な ど の 備 わ っ た コ ン トロ ー ラ を 操 作 して 楽 しむ 家 庭 用 コ ン ピ ュ ー タ ゲ ー ム ， い わ ゆ る 「 テ レ ビ ゲ ー ム 」 は ， 計 算機 技 術 の 発 達 に よ り 画 面 の 表 示 能 力 等 が 格 段 に 向 上 し ，現 在 で は か な リ リ ア Ij テ ィ の あ る実 時 間描 写 が 可 能 に な っ て き て い る．更 に ハ ー ドウ ェ ア の 発 達 に 併 せ て ，消 費 者 を 惹 きつ け る魅 力 的 な ソ フ ト ウ ェ ア が 市 場 に 溢 れ て い る こ と も あ り， 単 に 「 ゲ ー ム 」 と言 う と そ め こ と を 指 す ほ ど テ レ ビ ゲ ー ム は 私 た ち の 生 活 の 中 に 浸 透 して い る ． し か し そ れ らゲ ー ム の 多 くは ， 情 報 提 示 手 法 と し て 画 面 表 示 に 重 き を お くた め ，画面 を 見 て 状 況 を理 解 す る こ と が 困 難 な重 度 の 視 覚 障 害者 は 十 分 に 楽 しむ こ と が で き な い ．プ レ イ ヤ ー の 把 持 す る コ ン ト ロ ー ラ に 振 動 や 力 覚 フ ィ ー ド バ ッ ク を 生 成 す る 装 置 も存在 す るが ，こ れ ら は 主 に 演 出的 な 効 果 を狙 っ た もの で あ り， 画 面 に 対 応 す る 位 置 情 報 を 直 接 与 え る もの で は な い ．「音 ゲ ー 」と 称 さ れ る 音 の み で 楽 し め る ゲ ー ム もあ る もの の ， 全 体 と し て 視 覚 障害 者 が 楽 し め る ゲ ー ム は か な り限 られ て い る の が 現 状 で あ る ． こ の よ うな 背 景 の も と ，私 は 特 殊 教 育 総 合 研 究 所 の 渡 辺 哲 也 氏 と共 に ，視 覚 障 害 者 が 楽 しめ る テ レ ビ ゲ ー ム の よ うな エ ン タ テ イ ン メ ン トの 実 現 を 目 指 し て ，触 覚 デ ィ ス プ レ イ を 用 い た シ ス テ ム を 提 案 して い る ，本 稿 で は ， 4 年 半 に 亘 る シ ス テ ム 開 発 の 経 緯 を 中 心 に ， 周 辺 事 情 な ど を ご 紹 介 す る 。 い さ さ か 本 誌 の 趣 向 と は 異 な る 分 野 の 話 で は あ る が ，少 しで も ご 興 味 を 持 っ て い た だ け れ ば 幸 い で あ る ． 2． 研 究 の 背 景 2． 1 触 図 と 触 覚 デ ィ ス プ レ イ 重 度 の 視 覚 障 害 者 に 言葉 で の 説 明 が 困 難 な 図 形 的 情 報 を理 解 し て も ら うた め に は ， 触 覚 で 認 識 で き る， 線</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Dept ． of Computer Science</orgName>
+								<orgName type="institution">National Universities Corpo ． ration Tsukuba College of TechnolQgy</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">＊</forename><surname>国 立 大 学 法 人 筑 波 技 術 ． 短 期 大 学情 報 処 理 学 科</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Dept ． of Computer Science</orgName>
+								<orgName type="institution">National Universities Corpo ． ration Tsukuba College of TechnolQgy</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">の</forename><forename type="middle">盛</forename><surname>リ上 が っ た 図 の 使 用 が 有 効 で あ る． こ の 図 を 「 触 図 」 と 呼 ぶ ．い くつ か あ る 触 図 の 作 成 方 法 の う ち ，代 表 的 な 手 法 と し て 立 体 コ ピ ー が 挙 げ ら れ る （ 図</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Dept ． of Computer Science</orgName>
+								<orgName type="institution">National Universities Corpo ． ration Tsukuba College of TechnolQgy</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">）</forename><surname>．こ れ は ，熱 発 泡 性 の マ イ ク ロ カ プ セ ル を埋 め 込 ん だ 紙 に 図 を描 き ，熱処理 を施 す こ と で 黒 い 部 分 を 膨 張 させ る もの で あ る ．比較 的 安 価 に 任 意 の 触 覚 図 形 を作 成 で き る た め ，本学の</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Dept ． of Computer Science</orgName>
+								<orgName type="institution">National Universities Corpo ． ration Tsukuba College of TechnolQgy</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">よ</forename><surname>うな</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Dept ． of Computer Science</orgName>
+								<orgName type="institution">National Universities Corpo ． ration Tsukuba College of TechnolQgy</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">視</forename><surname>覚障 害 者 を 対 象 と し た 教 育 現 場 で も広</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Dept ． of Computer Science</orgName>
+								<orgName type="institution">National Universities Corpo ． ration Tsukuba College of TechnolQgy</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">く利</forename><forename type="middle">用</forename><surname>され</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Dept ． of Computer Science</orgName>
+								<orgName type="institution">National Universities Corpo ． ration Tsukuba College of TechnolQgy</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">て</forename><forename type="middle">い</forename><surname>る．</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Dept ． of Computer Science</orgName>
+								<orgName type="institution">National Universities Corpo ． ration Tsukuba College of TechnolQgy</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">しか</forename><surname>し紙 に 書 い た 絵 や 図 が そ う で あ る よ うに ，立 体 コ ピ ー も 1 枚 の 紙 に 1 つ の 固 定 され た 触 図 しか 表 現 で き な い ． そ こ で 通 常 の デ ィ ス プ レ イ モ ニ タ が 任 意 の 絵 や 図 の 表 示 が 可 能 で あ る よ う に ，任 意 の 触 図 を 表 示 す る こ と を 目 的 と し た デ バ イ ス が 開 発 さ れ て き た ．それ が 触 覚 デ ィ ス プ レ イ で あ る ． （ 力 覚 フ ィ ー ド バ ッ ク な ど の 触 覚 情 報 を 与 え る デ バ イ ス や 細 か な 振 動 情 報 を 与 え る デ バ イ ス を 触 覚 デ ィ ス プ レ イ と総 称 す る こ と も あ る が ，こ こ で は 視 覚 障 害 者 に 情 報 を 与 え る 目 的 を 持 つ もの の み を指 す こ と と す る． ） 一 般 的 に こ の よ う な 目 的 で 作 ら れ た 触覚 デ ィ ス プ レ イ は ， 任 意 の 形状 を表 現 す る た め に ， ピ ン 状 の 突 起 を 格 子 状 に 並 べ て 駆 動 させ る ピ ン マ ト リ ク ス の 構 成 を と る こ とが 多 い ．ピ ン の 駆 動 方式 と し て は ， 電磁 石 ・ 形 状 記 憶 合 金 ・ ス テ ッ ピ ン グ モ ー タ ・ 空 気 圧 ・ 圧 電 素 子 等様 々 な 原 理 を利 用 す る 手法 が 提 案 さ れ て お り， そ れ ぞ れ に 価 格 や 堅 牢 性 ，反 応 速 度 の 速 さ ，ピ ン 間 密 度の</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Dept ． of Computer Science</orgName>
+								<orgName type="institution">National Universities Corpo ． ration Tsukuba College of TechnolQgy</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">．</forename><surname>Le ＼ 丶 P … も 、 憶 • 鬘 捗 ユ Ho 辱 単 暫 ウ 偶 モ 騨 ・ 聴 憾 … ご … 礁 懸 黎 図 1 立 体 コ ピ ー の 例</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Dept ． of Computer Science</orgName>
+								<orgName type="institution">National Universities Corpo ． ration Tsukuba College of TechnolQgy</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Japan Society for Fuzzy Theory and intelligent informatics NII-Electronic Library Service Japan Sooiety for Fuzzy Theory and intelligent informatios ヱ8 Entertainment System for the Blind using Tactile Graphic Display Makoto KOBAYASHI 492 ＞oL16 NO ． 6 N 工 工 一 Eleotronio Library</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><formula xml:id="formula_0">らの 方 向 に も任 意 の 広 さ に 触 知 面 の 拡 張 が 可 能 で あ る とい う特 徴 を持 ち ，その ピ ン 間 隔 は ，ア ク チ ュ エ ー タ の ス ト ロ ー ク が 必 要 な こ と か ら ， 3mm に 設 定 さ れ て い る （ 現 在 は ，触 知 面 の 拡 張 性 は 劣 るが ア ク チ ュ エ ー タ を垂 直 に し た 2， 4mm 間 隔 の ユ ニ ッ ト SC − 10も製 造 さ れ て い る ） ．また，ク ロ ッ ク に 同 期 し た ピ ン 数 分 の デ ー タ を 送 り 込 ん で 最 後 に ス ト ロ ー ブ 信 号 を 送 る と 一 斉 図 2 触覚 デ ィ ス プ レ イ ユ ニ ッ ト SC − 5 に ピ ン が 突 出 ／ 格納 す る と い う制 御 プ ロ ト コ ル を 持 ち， 図 2 に 示 す 1 ユ ニ ッ トの 場 合 65ク ロ ッ ク で 全 て の ピ ン の リ フ レ ッ シ ュ 動作 が 終 了 す る ．入 力 ク ロ ッ ク は 最 大 lMHz の 速 さ ま で 許 容 す る の で ， 瞬 時 の 触 覚 図 形 描 画 が 可 能 で あ る ． 2． 2 描 画 シ ス テ ム 開 発 の ス タ ー ト 触 覚 デ ィ ス プ レ イ 自体 は そ れ ほ ど 新 し い もの で は な く， モ ー タ を 用 い て 立 体 的 に 像 を 提 示 す る もの や ，マ ウ ス の 先 に デ ィ ス プ レ イ を 配 置 し ，ポイ ン タ 周 辺 の 画 面 情 報 を 与 え る デ バ イ ス な ど ，様 々 な 関 連 研 究 が 90 年 代 前 半 か ら 数 多 く行 な わ れ て い た ． こ こ で ， 我 々 は 視 覚 障 害 者 の 描 画 作 業 に 目 を つ け た ． 1999年の 暮 れ の こ と で あ る ．通 常 ， 視 覚 障 害 者 が 描 画 作 業 を行 な う際 に は ， レ ー ズ ラ イ タ と 呼 ば れ る 紙 を用 い る こ と が 多 い ． こ れ は ゴ ム 板 の 上 に 特 殊 な 紙 を 置 き， そ の 上 で ボ ー ル ペ ン の よ うな鉄 筆 で 引 っ か く と ， そ の 部 分 が 盛 り上 が る と い う もの で あ る ．し か し レ ー ズ ラ イ タ は 一・ 旦 描 い た 線 を 消 す こ と が で き な い た め ， 描 画 は 一 発 勝 負 に な る． し か し， も し触 覚 デ ィ ス プ レ イ と ペ ン の よ う な デ バ イ ス を 組 み 合 わ せ る こ と が で き れ ば ， 修 正 ，つ ま り描 き な お しの で き る視 覚 障 害 者 用 の 描 画 シ ス テ ム が 実 現 で き る 。当時 の 触 覚 デ ィ ス プ レ イ 研 究 は ，い ず れ も情 報 の 提 示 に 重 き を お い て お り， 視 覚 障 害 者 が 自 ら 入 力 す る ，す な わ ち 触 覚 デ ィ ス プ レ イ 上 に 描 画 す る と い う視 点 で 作 ら れ た シ ス テ ム は 見 あ た ら な か っ た の で ，こ の 基 本 的 な ア イ デ ィ ア を も と に ，シ ス テ ム を 「 電子 レ ー ズ ラ イ タ 」 と 名付 け て 製 作 に と り か か っ た ． 最 初 は ， と に か く描 画 で き る シ ス テ ム の 実 現 の た め ， ペ ン タ ブ レ ッ ト上 に 描 い た線 を 触 覚 デ ィ ス プ レ イ に 表 示 す る も の を 試 作 し た 3 ， ．触覚 デ ィ ス プ レ イ 部 品 に は ， 拡 張 性 の 高 さ か ら前 述 の SC − 5を選 び ， こ れ を 横 4 個 ， 縦 3 個 に 並 べ て ， 768本 の ピ ン を制 御 す る 触 知 面 を構 成 した ．そ して 別 個 に 用 意 した 電 磁 誘 導 式 の ペ ン タ ブ レ ッ トに 描 い た 図 を表 示 す る よ うに ソ フ トウ ェ ア を 作 り， 日 常 的 に 点 宇 を利 用 す る 学 生 に 評 価 し て も ら っ た ．す る と，線 を描 く こ とや 消 す こ と は で き るが ， 描 画 面 と 触 知 而 が 離 れ て い る た め ， 2 画 目以 降 の 書 き 出 し位 置 や ， 消 す 位 置 の 特 定 が し に ぐい と い う コ メ ン トが 得 ら れ た 4 ） ． 3． 多 軸 ア ー ム に よ る シ ス テ ム の 実 現 3． 1 ア ー ム に た ど り 着 く ま で 最 初 の 試 作 と 評 価 に よ り， や は り 「 触 知 面 と描 画 面 を 重 ね る 必 要 が あ る」 こ と が 分 か っ た が ，それ を実 現 す る に は ，触 覚 デ ィ ス プ レ イ 上 で ペ ン 先 の 位 置 情 報</formula><formula xml:id="formula_1">20 知 能 と 情 報 （日 本 知 能情 報 フ ァ ジ ィ 学 会 誌 ｝ 計 測 し な くて は い け な い ．そ こ で まず ，磁 場 を 発生 さ せ て 位 置 を計 測 す る 装 置 の 利 用 を試 み た が ，機 械 部 品 の 塊 で あ る 触 覚 デ ィ ス プ レ イ上 で は 当然 ま と もな値 は 出 な い ，また上 か ら カ メ ラ で 画 像 を 取 り込 ん で 画 像 処 理 す る手 法 も考 え た が ， 視 覚 障害 者 は 描 画 の 際 に ペ ン 先 を 隠 す よ う に 触 れ な が ら 位 置 を決 め で い く傾 向 が あ る の で ， ペ ン 先 位 置 推 定 が 難 し く， 何 よ リ カ メ ラ ユ ニ ッ トが 描 画 面 の 上 に あ る と描 画 作 業 に は 邪 魔 に な る こ と が 予 想 さ れ る の で 却 下 し た ．（ そ の 後 ， 描 画 目 的 で は な い が ，指先 に つ け た マ ー カ ー 位 置 をカ メ ラ で 認 識 し て 触 覚 デ ィ ス プ レ イ を変 化 さ せ る シ ス テ ム が NHK の 坂 井 氏 ら か ら 提 案 さ れ て い る 5 ） ， ）触 覚 デ ィ ス プ レ イ 自 体 に 何 ら か の セ ン サ を組 み 込 む の も 一 案 だ が 、ピ ン ス トロ ー ク 内 に 収 ま り， か つ 触 覚 の 邪 魔 に な らな い よ う に 加 工 す る の は 困 難 で あ る ． こ の よ う に 様 々 な 方 法 を検 討 し た 結 果 ，古 典 的 で は あ る が 確 実 な手法 に 行 き着 い た ．それ は 多軸 ア ー ム の 先 に ペ ン を付 け ， ア ー ム の 長 さ と 軸 角 度 か ら ペ ン 先 位 置 を計 算 し， そ の 部 分 の ピ ン を 制 御 す る と い う方法 で あ る ．そ し て ， 2 軸 の ア ー ム に 接 続 さ れ た ペ ン が 平 面 上 を動 く もの を 作 り， 2000年の 夏 に 発 表 し た 6 ・ 7 ） ．翌 年 に は 図 3 に 示 す 3 軸 ア ー ム 式 を製 作 し た B 〕 。 3． 2 当初の ソ 7 トウ ェ ア 機 能 ペ ン の 動 きが ア ー ム に 拘 束 さ れ る と い う難 点 は あ る もの の ， こ う して 触 知 面 に 直 接 描 画 で き る ハ ー ドウ ェ ァ を実現 す る こ と が で き た ．以 下 に 当時 実 装 し た ソ フ トウ ェ ア 機 能 を列 挙 す る ， 描 画 機 能 ： ペ ン に 装備 さ れ た 描 画 ボ タ ン を押 し な が ら 動 か す と ， ペ ン 先 の 下 に 位 置 す る 触知 ピ ン が 突 出 す る ． 消 去 機 能 ； ペ ン に 装 備 さ れ た 消去 ボ タ ン を押 し なが ら動 か す と， ペ ン 先 の 下 に 位 置 す る 触 知 ピ ン が 格 納 さ 図 3 3 軸 ア ー ム 式 電 子 レ ー ズ ラ イ タ れ る ．更 に 全 消 去 ボ タ ン を 押 す と 全 て の ピ ン が 格 納 さ れ る． フ ァ イ ル 保 存 ・ 読 み 込 み 機 能 ：描 画 さ れ た 図 形 を フ ァ イ ル と し て 保 存 し た り，後 か ら 読 み 込 ん で 再 表 示 し た り で き る ． ア ニ メ ー シ ョ ン 機 能 ：動 か し て 表 示 す る た め の 図 形 と ， 静止 させ て 表 示 す る た め の 図 形 を 別 々 に 指 定 で き， 動 か す方 の 図 形 を点滅 さ せ た り ，左 右 に ス ク ロ ー ル さ せ た り で き る ． ま た ， パ ラ パ ラ 漫 画 の よ う に コ マ 送 り で 続 け て 図 形 を 表 示 す る 機 能 も備 え た ． こ れ ら の 機 能 に よ り， 電 子 レ ー ズ ラ イ タ シ ス テ ム は ， 静 止 図 形 を描 画 ・ 保 存 す る ツ ー ル と し て だ け で は な く， 触 覚 ア ニ メ ー シ ョ ン を視 覚 障害 者 自 身 が 作 成 で き る シ ス テ ム に な っ た 9） ． 3． 3 視 覚 障 害 者 に よ る 評 価 製 作 した シ ス テ ム は ，本学 に 在 籍 す る 学 生 は も と よ り， 視 覚 障 害 者 の 集 う イ ベ ン トな ど で 色 々 な 方 に 触 れ て 項 い た ．自分 で 描 き， 消 せ る と い うそ れ ま で に な い シ ス テ ム で あ っ た た め ，ほ ぽ 例 外 な く皆 さ ん に は 興 味 を 持 っ て も ら え た よ う だ っ た が ， 触 覚 デ ィ ス プ レ イ の 解 像 度 に 対 し て は ，点 の 集 合 で 線 を 認 識 す る の が 難 し い と い う指 摘 が 多 くな さ れ た ． 4 ． エ ン タ テ イ ン メ ン ト ・ 学 習 支 援 応 用 ソ フ トウ ェ ア 開 発 と視 覚 障 害 者 に よ る 評 価 を進 め る うち ，触覚デ ィ ス プ レ イ と ポ イ ン テ ィ ン グ デ バ イ ス を 組 み 合 わ せ た こ の シ ス テ ム は ， 描 画 目 的 以 外 の 可 能 性 が 感 じ ら れ た ．すな わ ち ，（ 視 覚 障 害 を持 つ ） ユ ー ザ か らの 直接 位 置 入 力 に 対 して ， 触 覚 情 報 を ダ イ ナ ミ ッ ク に 変 化 させ た り，音 声 や 音 響 情 報 を 用 い た り し て 応 答 で き る 「 触 覚 イ ン タ ラ ク テ ィ ブ シ ス テ ム 」 と し て 利 用 で きそ う だ と分 か っ て きた の で あ る ． そ こ で ，ち ょ っ と し た 遊 び 心 か ら ， 4 つ の ピ ン の 塊 を 左 か ら移 動 して く る ボ ー ル に み た て て ，そ れ を 右 か ら 打 ち 返 す と い う 単 純 な ピ ン ボ ン ゲ ー ム ソ フ トウ ェ ア を 作成 し て み た 'の ．そ の 流 れ を 図 4 に 示 す 。 ボ ー ル は 上 下 の 壁 に あ た る と 跳 ね 返 り，音 を 発 す る．使 用 者 は 移 動 す る ボ ー ル を左 手 の 触覚 で 追 い ， 右 手 の ペ ン で ラ ケ ッ トを操 り打 ち 返 す と い う もの で あ る． こ の 極 め て 単 純 な 1人 用 ゲ ー ム を ， つ い で の つ も り で 盲 学 校 で の 描 画 シ ス テ ム 評 価 時 に 体 験 して も ら っ た と こ ろ ，特 に 若 年 層 の 視 覚 障 害 者 ら か ら 非 常 に 面 白 い と い う コ メ ン トが 得 られ ， ど ち ら か とい う と描 画機 能 よ り も評 判 が 良 い 位 で あ っ た ．評 価 後 の ア ン ケ ー トに お い て も，「 更 に ゲ ー ム の 種 類 を増 や し て 欲 し い 」 「 テ レ ビ ゲ ー ム が で き る と うれ しい 」 と い っ た 意 見 が あ り，触 覚 ゲ ー ム</formula><formula xml:id="formula_2">触 覚 デ ィ ス プ レ イ に よ る 視 覚 障 害 名 用 エ ン タ テ イ ン メ ン ト シ ス テ ム 図 4 ピ ン ポ ン ゲ ー ム ソ フ トウ ヱ ア の 流 れ る 興 味 の 強 さ が 伺 え た ． そ の 後 ，た だ の 遊 び だ け で は な く，楽 し く学 べ る 学 習 教 材 と し て の 使 い 方 も提 案 し た L° ） ． 具 体 的 に は 視 覚 障 害 者 用 の 漢 字 学 習 支 援 を行 な う ソ フ ト ウ ェ ア を 試 作 し た の だ が ， 図 5 に そ の ソ フ トウ ェ ア の 流 れ を示 す ．ま ず任 意 の 部首 （ 漢 字 の 構 成 要 素） の エ リ ア に ペ ン を持 っ て い く と， そ の 部 首 を示 す 部 分 が ま と ま っ て 点 滅 し， 触覚 的 に 理 解 で き る よ うに そ の 範 囲 を提 示 す る ．更に ボ タ ン を 押 す と部 首 の 名 称 な ど を音 声 で 教 え て くれ る わ け で あ る． 受 動 的 な 学 習 方 法 で あ る 既 存 の 静 止 した 触 図 教 材 に 対 し て ，イ ン タ ラ ク テ ィ ブ 性 を持 つ 点 が 提 案 教 材 の 大 き な 特 徴 で あ る ．実 際 の と こ ろ ，触覚の み で 部 首 の ま と ま t）を 理 解 す るの は 難 し く，我 々 が 視 覚 的 に ひ と ま と ま り だ と感 じて い る もの も，触 っ て み る と 2 つ に 感 じ ら れ た りす る こ と が あ る ．図 5 に 示 し た 「 竹 」 も ひ と つ の 例 で あ る． そ の よ う な 区 別 の つ き に く い 要 素 も， 調 べ た い 場所 を指 定 す る と い う 入 力 と， そ の 部 分 が ま と ま っ て 振 動 す る と い う応 答 に よ り， 明確 に 区 別 が 可 能 に な る ． 勿論 ， イ ン タ ラ ク テ ィ ブ 性 を持 つ と い う 長 所 の 代 わ りに ，解 像 度 の 低 さ の た め に 線 の 繋 が ワ が 分 か り に く い と い う短 所 もあ る の で ， 既 存 の 教 材 の 代替 と い う わ け に は い か な い こ と は 了 解 し て い る． し か し ビ デ オ や 21 ． ぞ ' ． ． ' ' " ノ ' 尸 、 Userpoint5 acomponeht τ 「 』 肌 「 rhe compO 髄 e 闘 t ° ° b ■ inks ． ° ° Click！ ／ ア ' TAKE − ⇒ ' ・ 、 K酬 RI " ＼ S 卩 eech i開form3tio 髄 is given ． 図 5 漢 字 学 習 支 援 ソ フ トウ ェ ア の 流 れ コ ン ピ ュ ー タ を駆 使 し た 晴眼 者 向 け の 教材 が い く つ も 存 在 す る 一 方 ，明 らか に 視 覚 障 害 者 用 の 教 材 は 選 択 肢 が 少 な い の で ，提 案 シ ス テ ム の よ う な も の が 教 材 の バ リ エ ー シ ョ ン の ひ とつ に な れ ば と思 っ て い る． 更 に ， ポ イ ン テ ィ ン グ と イ ン タ ラ ク テ ィ ブ な 触 覚 変 化 と い う特 徴 を 生 か し た ソ フ ト ウ ェ ア と し て ，触地 図 ソ フ トウ ェ ア も製 作 した ．こ れ は 例 え ば イ ギ リス の 地 図 な ど の 場 合， ポ イ ン テ ィ ン グ し た 地 方 を そ の 部 分 だ け 点 滅 さ せ る と と も に 「 England 」 「 Wales 」 な ど と 発 声 さ せ る こ と で 境 界 を 認 識 さ せ る も の で あ る ．そ して ボ タ ン 操 作 で ポ イ ン テ ィ ン グ し た 地 域 を拡 大 表 示 す る な ど ，触覚 デ ィ ス プ レ イ な ら で は の イ ン タ ラ ク シ ョ ン ギ ミ ッ ク を 仕込 ん だ ．他に 触 地 図 へ の 応 用 と して は</formula><formula xml:id="formula_3">能 と 情報 旧 本 知 能 情報 フ ァ ジ ィ 学 会 誌 〉 階 段 を ポ イ ン テ ィ ン グ す る と 次 の 階 の 表 示 を 出 した り ， 避 難 経 路 を 触 覚 ア ニ メ ー シ ョ ン で 提 示 し た り と い っ た こ と も考 え ら れ る ． 5． 超 音 波 ペ ン の 利 用 と通 信 ゲ ー ム 応 用 こ う し て 我 々 は 描 画 機 能や ゲ ー ム ， 学 習機 能 を 備 え た 触 覚 デ ィ ス プ レ イ シ ス テ ム を 提 案 し て きた ．そ し て 2003 年 に シ ス テ ム を 複 数 台 ネ ッ ト ワ ー ク 接 続 し 利 用 す る形 態 を 提 案 した ln ． そ の コ ン テ ン ッ と して ， そ れ ま で 1 人 用 で あ っ た ピ ン ポ ン ゲ ー ム の 対 戦 型 バ ー ジ ョ ン を 試 作 し た ．こ れ は 2 台 の ネ ッ トワ ー ク ケ ー プ ル で 接 続 さ れ た 端 末 上 で ，互 い に 打 ち 合 う と い う 単 純 な もの で あ る ．ポ イ ン テ ィ ン グ デ バ イ ス に は ， そ れ ま で の ア ー ム に 代 わ っ て 丁 度 そ の 頃 に 製 品 が 利 用 可 能 に な っ た 超 音 波 と 赤外 線 を利 用 す る ペ ン 型 デ バ イ ス （ 以 後 「 超 音 波 ペ ン 」 と 呼 ぷ ） を新 た に 用 い る こ と に し た ．超 音 波 ペ ン は ， 2 つ の 信 号 を利 用 す る こ と に よ り， 位 置 を計 測 す る 受信 機側 と 完 全 に 分 離 し た 形 で の 利 用 が 可 能 と な っ て お り ， 触 知 面 に 拘 束 さ れ な い オ ペ レ ー シ ョ ン が で き る た め ，ま さ に ゲ ー ム 利 用 に うっ て っ け で あ っ た （ 実 際 ，ア ー ム 式 の 時 に は ， ゲ ー ム に 夢 中 に な り す ぎ た 児 童 が 筐 体 か ら外 れ ん ば か りに 振 り回 す こ と もあ D， よ く冷 や 汗 を か か され て い た ． ） ．更 に 運 良 く研 究 費 の 調 達 が で きた こ と も あ っ て ，部 品 を追加 し て 触知 面 積 を倍 に し た ．製作 し た 「 触 覚 コ ミ ュ ニ ケ ー シ ョ ン シ ス テ ム 」 を図 6 に 示 す ． こ れ に よ り，ゲ ー ム の 内容 と し て は 前 述 の ピ ン ポ ン ゲ ー ム と 同 じ だ が ， コ ン ピ ュ ー タ 相 手 で は な く，人 間 と対 戦 で き る エ ン タ テ イ ン メ ン ト シ ス テ ム が 実 現 で き た ．こ れ ま で 数 名 の 視 覚 障 害 者 に 触 れ て も ら っ て い る が ，古典 的 な ゲ ー ム に も 関 わ ら ず， 触 覚 で 位 置 を 認 識 し て 直 接 ア ク シ ョ ン を起 こ せ る と い う感 覚 を皆 楽 しん で い る．ゲ ー ム の 種 類 を噌 や した い と か ，シ ミ ュ レ ー シ ョ ン ゲ ー ム に 利 用 した い と い っ た 要 望 も よ く聞 か れ ， 概 して （ 値 段 以 外 は ） 好 意 的 な 反 応 で あ る． ま た ， ピ ン ポ ン ゲ ー ム 以 外 に ， 片 方 の 端末 に 描 い た 図 を も う片 方 に 表 示 す</formula></div><figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4" validated="false"><head></head><label></label><figDesc>る 単 純 な ホ ワ イ トボ ー ド ア プ リ ケ ー シ ョ ン も製作 し，実 験 を 通 して 簡 単 な 組 み 合 わ せ 図 形 の 情 報伝 達が 可 能 で あ る こ と を 確 認 し て い る ．触 図 形 の 認 識 精 度 自体 の 問 題 や ，本人 の 描 画 能 力 の 問 題 が あ る こ と は 承 知 して い る が 、 リア ル タ イ ム で 描 画 で き， 同 じ 図 形 が 相 手 に も伝 わ る シ ス テ ム は ，視 覚 障 害 者 同 士 の 遠 隔 地 コ ミ ュ ニ ケ ー シ ョ ン に こ れ ま で に な い 利 便 性 を もた らす と確 信 し て い る ．た だ し，超 音 波 ペ ン は ， ペ ン 先位 置 か ら信 号 を発 し て い る た め ， 描 画 に は 注 意 が 必 要 で あ る 。と い うの も，前 述 の よ う に 視 覚 障 害 者 の 多 くは ，描 画 作 業 時 に ペ ン 先 位 置 を利 き 手 と （ a ）シ ス テ ム の 外 観 （ b ） 対 戦 ゲ ー ム 中の 風 景 （ c ） 描 画 図 形 の 伝 達 風 景 図 6 超 音 波 ペ ン を 用 い た 触 覚 コ ミ ュ ニ ケ ー シ ョ ン シ ス テ ム 逆 の 手 で 隠 す よ う に 押 さ え な が ら な ぞ る 傾 向 が あ る か らで あ る ．今 の と こ ろ 発 信 機 の 位 置 を 少 し上 方 に す る な ど の 対 策 を 施 し て い る が ，使 用 に あ た っ て は 測 定 原 理 と利 用 方 法 に つ い て の 説 明 が 不 可 欠 で あ り，今 後 改 良 す べ き点 と い え る ． 6． こ れ か ら の 触覚 デ ィ ス プ レ イ 研 究 実 は ，SC − 5の 供 給 を行 な っ て い た KGS 社 は ， SC − 5</figDesc><table>496 
+
+VQL16 No ． 6 
+
+N 工 工 一 Eleotronio 
+
+Library</table></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

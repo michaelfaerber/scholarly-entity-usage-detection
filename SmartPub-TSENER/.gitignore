@@ -1,0 +1,39 @@
+# Ignore downloaded pdfs
+data/pdf/*
+!data/pdf/test
+
+data/xml/*
+!data/xml/test
+
+data/craft-2.0/
+data/tudelft_repo/
+data/content_xml/
+data/tudelft_repo_xml/
+
+.ipynb_checkpoints/
+models/
+elasticsearch/
+evaluation_filesMet/
+docker/
+prop_files/
+embedding_models/
+evaluation_files_prot/
+main.py
+.idea
+
+# Ignore compressed files
+*.gz
+
+# Ignore training text files
+dataDoc2vec.txt
+dataWord2vec.txt
+full_text_corpus_tud.txt
+tud_data2vec.txt
+
+# Ignore custom files
+SmartPub-TSENER.sublime-workspace
+__pycache__/
+**/*/__pycache__/
+.DS_Store
+**/*/.DS_Store
+data/coner_feedback/

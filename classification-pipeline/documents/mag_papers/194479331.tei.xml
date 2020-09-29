@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /vol3/mag/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.4-SNAPSHOT" ident="GROBID" when="2019-02-05T03:44+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Towards Sustainable Open Source</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Imed</forename><surname>Hammouda</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Tampere University of Technology</orgName>
+								<address>
+									<country key="FI">Finland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Björn</forename><surname>Lundell</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">University of Skövde</orgName>
+								<address>
+									<country key="SE">Sweden</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Towards Sustainable Open Source</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Sustainability issues of open source extends beyond the technical challenges of building project infrastructure covering other important aspects related to business, economic, legal, social, and cultural dimensions. Long term sustainability will be the theme of OSS 2012 to be held in Tunisia. We think that the OSS community could start discussing the theme by exchanging related experiences, sharing relevant concerns, and proposing topics of interest.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head></head><label></label><figDesc>Open source software is gaining momentum in several forms. In addition to the huge increase in the number of open source projects started and the remark- able rise of FLOSS adoption by companies and governments, new models of participation in the movement are emerging rapidly. For instance, companies are increasingly releasing some of their proprietary software systems as open source on one hand and acquiring open source software on the other hand. For all these forms of involvement, a central question is how to build and maintain a sustainable ecosystem around the open source projects.</figDesc></figure>
+
+			<note place="foot">S.A. Hissam et al. (Eds.): OSS 2011, IFIP AICT 365, p. 385, 2011. c IFIP International Federation for Information Processing 2011</note>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

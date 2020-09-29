@@ -1,0 +1,32 @@
+2018-04-26 15:54:05,643 Start XML Parsing
+2018-04-26 15:54:05,721 Start XML Parsing
+2018-04-26 15:54:06,145 Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0, status=None)
+2018-04-26 15:54:06,147 Starting new HTTP connection (1): localhost
+2018-04-26 15:54:06,158 http://localhost:9200 "GET /_cluster/health?wait_for_status=yellow HTTP/1.1" 200 386
+2018-04-26 15:54:06,160 GET http://localhost:9200/_cluster/health?wait_for_status=yellow [status:200 request:0.014s]
+2018-04-26 15:54:06,160 > None
+2018-04-26 15:54:06,161 < {"cluster_name":"smartpub","status":"green","timed_out":false,"number_of_nodes":1,"number_of_data_nodes":1,"active_primary_shards":30,"active_shards":30,"relocating_shards":0,"initializing_shards":0,"unassigned_shards":0,"delayed_unassigned_shards":0,"number_of_pending_tasks":0,"number_of_in_flight_fetch":0,"task_max_waiting_in_queue_millis":0,"active_shards_percent_as_number":100.0}
+2018-04-26 15:54:06,178 Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0, status=None)
+2018-04-26 15:54:06,180 Starting new HTTP connection (1): localhost
+2018-04-26 15:54:06,187 http://localhost:9200 "GET /_cluster/health?wait_for_status=yellow HTTP/1.1" 200 386
+2018-04-26 15:54:06,187 GET http://localhost:9200/_cluster/health?wait_for_status=yellow [status:200 request:0.009s]
+2018-04-26 15:54:06,188 > None
+2018-04-26 15:54:06,188 < {"cluster_name":"smartpub","status":"green","timed_out":false,"number_of_nodes":1,"number_of_data_nodes":1,"active_primary_shards":30,"active_shards":30,"relocating_shards":0,"initializing_shards":0,"unassigned_shards":0,"delayed_unassigned_shards":0,"number_of_pending_tasks":0,"number_of_in_flight_fetch":0,"task_max_waiting_in_queue_millis":0,"active_shards_percent_as_number":100.0}
+2018-04-26 15:54:36,387 Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0, status=None)
+2018-04-26 15:54:36,388 Starting new HTTP connection (1): localhost
+2018-04-26 15:54:36,398 http://localhost:9200 "GET /_cluster/health?wait_for_status=yellow HTTP/1.1" 200 386
+2018-04-26 15:54:36,400 GET http://localhost:9200/_cluster/health?wait_for_status=yellow [status:200 request:0.013s]
+2018-04-26 15:54:36,401 > None
+2018-04-26 15:54:36,402 < {"cluster_name":"smartpub","status":"green","timed_out":false,"number_of_nodes":1,"number_of_data_nodes":1,"active_primary_shards":30,"active_shards":30,"relocating_shards":0,"initializing_shards":0,"unassigned_shards":0,"delayed_unassigned_shards":0,"number_of_pending_tasks":0,"number_of_in_flight_fetch":0,"task_max_waiting_in_queue_millis":0,"active_shards_percent_as_number":100.0}
+2018-04-26 15:55:06,566 Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0, status=None)
+2018-04-26 15:55:06,567 Starting new HTTP connection (1): localhost
+2018-04-26 15:55:06,581 http://localhost:9200 "GET /_cluster/health?wait_for_status=yellow HTTP/1.1" 200 386
+2018-04-26 15:55:06,582 GET http://localhost:9200/_cluster/health?wait_for_status=yellow [status:200 request:0.016s]
+2018-04-26 15:55:06,582 > None
+2018-04-26 15:55:06,583 < {"cluster_name":"smartpub","status":"green","timed_out":false,"number_of_nodes":1,"number_of_data_nodes":1,"active_primary_shards":30,"active_shards":30,"relocating_shards":0,"initializing_shards":0,"unassigned_shards":0,"delayed_unassigned_shards":0,"number_of_pending_tasks":0,"number_of_in_flight_fetch":0,"task_max_waiting_in_queue_millis":0,"active_shards_percent_as_number":100.0}
+2018-04-26 15:55:36,767 Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0, status=None)
+2018-04-26 15:55:36,768 Starting new HTTP connection (1): localhost
+2018-04-26 15:55:36,782 http://localhost:9200 "GET /_cluster/health?wait_for_status=yellow HTTP/1.1" 200 386
+2018-04-26 15:55:36,784 GET http://localhost:9200/_cluster/health?wait_for_status=yellow [status:200 request:0.018s]
+2018-04-26 15:55:36,786 > None
+2018-04-26 15:55:36,787 < {"cluster_name":"smartpub","status":"green","timed_out":false,"number_of_nodes":1,"number_of_data_nodes":1,"active_primary_shards":30,"active_shards":30,"relocating_shards":0,"initializing_shards":0,"unassigned_shards":0,"delayed_unassigned_shards":0,"number_of_pending_tasks":0,"number_of_in_flight_fetch":0,"task_max_waiting_in_queue_millis":0,"active_shards_percent_as_number":100.0}

@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /vol3/mag/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.4-SNAPSHOT" ident="GROBID" when="2019-02-06T06:16+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Goals and Expectations of the Hearing Aid Fitting</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="1999">1999</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><roleName>Ph.D.&amp;apos;</roleName><forename type="first">Catherine</forename><forename type="middle">V</forename><surname>Palmer</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Communication Science and Disorders</orgName>
+								<orgName type="institution">University of Pittsburgh</orgName>
+								<address>
+									<postCode>15260</postCode>
+									<settlement>Pittsburgh</settlement>
+									<region>PA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Elaine</forename><surname>Mormer</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">A</forename><surname>Lv3</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Eye and Ear Institute</orgName>
+								<orgName type="department" key="dep2">Medical Center &apos;Center for Assistive Technology</orgName>
+								<orgName type="institution" key="instit1">University of Pittsburgh</orgName>
+								<orgName type="institution" key="instit2">University of Pittsburgh Medical Center</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Goals and Expectations of the Hearing Aid Fitting</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Trends in Amplification</title>
+						<imprint>
+							<biblScope unit="volume">4</biblScope>
+							<biblScope unit="issue">2</biblScope>
+							<biblScope unit="page">1999</biblScope>
+							<date type="published" when="1999">1999</date>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>INTRODUCTION</head><p>he Pfiantoni Tollbooth presents young read-T ers with a boy named Milo who is bored with the world. He finds a tollbooth in his room and passing through it starts him on a great adventure. The first stop presents him with a sign that reads "WELCOME TO EXPECTATIONS. Information, predictions, and advice cheerfully offered. Park here and blow horn." Milo quickly asks "What kind of a place is expectations?" and the response from the little man in charge is "Expectations is the place you must always go before you get to where you are going. Of course, some people never get beyond Expectations, but my job is to hurry them along whether they like it or not." After being asked if Milo needed help, he responds "I think I can find my own way (. . . not at all sure that he could). But, since he didn't understand the little man at all, he decided that he might as well move o n . . ." <ref type="bibr">(Juster, 1961, p.17-19</ref>).</p><p>The following article presents a systematic way to determine what expectations parents and children bring to the audiologist, to guide parent and child expectations, and to use documented expectations in order to guide ongoing intervention and to measure success. We have found that "Expectations" is, indeed, the place you must always go before you get where you are going. It is the audiologist's job to help individuals form realistic auditory expectations for themselves and their children. Additionally, we should help them get beyond expectations to success through appropriate interventions based on information related to normal child development and to the individual abilities of the child. Although we do not "hurry" individuals, it is essential that we do not force patients to find their own way in what can be a confusing maze of technology.</p><p>Our interest in this topic and the subsequent development of a systematic way to use and guide parentkhild expectations to find solutions for using auditory signals that are part of normal social and educational development came from repeated interactions with parents who were asking for solutions to specific issues (e.g., the alarm clock or the telephone). It became evident that there is a continuum of auditory demands in a child's life that aid in the development of security, self-confidence, and independence. As we researched this topic, we found that there was no readily available resource that outlined expected auditory demands as a function of development that could be used by audiologists to create, guide, and evaluate interventions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ESSENTIAL DEFINITIONS</head><p>The following are key words that will be used in this description along with their definitions. Although the reader may not use the same definition, it is important that the reader understand how these words are being used related to this topic.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Expectations and Goals</head><p>Expectations are what one thinks will happen given a particular course of action. The expectation may be the actual level of succcss that one believes can be achieved with a particular intervention. In other words, one may believe that he/ she will be successful most of the time if a particular course of action is taken and only successful half of the time if some other action is taken. Goals are created from realistic expectations. Realistic expectations should translate directly into goals. The intervention is created directly from the goal and success is measured by going back to the original expectation and evaluating how the individual is functioning.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>61</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Tretitls in Aniplificntiott</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Functional Goals menting how individuals are functioning and what</head><p>If one is going to assess (through self-perception or some other measurement) how an individual is functioning, then it makes sense to start with functional goals. Functional goals are rather automatic when one starts with expectations because individual's expectations are almost always functionbased. In other words, individuals rarely indicate that they expect hearing aids to provide a particular amount of gain, but they are likely to indicate that they want to be able to communicate effectively while playing basketball or that they want to hear the telephone ring when they are upstairs.</p><p>More and more clinicians are comfortable with the concept of prescriptive targets whether it be real ear probe microphone measured response or coupler response of the hearing aid. We use some sort of formula to calculate the prescriptive target and then compare the measured result. We make changes in the hearing aid's frequency/gain and input/output response in order to more closely match these targets. We believe that these targets will ensure that the individual can hear a large range (frequency and intensity) of sounds without these sounds becoming uncomfortably loud. Although this goal is essential to all other goals, we need functional targets as well. In essence, we need a formula for our functional auditory targets that is based on what is developmentally appropriate, the age of the individual, the individual's expectations, status of the family, severity of the hearing loss, physical and mental challenges, and school setting. The resulting functional goal will be concrete (e.g., Suzy sets her alarm clock and wakes up each morning when the buzzer or flashing light signals) and will lend itself to the intervention (strategy, technology, etc.) and the outcome measurement technique (counting how many times the child wakes up via the alarm clock, a happier parent who is not feeling angry about having to function as an alarm clock, etc.).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ASSESSING, FACILITATING, AND EVALUATING FUNCTIONAL LISTENING NEEDS AND ABILITIES</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>What Is Current Practice, Why Should We Change?</head><p>Most audiologists do at least some needs assessment with most patients. For instance, we ask about telephone use or we ask about communication in specific environments. Very few practitioners appear to have a systematic way of docustrategies and/or technology they ma; be using over the entire range of auditory activities (alerting signals, communication situations, special auditory challenges). What one might be expected to do in any one of these categories is impacted by their age and development. In other words, knowing that the telephone is ringing and thus understanding why Mommy has walked out of the room (only a temporary separation) is important when you are 2 years old. Using the telephone for business purposes may be important when you are 42 years old. The clinician must first know what is developmentally appropriate for a child and then systematically ask about the child's abilities. Many of us d o not think to ask a specific functional ability question such as "Is Suzy using the telephone to make plans with her friends?" when Suzy comes in to have her earmold remade near her eleventh birthday. Most clinicians d o not schedule ongoing evaluation appointments with children in order to monitor and facilitate the child's acquisition of auditory milestones. It is usually hearing aid problems or earmold replacement that bring pediatric patients into the clinic. For example, the standard "seven-year-old" appointment might consist of educating the child and parents about types of headsets and/or coupling with Walkman's, smoke detector options, the initiation of an alarm clock with an appropriate signal, and continued telephone solutions. The issues to discuss would be dictated by the child's developmental stage as opposed to hidher chronological age.</p><p>Informal needs assessments are lacking in that they do not necessarily cover the entire range of needs (many of which a patient will not think of unless they are brought to hidher attention) and they d o not lend themselves to producing information critical in the hearing aid selection. A thorough needs assessment may dictate the style of hearing aids, special circuitry, or the inclusion of a telecoil or direct audio input (DAI) boot. Unfortunately, in many instances the "needs assessment" appears to be conducted after the hearing aid fitting when the child or parent realizes that the hearing aids may not be meeting all of hidher auditory needs. Now the audiologist is in a position to retrofit technology which can be very difficult if appropriate features have not been included on the original hearing aids. Conducting a thorough needs assessment and identifying all of the patient's auditory demands and needs does not imply that the patient must seek solutions for every area immediately, but it will allow the audiologist to create an integrated intervention plan that can be pursued over time.</p><p>In the pediatric case load, the audiologist must appreciate the role of auditory signals in overall development. Throughout this protocol we are focusing on signals that are typically auditory (alarm clocks, telephones, televisions, ctc.). This does not imply that the solution for a particular individual must be auditory. In other words, one must understand the various auditory signals that play a role in the child's development and then do whatever is necessary to make these signals a meaningful part of the child's life. Based on the child's hearing and the family's and child's expectations and goals, solutions which may include transforming the auditory signal or enhancing the auditory signal are created.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Where Does Functional Assessment Fit into the Hearing Aid Fitting Process?</head><p>Functional assessment should be part of the pre-selection process in the hearing aid fitting. More specifically, it is part of the upfront considerations. These are considerations that are made as one chooses specific hearing aids. Considerations might includc: will the individual have one or two hearing aids, will the hearing aids need a telecoil and/or direct audio input (DAI) and if so, on one or both sides, what hearing aid style will accomodate the various features, d o new hearing aids need to be compatible with currently existing assistive technology, does new assistive technology need to integrate with existing assistive technology, should the new hearing aids include an FM receiver? The functional assessment should guide technology choices.</p><p>A functional assessment may direct the clinician away from a hearing-aid-only solution, such that an alternative strategy or technology may be chosen to address the functional difficulty. For example, the solution for a preschooler with hearing loss who is unsuccessful participating in gymnastics class may not be a replacement set of hearing aids. The current hearing aids may be functioning at optimum performance. A combination of teacher hand signals and an FM system coupled to the hearing aids may fully accommodate the child's needs.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>The Tools</head><p>Three tools are necessary in order to assess, facilitate, and evaluate functional listening needs and abilities. The clinician must have a guideline of auditory milestones for specific age groups (Developmental Index of Audition and Listening, <ref type="figure">Figure l</ref>), the clinician must have a systematic way of evaluating the current abilities and needs of the child as related to the range of auditory signals that are used in day-to-day life at this particular stage in development for this child (Pediatric Hearing Demand, Ability, and Need Profile, <ref type="figure" target="#fig_0">Fig- ure 2)</ref>, and the clinician must work with the child and parent to create a set of expectations that will produce functional goals that can be evaluated and modified over time (Family Expectation Worksheet, <ref type="figure" target="#fig_3">Figure 3)</ref>. This approach uses a combination of developmental and individual data to determine how best to enable children with hearing loss. A systematic approach saves time, allows for appropriate documentation of clinical procedures, and provides an outcome measure that will guide further intervention and that may justify intervention to another party <ref type="bibr" target="#b7">(Palmer and Mormer, 1997)</ref>.</p><p>Developmwtd Iiidex of Aiidirioii mid Lisrenirig (DIAL). There arc four principles in understanding human development that arc useful to the clinician using developmental guidelines in order to create interventions. Development is contingent on a variety of basic needs for children to survive and thrive, a building block structure, appropriate sequencing, and the interrelatedness of developmental areas.</p><p>The basic needs of the child either prcceed any type of audiological intervention (physical needs) or are partially fulfilled by audiological intervention. A child has basic physical needs which include shelter, warmth, food, rest, and cleanliness which must be met before social and educational concerns are approached. The child has psychological needs which include a nuturing caregiver. "Appropriate adult expectations as to what the child can and cannot do at each stage of development" is a critical role of the nuturer <ref type="bibr">(Allen and Marotz, 1994)</ref>. The nuturer of a child with hearing impairment may need assistance identifying and realizing appropriate expectations. The child has the need for trust and security. The ability to process auditory warning signals and communication through some sensory modality may play a critical role in the sense of security for the child. The child has a need to learn and <ref type="bibr">Allen and Marotz (1994)</ref> go on to define this as having "access to developmentally appropriate experiences and play materials." Assistive technology and communication strategies may open the door to developmcn-</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Trends it1 Aniplification</head><p>tally appropriate experiences for children with hearing loss. Finally, the child has the need for respect. "Accomplishment, the 'I can do it' attitude is the major and most essential component of a child's self-esteem.. ." <ref type="bibr">(Allen and Marotz, 1994)</ref>. A child's accomplishment fosters independence and many functional auditory milestones directly relate to taking responsibility for self and starting on the road to independence (e.g., alarm clock use, telephone use, etc.).</p><p>Development is a building block process that demands appropriate sequencing. Each accomplishment is necessary to the next stage of development or the next set of skills. Development is a cumulative process. The sequence of stages or accomplishments is more important than the actual timing. As a group, normally hearing children are expected to master functional auditory milestones at predictable ages, but the order of functional auditory development is what is important. This may be seen most easily through developmental use of the telephone. First the child becomes aware that there is a sound in the home that triggers adults to pick up an object and start speaking into it. The child learns that someone he/she knows is talking and that plans are being made or that stories are being shared. The child experiences the other person talking and then tries talking back. Ultimately, the child will use this tool to make plans and share stories with hisher friends, starting on the road to independent friendships, thoughts, etc. The exact age of accomplishment of each of these stages is not important, but the child who has never been exposed to the telephone will not start by using it for successful peer communication.</p><p>Finally, all of the developmental areas (e.g., physical, motor, perceptual, cognitive, personal/ social, language) are interrelated. No single area develops independently of the other areas and each skill is really a mixture of several areas. The pediatric audiologist must be aware of the child's overall development when shaping auditory expectations and creating functional goals. Children with multiple challenges may require further technology or intervention in order to reach the functional auditory milestones. For example, if a child is physically challenged, the telephone may not only need to be amplified but it may need to be modified for dialing and communication purposes. The audiologist may find himherself working with a variety of other professionals as well as the child and family to create appropriate solutions.</p><p>The Developmental Index of Audition and Listening (DIAL) was based on literature found in the field of human development, rather than on traditional audiology sources <ref type="figure">(Figure 1</ref>). The DIAL describes functional auditory milestones. Milestones are major markers or points of accomplishment in development. A variety of auditory milestones (described on the DIAL) impact a child's social and educational development. These milestones d o not need to be reached through the auditory channel. They should be reached in a manner and in a time course that is appropriate for the individual. The clinician begins by looking at what children with normal hearing can d o with their hearing at different developmental stages, Then the clinician determines how similar accomplishments can be facilitated using technology andor communication strategies to enable children with hearing loss.</p><p>The DIAL is an excellent educational tool to use with parents in order to assist them in forming realistic expectations for their children. Although it is most common to hear clinicians lament about the unrealistic expectations of adult patients who want to hear in extremely noisy situations with one hearing aid that they only wear twice a week, we have found that the opposite is often true with children. Many parents and teachers do not expect enough of these children because they are unaware of the various technological solutions that can enable children with hearing loss. For example, many children with hearing loss do not use alarm clocks because parents are not aware of assistive devices that would enable their children to be responsible for waking up on time. As hearing health care providers, it is our job to educate parents, children, and the individuals who interact with children (teachers, coaches, etc.) about the range of auditory demands and the range of solutions.</p><p>The DIAL is used to determine what the child currently can do and therefore where the child is developmentally. Once this has been determined, the DIAL is used to guide the child, parents, and clinican to the next set of functional auditory milestones. Ideally, the parent, child, and clinician will use the DIAL to create goals for the coming years.</p><p>As with any developmental index, it should be understood that there is large normal variability in the age at which milestones are reached. The variables that contribute to the accomplishment of such milestones include family socioeconomic status, degree of hearing loss, birth order, and a variety of genetic and hereditary factors. Thus, the DIAL should be used as a guideline for development of auditory milestones, and should not be  <ref type="figure" target="#fig_0">(Figure 2)</ref> provides a systematic way of investigating the individual's abilities related to primarily auditory activities. The worksheet is divided along the y-axis into Alerting, Personal Communication, and Other Activities. The child and/or parent are asked about needs and abilities in each area as a function of place (home, school, travel) and as a function of hearing aid use (on or off). Because many of the alerting situations occur at night when the hearing aid is Trends in hiplificnriott not being used, it is essential that these signals can be identified with the hearing aids off. This interview format may prompt the parent and child to go home and test the smoke detector at night and/ or to try the doorbell during the day time. The clinician enters the child's age in the corner box and then checks off all of the milestones that will apply to the child. Whether the milestone applies or not and at what level the child should be functioning (e.g., knowing that the telephone rang versus answering it) is determined from the DIAL. A separate set of worksheets have been developed to create solutions specific to organized athletic activities. The reader should see Palmer (1997) or Palmer et al, <ref type="bibr">(1996)</ref> in order to obtain the worksheets and instructions for use.   Knowing what is causing the problem directly relates to finding appropriate solutions. For instance if a communication problem in a large room is being caused by distance, the solution may be a change of position or an assistive device with a microphone that can be placed close to the sound source.</p><p>The final column is used to record how the individual is currently compensating for the problem (i.e., are they using assistive technology, is someone else assisting them, etc.). Often, another family member is waking up a child, relaying tele- phone messages, etc. Although the child and parents may feel that this is sufficient, these are not strategies that foster independence and there are solutions readily available for the child. Current hearing aid information is recorded at the bottom of the sheet and finally recommendations are made. The recommendations should consider the functional auditory developmental level of the child (as determined through use of the DIAL), the communication needs identified, what is causing the difficulty, the current technology available to the child, and available solutions. By completing this form, integrated solutions should be pursued. In other words, if the telephone and one-toone communication are difficult, one solution may tackle both of these problems as opposed to recommending a variety of different systems.</p><p>The needs assessment should be updated periodically as the child's communication demands and appropriate functional auditory milestones change. The child may start a different level of school or may travel more independently with athletic teams. The developing child will have new communication needs that demand new solutions.</p><p>Fntrtily Expectdoti Worksheet. The Pediatric Hearing Demand, Ability, and Need Profile can be thought of as a comprehensive worksheet that evaluates all possible auditory demands at any given developmental stage. The Family Expectation Worksheet <ref type="figure" target="#fig_3">(Figure 3</ref>) is used to hone these items down into specific, functional goals. Armed with the information from the DIAL (expected functional level) and the information from the Pediatric Hearing Demand, Ability, and Need Profile (areas of needed intervention), the parent, child, and clinician with input from educators and any other appropriate communication partners identify four or five auditory goals. These are functional goals that are worded to describe exactly what the person wishes to do. For instance "communicating better" would not be adequate. The individual needs to describe exactly where he/she wants improved communication and how the improvement would be measured. "I want to understand what my father says at the dinner table in order to answer his questions'' would be an appropriate functional goal. Although all of these goals will have to d o with an auditory signal, the clinician may find that the functional goal is not measured by communication. A patient wrote one goal as "my sister will stop commenting on how loud the television is while I am watching it." To achieve this goal, the individual needed to hear the television at an average volume, but his goal was not actually to hear the television when set at an average volume. This was an easy outcome to measure and pleased the patient when he met his expectation.</p><p>The four or five goals should come from the expected developmental milestones on the DIAL and the identified needs on the Pediatric Hearing Demand, Ability, and Need Profile, but the functional auditory goals will now reflect the priority of the child and/or parent. The clinician may want to encourage the inclusion of certain goals for safety reasons (e.g., hearing the smoke detector). After the goals have been identified, the child or parent indicates how often the child is successful in the situation currently (C) and how he/she expects to function after the intervention (E). The clinician marks the sheet with a check mark to indicate what he/she feels is a realistic expectation given the individual characteristics of the child (hearing loss, family situation, educational situation, access to the recommended technology, etc.). If the "E" and "J" are not in agreement, the clinician counsels the parent and/or child until he/ she understands why the expectations were either high o r low. Interventions are planned based on the identified situations and the clinician crcates ways to measure cach functional goal (counting successes, self-report, etc.). The worksheet is used again post-intervention. The child and/or parent marks the sheet with the letter "I" to indicate the level of success after the intervention. If the "I" does not match the original expectation, the clinician re-examines both the expectation and the solution. Perhaps a different or modified solution should be attempted or perhaps there are circumstances that have altered the realistic expectation (e.g., the fitting was recommended as binaural but only one hearing aid is being used). As each auditory functional goal is achieved, new goals dictated by the child's development and found on the DIAL should be added and addressed.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sample Case</head><p>The following is a sample case that illustrates the use of the DIAL, Pediatric Hearing Demand, Ability, and Need Profile, and the Family Expectation Worksheet with a two-year-old patient named Mohamed. <ref type="figure" target="#fig_4">Figure 4</ref> provides a summary of the case history and audiometric data. The best way to see how these tools fit into your practice is to go ahead and use them with your next patient.</p><p>Begin by referring to the DIAL <ref type="figure">(Figure 1</ref>) to find out what auditory activities would be ex-  pected of a two-year-old child with normal hearing. Based on the "Toddler, age 2" section, children this age listen on the telephone, dance to music, listen to stories in a group, go with a parent to answer the doorbell, awaken to a smoke detector, and attend to travel activities (e.g., tapes or singing) and communication (e.g., Mom says: "look at the big truck!") in a car. <ref type="bibr">If</ref>   <ref type="figure" target="#fig_5">(Figure 5</ref>). <ref type="figure" target="#fig_5">Figure 5</ref> represents a completed Pediatric Hearing Demand, Ability, and Need Profile for this child at the current stage of development. Beginning in the left column indicate that Mohamed is now 28 months old. Scan down the left column and check off the categories of communication currently appropriate for the child. This information is derived from the DIAL and from the parent as to the reality of the child's daily life. For example, the issue of Mohamed hearing the telephone ring at home must be addressed. The DIAL indicates that infants at 1-4 months can associate a sound (the telephone ringing) with movement (Dad getting up to answer it). Since the next age category (4-8 months) is being used as Mohamed's starting point, the earlier milestones must be addressed. The DIAL categories must necessarily include milestones addressed in earlier age categories. The completed Pediatric Hearing Demand, Ability, and Need Profile <ref type="figure" target="#fig_5">(Figure 5 )</ref> indicates that the problem of not hearing the telephone bell occurs with the hearing aid "off." Since Mohamed doesn't own hearing aids yet, the "hearing aid on" boxes cannot be completed.</p><p>Move across the "telephone bell" row, and note that the problem in hearing the telephone bell is related to both hearing and distance. As notcd in the last column on the right, there is currently no compensation used to enable Mohamed to hear the telephone bell. Having identified the sources of the problem, the solution is conceptualized more easily. For example, perhaps the telephone, or a remote ringer could be located more closely to the kitchen counter, where Mohamed often plays while Dad is cooking.</p><p>Other areas of need include hearing the doorbell or doorknocker, television, and group activities at the day care center. The bottom portion of this worksheet allows recording of general notes. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Family Expertmlion WorLsbnt</head><p>Child is successful in Ihis rihntion ...</p><p>It is noted here that Mohamed has no amplification experience and that he enjoys wearing headphones. The bottom most box on the form allows room for recommendations. This space often is used to jot down ideas for remediation that occur during the course of the parentkhild discussion. Now that the Pediatric Hearing Demand, Ability, and Need Profile is completed, this information will be used to develop goals that the child can be enabled to reach. Examine the Family Expectation Worksheet (FEW) ( <ref type="figure" target="#fig_6">Figure 6</ref>). The first step in this worksheet is to probe the parents to prioritize specific situations in which they would like the child to have successful communication. At the same time, the clinician should provide in- </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Trends in A~~iplifcntion</head><p>put derived from the Pediatric Hearing Demand, Ability, and Need Profile to guide these choices. In Mohamed's case, his Dad indicates that he would foremost like his son to respond to his name being called in the same room of their house. The clinician agrees that response to one's own name is an important early auditory milestone that should be addressed. This becomes the first goal. As noted at the top of the worksheet, the clinician then asks the parent to describe how often the child is successful in this situation. The clinician has marked a C indicating that currently Mohamed responds to his name being called "occasionally." The E in the last column of that row indicates that Dad expects that the audiologist's treatment plan will enable his child to respond to his name being called "almost all of the time."</p><p>At this point, based on his or her expertise and preliminary plans for intervention, the clinician will counsel the parent as to how realistic the expectation for that particular goal really is. For example, assuming that Mohamed is fit with appropriate binaural hearing aids, and that his Dad is counseled regarding appropriate communication strategies, the clinician could conservatively target goal #1 for "most of the time." This would include an explanation to Dad that the level of background noise will always be a factor in his son's ability to hear and understand speech. This target may certainly be adjusted over time, as the child adjusts to the new amplification, and /or as circumstances change. As noted on the worksheet for Mohamed, four specific goals have been set and the targets have been indicated. The worksheet will be consulted again after the intervention has been implemented. A t that time, Mohamed's Dad will be probed to describe how often the child is successful in each of the designated situations. The intervention will be considered successful if the targets are met. Modifications to the intervention will be attempted when the realistic expectations are not met. Over time, new goals for Mohamed &amp;ill be set, based on his developmental progress, the status of his hearing loss, and functional needs identified at home, school, and in all his activities.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>SUhlhl ARY</head><p>For the child, meeting communication needs is an ongoing process. The DIAL, the Pediatric Hearing Demand, Ability, and Need Profile, and the Family Expectation Worksheet should streamline this process and provide the information needed to create functional auditory goals considering what normally hearing children accomplish while accounting for the specific needs and abilities of the individual child. In addition, this protocol should provide the tools to create ongoing evaluation, treatment, and documentation of accomplishments through the use of assistive technology and communication strategies. These tools are meant to empower both the clinician and family in order to work as partners in the process of functional auditory development that leads to secure, self-reliant, socially active children who happen to have hearing loss.</p><p>This set of tools provides the information needed for the clinician to identify what auditory situations demand solutions. Creating the solutions is another topic all together. It is only meaningful to define these situations if the clinician is prepared to create auditory and nonauditory solutions. These solutions may involve hearing aid technology (hearing aid features, telecoils, direct audio input, behind-the-ear/FM combinations), clever communication strategies, or advanced assistive technology (alerting systems, telephone amplifiers, etc.). If not in a position to provide the total package of these intervention services, begin with the hearing aid fitting and refer the patient to a cooperating facility to complete the package. It is essential that both facilities discuss the needed hearing aid options in order to allow coupling to recommended assistive technology <ref type="bibr" target="#b4">(Palmer, 1996)</ref>.</p><p>The clinician will find that keeping up with the solutions demands a large time commitment. Valuable information can be found in scientific and trade journals as well as in the exhibit halls of major audiology conferences. The Interactive Assistive Device Product Locator computer program provides a comprehensive database of current assistive technology which can help familiarize the clinician with the range of technological solutions available <ref type="bibr" target="#b6">(Palmer and Garstecki, 1990;</ref><ref type="bibr" target="#b8">Palmer and Rauterkus, 1992)</ref>. Perhaps, most importantly, the clinician should be ready to ask hearing aid manufacturers for specific information regarding the coupling abilities of their hearing aids to various assistive devices. If a satisfactory answer is not forthcoming, work with a manufacturer who appreciates the need for hearing aids that couple successfully with assist ive technology.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ACKNOWLEDGEMENT</head><p>The authors would like to acknowledge the contribution of Sherry Cleary, Director of the University of Pittsburgh Child Development Center. Dr. Cleary assisted in the authors' education regarding human development and its principles.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 2 .</head><label>2</label><figDesc>The</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Family</head><label></label><figDesc>Expcctdon WorksheetChild h succeuful in this situation ...</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head></head><label></label><figDesc>Based on the parent and child's knowledge of the auditory situations and the clinicians exper- tise, at least one of the categories under "The Problem is Due to . . ." should be checked off for each category.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 3 .</head><label>3</label><figDesc>The Family Expec- tation Worksheet.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 4 .</head><label>4</label><figDesc>Audiologic and case history information related to example case.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure 5 .</head><label>5</label><figDesc>Completed Pediat- ric Hearing, Demand, Abil- ity, and Need Profile.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Figure 6 .</head><label>6</label><figDesc>Completed Family Expectation Worksheet.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0" validated="false"><head></head><label></label><figDesc>dances to music; sccs parent answer telephonddoorbell; answers to name call; attends to books listens on telephone; dances to music; listens to story in group; goes with parent to answer door; awakcnrto smoke detector, attends to travel activities and communication talks and listens on telephone; sings with music; listens to books on tape; smoke detector means danger, enjoys taped books; attends to verbal warnings for safety telephone play; attends movie theatre; dancdswim lessons; watches TVIvideos with family neighborhood play music lessons; attends to children's service in church; l m to ride bike; plays at playground at a distance from parent uses telephone meaningfully; enjoys walkmanheadphones; uses alarm clock independently; responds to smoke detector independently uses television for entertainment &amp; socializing; attends to radio; responds to sirens for street safety; participates in clubs and athletics; enjoys privacy in own room; enjoys computerlaudio games: d a m team SDO&amp; uses telephone as social vehicle; attends moviedplays; develops musical tastes; watches</figDesc><table>Palmer and Mormer-Goals and Expectations 
+
+Age Group 
+
+Infant Specific 
+Age 
+
+0-28 days 
+
+1-4 months 
+
+4-8 months 
+
+8-12 months 
+
+Developmental Index of Audition and Listening 
+
+Middle School 
+10-14 YGUS 
+
+Older Adolescent 
+14-18 
+
+18-22 YCXS 
+
+@IAL) 
+
+Milestone 
+
+startle response; attends to music and voice, soothed by parent's voice; some will synchronize 
+body movements to speech pattern; enjoys time in "en face" position; hem megiver before 
+
+being picked up 
+looks for sound source; associates sound with movement; enjoys parcnrs voice; attends to noise 
+makers; imitates vowel sounds 
+
+uses toyJlobjeas to make sounds; recognizes words, responds to verbal commands -bye bye; 
+learning to recognize name; plays with noise makers; enjoys music; enjoys rhythm games 
+
+attends to TV; localizes to sounddvoices; enjoys rhymes and songs; understands NO; enjoys 
+
+hiding game; responds to vocal games (e.g., So Big!!) 
+
+moviedIV with friends 
+
+goes to dances; begins driving (e.g., needs to hear sirendturn signal); participates in school 
+groupdclubs; employment/ ADA 
+
+employrnent/career decisions; travels independently; listens in college lecture halldclassrooms; 
+participates in study groupdextra curricular activities 
+
+Figure 1. The Developmental Index of Audition and Listening. 
+
+interpreted as a tool by which to identify general 
+development delay. 
+Pediatric Hearing Detnarid, Ability, arid Need 
+Prufile. The Pediatric Hearing Demand, Ability, 
+and Need Profile </table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2" validated="false"><head></head><label></label><figDesc>Dad regarding the child's current auditory de- mands is initiated. To facilitate this discussion in an organized manner, employ the Pediatric Hear- ing Demand, Ability, and Need Profile</figDesc><table>Mohamed had 
+been through the normal sequence of functional 
+auditory activities, this age category would be 
+used to counsel the parent and to begin setting re-
+alistic goals and expectations. His case is compli-
+cated by the fact that prior to this visit he has not 
+had the benefit of any habilitative intervention. 
+Based on what his Dad describes as his functional 
+auditory behaviors, his auditory developmental 
+age needs to be adjusted SO that he can appropri-
+ately experience the sequencing of auditory mile-
+stones. Appropriate sequencing is an important 
+principle in normal development. Based on the 
+Dad's report, Mohamed rarely engages auditorily 
+with people or activities, though he is aware of, 
+and responsive to high intensity sounds. Mo-
+hamed's use and response to sound puts him clos-
+est to the auditory category of a 4 to 8 month old 
+infant. 
+Armed with the information obtained from the 
+DIAL, an informed discussion with Mohamed's 
+
+</table></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title level="m" type="main">Developttietiral Profiles: PreBirfh Tlrroriglr Eight</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Allen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Marotz</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1991" />
+			<publisher>Albany, N Y Delmar Publishcrs, Inc</publisher>
+			<biblScope unit="page" from="2" to="3" />
+		</imprint>
+	</monogr>
+	<note>2nd Edition</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Americans with Disabilities Act: An Evolutionary Force in Your Case Management</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Healy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">The ABCs of the ADA Conference on the Americans with Disabilities</title>
+		<meeting><address><addrLine>Washington, D.C</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1992" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title level="m" type="main">The Plratrtowi Tollboafh</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Juster</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1961" />
+			<publisher>Random House</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Assistive devices in the audiology practice</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Palmer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">A m J</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="37" to="57" />
+			<date type="published" when="1992" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Preserving general classroom listening while enhancing the signal from the teacher: evaluation of two methods</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Palmer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Acad Rehab Aiidiol</title>
+		<imprint>
+			<biblScope unit="page" from="2649" to="69" />
+			<date type="published" when="1996" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<title level="m" type="main">Making extracurricular athletic activities accessible: a communication needs assessment</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Palmer</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1997" />
+			<biblScope unit="page" from="57" to="69" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">November). An interactive product locator for the selcction of assistive devices</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Palmer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Garstecki</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Speech-Language-Hearing Association Convention</title>
+		<imprint>
+			<date type="published" when="1990" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">A systematic program for hearing instrument orientation and adjustment</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Palmer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Mormer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Hear Rev</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="45" to="52" />
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Automation: The possibilities and realities</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Palmer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Rauterkus</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceeditigs of the ASHA Aiidiology Siipercotiference</title>
+		<meeting>eeditigs of the ASHA Aiidiology Siipercotiference<address><addrLine>Rockville, MD</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1992" />
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="70" to="87" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Time Out! I didn&apos;t hear you</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Palmer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Butts</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Lindley</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Snyder</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Sports Support Syndicate</title>
+		<meeting><address><addrLine>Pittsburgh, PA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1996" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

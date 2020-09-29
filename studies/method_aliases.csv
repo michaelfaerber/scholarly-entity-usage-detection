@@ -1,0 +1,1015 @@
+﻿method;aliases
+Voronoi diagram;Thiessen polygon method
+Voronoi diagram;Thiessen polygons
+Voronoi diagram;Voronoi diagrams
+Voronoi diagram;Voronoi polygons
+common subexpression elimination;CSE
+multiversion concurrency control;MVCC
+Group decision support systems;Decision Support Systems
+compass and straightedge construction;classical construction
+compass and straightedge construction;compass and straightedge constructions
+compass and straightedge construction;ruler-and-compass construction
+pattern recognition;automated pattern recognition
+pattern recognition;Pattern Recognition, Automated
+SHA hash functions;Secure Hash Algorithm
+Local outlier factor;Local Outlier Factor
+Aho–Corasick string matching algorithm;Aho–Corasick algorithm
+image scaling;superresolution
+image scaling;downscaling
+image scaling;image interpolation
+image scaling;image resizing
+image scaling;image super-resolution
+image scaling;resolution enhancement
+image scaling;super-resolution
+image scaling;upscaling
+second quantization;Second quantization
+nearest neighbour algorithm;nearest-neighbour algorithm
+Rabin–Karp algorithm;Rabin-Karp string search algorithm
+XTEA;eXtended TEA
+Metaheuristic;OT
+bogosort;stupid sort
+bogosort;slowsort
+bogosort;monkey sort
+bogosort;random sort
+bogosort;shotgun sort
+Quantitative Structure–Activity Relationship;QSAR
+Quantitative Structure–Activity Relationship;Quantitative Structure-Activity Relationship
+Scale-invariant feature transform;SIFT
+autoencoder;VAE
+autoencoder;autoencoders
+linear search;sequential search
+Grover's algorithm;Grover database search algorithm
+Grover's algorithm;Grover's search algorithm
+blossom algorithm;Edmonds's matching algorithm
+HITS algorithm;hubs and authorities
+HITS algorithm;Hyperlink-Induced Topic Search
+semi-supervised learning;semisupervised learning
+Feistel cipher;Feistel network
+Feistel cipher;Feistel structure
+mutual exclusion;mutex
+Floyd–Warshall algorithm;Warshall–Floyd Algorithm
+Gram-Schmidt process;Gram-Schmidt orthonormalization
+Gram-Schmidt process;Gram–Schmidt orthonormalization
+Gram-Schmidt process;Gram–Schmidt process
+linear search;line seacrch
+backpropagation;BP
+backpropagation;backprop
+backpropagation;backward propagation of errors
+Bootstrap aggregating;Bagging
+Bootstrap aggregating;Bootstrap_aggregating
+FEAL;Fast Data Encipherment Algorithm
+FORDEC;FOR-DEC
+introsort;introspective sort
+logical clock;logical clock algorithm
+SKIPJACK;Skipjack
+leader election;coordinator election
+leader election;coordinator election algorithm
+leader election;election algorithm
+leader election;leader election algorithm
+Least mean squares filter;Least Mean Square Filter
+recurrent neural network;RNN
+Borůvka's algorithm;Sollin's algorithm
+Perl Compatible Regular Expressions;libpcre
+Perl Compatible Regular Expressions;PCRE
+simplex algorithm;simplex method
+Triple DES;3DES
+Triple DES;TDEA
+Triple DES;Triple Data Encryption Algorithm
+Triple DES;Triple Data Encryption Standard
+Triple DES;Triple DEA
+sorting algorithm;sorting algorithm
+sorting algorithm;asc
+sorting algorithm;sort
+sorting algorithm;desc
+Gauss–Seidel method;Gauss-Seidel method
+Gauss–Seidel method;Liebmann method
+Gauss–Seidel method;method of successive displacement
+k-nearest neighbors algorithm;k-nearest neighbor algorithm
+natural language understanding;NLU
+natural language understanding;Natural language understanding, NLU
+root-finding algorithm;numeric equation solving
+root-finding algorithm;root finding algorithm
+Caesar cipher;Caesar shift
+Caesar cipher;Caesar's cipher
+Caesar cipher;Caesar's code
+Caesar cipher;shift cipher
+bitap algorithm;Baeza-Yates–Gonnet algorithm
+bitap algorithm;shift-and algorithm
+bitap algorithm;shift-or algorithm
+weighted fair queuing;WFQ
+Prim's algorithm;DJP algorithm
+Prim's algorithm;Jarnik algorithm
+Prim's algorithm;Jarník algorithm
+Prim's algorithm;Prim–Dijkstra algorithm
+Prim's algorithm;Prim–Jarník algorithm
+SHACAL;SHACAL-1
+SHACAL;SHACAL-2
+seam carving;Content Aware Scaling
+seam carving;liquid rescaling
+LIFO;last in, first out
+dead code elimination;DCE
+dead code elimination;dead code removal
+dead code elimination;dead code strip
+dead code elimination;dead code stripping
+unsupervised learning;unsupervised machine learning
+Bellman–Ford algorithm;Bellman–Ford–Moore algorithm
+depth-first search;DFS
+depth-first search;depth-first traversal
+Hill climbing;Hill climbing, HC
+Berlekamp–Massey algorithm;Berlekamp-Massey algorithm
+critical path method;CPM
+one-time pad;OTP
+one-time pad;unconditionally Secure
+one-time pad;Vernam cypher
+block cipher mode of operation;Block cipher modes of operation
+block cipher mode of operation;mode of operation
+block cipher mode of operation;modes of operation
+Time-based One-time Password Algorithm;TOTP
+optical character recognition;OCR
+Naive Bayes classifier;Naive Bayes
+Bayesian spam filtering;Naive Bayes spam filtering
+Beale ciphers;Beale Papers
+Beale ciphers;The Beale Papers
+Data Encryption Standard;DES
+Data Encryption Standard;DEA
+Data Encryption Standard;Data Encryption Algorithm
+critical path method;CPM (Network analysis)
+critical path method;critical path analysis
+critical path method;critical path method
+Playfair cipher;Playfair system
+ray tracing;RTX
+kernel method;kernel methods
+kernel method;Kernel trick
+Quine–McCluskey algorithm;Quine-McCluskey algorithm
+futex;fast userspace mutual exclusion
+false position method;method of false assumption
+false position method;method of false position
+false position method;method of single false assumption
+false position method;method of single false position
+false position method;Regula falsi
+false position method;single false position method
+Unicode collation algorithm;UCA
+Gauss–Newton algorithm;Gauss-Newton method
+Wallis product;Wallis' product
+natural language generation;text generation
+Secure Hash Algorithm 2;SHA-2
+Secure Hash Algorithm 2;SHA-224
+Secure Hash Algorithm 2;SHA-256
+Secure Hash Algorithm 2;SHA-512
+Secure Hash Algorithm 2;SHA 2
+Secure Hash Algorithm 2;SHA-384
+Secure Hash Algorithm 2;SHA2
+pathfinding;path-finding
+pathfinding;pathing
+Tarjan's strongly connected components algorithm;Tarjan's Algorithm
+heuristic;computer heuristic
+heuristic;computer heuristics
+non-blocking algorithm;asynchronous algorithm
+blockchain;block chain
+blockchain;block chain technology
+blockchain;blockchain technology
+deep Q-Network;DQN
+Heron's method;Babylonian method
+Heron's method;Methods of computing square roots
+output feedback mode;OFB
+Kronecker's method;Kronecker's algorithm
+Kronecker's method;Kronecker algorithm
+Kronecker's method;Kronecker method
+Kupyna;DSTU 7564:2014
+Kupyna;Купина
+depth first search;depth-first search
+pathfinding algorithm;routing algorithm
+Extreme learning machine;ELM
+Double Ratchet Algorithm;Axolotl Ratchet
+Word2vec;skip-gram with negative sampling (SGNS)
+Classification And Regression Tree;CART
+GloVe;Global Vectors for Word Representation
+JSON Web Signature;JWS
+RankBrain;Rank Brain
+clustering algorithm;cluster analysis
+clustering algorithm;clustering
+Directional Cubic Convolution Interpolation;DCCI
+quicksort;partition-exchange sort
+Aitken's delta-squared process;"Aitken's \;\Delta^2\; process"
+SMA*;Simplified Memory-Bounded A*
+hash function;hash algorithm
+PageRank;PR
+PageRank;Page Rank
+density functional theory;DFT
+schema;mental structure
+ICE;Information Concealment Engine
+Varying Permeability Model;VPM
+Varying Permeability Model;Variable Permeability Model
+Automated Decision support system;decision support
+ID3 algorithm;Iterative Dichotomiser 3
+polytope model;polyhedral model
+polytope model;polytope method
+Lenstra–Lenstra–Lovász lattice basis reduction algorithm;LLL-algorithm
+bidirectional associative memory;BAM
+bidirectional associative memory;DAP
+FIFO;first in, first out
+arbitrary-precision arithmetic;bignum arithmetic
+cipher feedback mode;CFB
+DBSCAN;Density-based spatial clustering of applications with noise
+self-organizing map;Kohonen map
+self-organizing map;Kohonen network
+self-organizing map;self-organizing feature map
+self-organizing map;SOFM
+self-organizing map;SOM
+profiling;Performance analysis
+branch and bound;BB
+branch and bound;branch-and-bound
+Configuration interaction;Configuration interaction method
+Peterson's algorithm;Peterson's solution
+Windows Vista I/O technologies#SuperFetch;SuperFetch
+Metropolis–Hastings algorithm;Metropolis algorithm
+Graham scan;Graham's scan
+Shor's algorithm;Shor
+mathematical interpolation;interpolation
+mathematical interpolation;numerical interpolation
+genetic algorithm;GA
+genetic algorithm;optimize problem
+merge sort;mergesort
+Linear congruential generator;Linear congruential generators, LCGs
+Secure Hash Algorithm 3;SHA-3
+Secure Hash Algorithm 3;Keccak
+Secure Hash Algorithm 3;SHA 3
+Secure Hash Algorithm 3;SHA3
+MICR;Magnetic ink characnter recognitio
+MICR;Magnetic ink character recognition
+speech recognition;STT
+speech recognition;ASR
+speech recognition;automatic speech recognition
+speech recognition;computer speech recognition
+speech recognition;speech to text
+Advanced Encryption Standard;AES
+decision tree;Decision tree
+Kalman filter;linear quadratic estimation
+Kalman filter;LQE
+shunting-yard algorithm;Shunting-yard
+gradient descent;method of steepest descent
+gradient descent;steepest descent
+tree traversal;tree search
+Digital Signature Algorithm;DSA
+Digital Signature Algorithm;DSS
+Digital Signature Algorithm;Digital Signature Standard
+emergency medical hologram;Doctor
+emergency medical hologram;Emergency Medical Hologram
+emergency medical hologram;EMH
+emergency medical hologram;Emergency Medical Holographic program
+kriging;Gaussian process regression
+Euclidean algorithm;Euclid's algorithm
+Monte Carlo method;MC experiments
+Monte Carlo method;MC method
+Monte Carlo method;Monte Carlo experiments
+Monte Carlo method;Monte Carlo method, MC
+cyclic redundancy check;CRC
+cyclic redundancy check;CRC32
+cyclic redundancy check;CRC8
+cyclic redundancy check;Cyclic Redundancy Check, CRC
+cyclic redundancy check;cyclical redundancy check
+random forest;random forests
+random forest;randomized trees
+Atbash;Atbaš
+Berkeley algorithm;Berkeley Unix algorithm
+A* search algorithm;A*
+A* search algorithm;A star
+A* search algorithm;A star search algorithm
+A* search algorithm;A-star
+A* search algorithm;A-star algorithm
+A* search algorithm;A-star search algorithm
+A* search algorithm;A* algorithm
+A* search algorithm;A* search
+Toom–Cook multiplication;Toom-3
+Toom–Cook multiplication;Toom–Cook
+successive over-relaxation;SOR
+successive over-relaxation;successive overrelaxation
+Tiny Encryption Algorithm;TEA
+pseudorandom number generator;deterministic random bit generator
+pseudorandom number generator;DRBG
+pseudorandom number generator;PRNG
+pseudorandom number generator;software random number generator
+bisection method;binary search method
+bisection method;dichotomy method
+bisection method;interval halving method
+Bluestein's FFT algorithm;Chirp Z-transform
+Blum Blum Shub;B.B.S.
+Boyer–Moore string search algorithm;Boyer-Moore algorithm
+classification algorithm;classifier
+Edmonds' algorithm;Chu–Liu/Edmonds' algorithm
+RC2;ARC2
+stooge sort;stoogesort
+Merkle–Damgård construction;Merkle–Damgård hash function
+well equidistributed long-period linear;WELL
+UPGMA;Unweighted Pair Group Method with Arithmetic Mean
+cryptographically secure pseudo-random number generator;cryptographically secure pseudorandom number generator
+cryptographically secure pseudo-random number generator;CSPRNG
+binary search algorithm;binary chop
+binary search algorithm;half-interval search
+binary search algorithm;logarithmic search
+Kardashev scale;type 1
+Kardashev scale;type 3
+Kardashev scale;type I
+Kardashev scale;type II
+Kardashev scale;type III
+Kardashev scale;global civilization
+Kardashev scale;interplanetary civilization
+Kardashev scale;type 1 civilization
+Kardashev scale;type 2 civilization
+Kardashev scale;type 3 civilization
+Kardashev scale;galactic species
+Kardashev scale;global species
+Kardashev scale;interplanezary species
+Kardashev scale;planetary species
+Kardashev scale;stellar species
+Kardashev scale;type 1 species
+Kardashev scale;type 2 species
+Kardashev scale;type 3 species
+Kardashev scale;type I species
+Kardashev scale;type II species
+Kardashev scale;type III species
+hierarchical temporal memory;HTM
+hierarchical temporal memory;Hierarchical temporal memory
+grille;grille cipher
+grille;grille cypher
+earliest deadline first scheduling;EDF
+earliest deadline first scheduling;earliest deadline first
+ROT13;ROT-13
+ROT13;Rotate by 13 places
+divide-and-conquer algorithm;divide and conquer algorithm
+divide-and-conquer algorithm;divide-and-conquer method
+divide-and-conquer algorithm;divide and conquer
+swap algorithm;copy-and-swap
+A-law algorithm;PCMA
+A-law algorithm;A law
+A-law algorithm;A-law
+A-law algorithm;Alaw
+out-of-core algorithm;external memory algorithm
+support vector machine;support vector machines
+support vector machine;SVM
+Ford–Fulkerson algorithm;Ford-Fulkerson algorithm
+ADFGVX cipher;ADFGVX
+ADFGVX cipher;ADFGX
+ADFGVX cipher;ADFGX cipher
+arbitrary-precision arithmetic;infinite-precision arithmetic
+arbitrary-precision arithmetic;multiple precision arithmetic
+cross-validation;rotation estimation
+block cipher;block ciphers
+LZ78;LZ2
+random early detection;RED
+random early detection;Random early detection, RED
+random early detection;random early discard
+random early detection;random early drop
+alpha–beta pruning;alpha-beta pruning
+Odd–even sort;Odd-even Sort
+active queue management;AQM
+randomized algorithm;stochastic algorithm
+LM hash;LAN Manager hash
+LM hash;LanMan hash
+Kardashev scale;stellar civilization
+Kardashev scale;type II civilization
+Kardashev scale;galactic civilization
+Kardashev scale;type III civilization
+Kardashev scale;type 2
+Kardashev scale;planetary civilization
+Kardashev scale;type I civilization
+Ripple;Ripple monetary system
+Ripple;Ripple protocol
+Ripple;Ripple Transaction Protocol
+static program analysis;Static code analysis
+SM4;SMS4
+symmetric-key algorithm;Common key cryptosystem
+symmetric-key algorithm;symmetric ciphers
+supervised learning;supervised machine learning
+MD5;MD5 Message-Digest Algorithm
+MD5;Message Digest Algorithm 5
+Diffusing update algorithm;DUAL FSM
+regular expression;Complement operator (regular expressions)
+regular expression;rational expression
+regular expression;regex
+regular expression;regexp
+regular expression;regxp
+ISAAC;indirection, shift, accumulate, add, and count
+ternary search;ternary search algorithm
+DPLL algorithm;Davis-Putnam-Logemann-Loveland algorithm
+Cesaro summation;Cesaro summation
+Pivoting algorithm;basis exchange algorithm
+proof-number search;PN search
+RIPEMD;RIPEMD-160
+RIPEMD;RIPEMD160
+autoregressive model;AR model
+SURF;Speeded-Up Robust Features
+swap algorithm;swap
+swap algorithm;variable swapping
+pigpen cipher;Freemason's cipher
+pigpen cipher;Freemason's cypher
+pigpen cipher;masonic cipher
+pigpen cipher;masonic cypher
+pigpen cipher;Napoleon cipher
+pigpen cipher;Napoleon cypher
+pigpen cipher;pigpen cypher
+pigpen cipher;tic-tac-toe cipher
+pigpen cipher;tic-tac-toe cypher
+angle trisection;angle trisection method
+graph drawing;graph visualization
+MD2;MD2 Message-Digest Algorithm
+MD2;MD2_(cryptography)
+MD2;Merkle–Damgård Message-Digest Algorithm
+MD2;Message-Digest Algorithm 2
+Advanced Encryption Standard;Rijndael
+Advanced Encryption Standard;AES-128
+Advanced Encryption Standard;AES-192
+Advanced Encryption Standard;AES-256
+artificial neural network;SNN
+artificial neural network;NN
+artificial neural network;Artificial neural networks
+artificial neural network;neural network
+artificial neural network;ANN
+artificial neural network;connectionist system
+artificial neural network;connectionist systems
+artificial neural network;deep nets
+artificial neural network;Neural network, NN
+artificial neural network;Simulated Neural Network
+artificial neural network;Static Neural Network
+artificial neural network;Synergetic Neural Network
+Mersenne twister;MT19937
+Mersenne twister;MT19937-64
+round-robin scheduling;cooperative test
+round-robin scheduling;interlaboratory comparison
+round-robin scheduling;interlaboratory test
+round-robin scheduling;ring test
+artificial general intelligence;AGI
+artificial general intelligence;full AI
+artificial general intelligence;general artificial intelligence
+artificial general intelligence;strong AI
+artificial general intelligence;Strong AI and Weak AI
+artificial general intelligence;strong artificial intelligence
+two-phase locking;2PL
+GDES;G-DES
+sweep line algorithm;plane sweep algorithm
+Time delay neural network;TDNN
+tokenization;tokenisation
+DES-X;DESX
+AKS primality test;Agarwal-Kayal-Saxena
+AKS primality test;Agarwal-Kayal-Saxena primality test
+AKS primality test;Agrawal Kayal Saxena primality test
+AKS primality test;Agrawal-Kayal-Saxena primality test
+AKS primality test;Agrawal–Kayal–Saxena primality test
+AKS primality test;AKS algorithm
+AKS primality test;Aks primality test
+AKS primality test;AKS test
+AKS primality test;Cyclotomic AKS test
+AKS primality test;PRIMES is in P
+document classification;document categorization
+document classification;Document classification/categorization
+Leibniz formula for π;Leibniz formula
+Leibniz formula for π;1 − 1/3 + 1/5 − 1/7 + ⋯
+Dual EC DRBG;Dual Elliptic Curve Deterministic Random Bit Generator
+Boltzmann machine;stochastic Hopfield network with hidden units
+deep learning;deep machine learning
+deep learning;deep structured learning
+deep learning;DL
+deep learning;hierarchical learning
+Ramer–Douglas–Peucker algorithm;Douglas–Peucker algorithm
+Ramer–Douglas–Peucker algorithm;iterative end-point fit algorithm
+Record linkage;duplicate detection
+part-of-speech tagging;POS tagging
+part-of-speech tagging;POS-tagging
+expectation–maximization algorithm;EM algorithm
+expectation–maximization algorithm;Expectation Maximization
+hierarchical clustering;HCA
+hierarchical clustering;hierarchical cluster analysis
+hebbian rule;hebbian theory
+CYK algorithm;CKY algorithm
+CYK algorithm;Cocke–Younger–Kasami algorithm
+Miller–Rabin primality test;Miller-Rabin algorithm
+Miller–Rabin primality test;Rabin–Miller primality test
+elevator algorithm;SCAN
+breadth-first search;BFS
+breadth-first search;breadth first search
+stochastic block model;Stochastic blockmodel
+stochastic block model;Stochastic blockmodels
+Shared Dictionary Compression for HTTP;SDCH
+generative adversarial network;GAB
+generative adversarial network;GAN
+Distributed ledger;DLT
+Distributed ledger;distributed ledger technology
+Distributed ledger;shared ledger
+multi-key quicksort;multikey quicksort
+multi-key quicksort;three-way radix quicksort
+gated recurrent unit;GRU
+maximum independent set problem;independent set problem
+concurrency control algorithm;concurrent programming algorithm
+artificial intelligence in fiction;AI in fiction
+Zstandard;Zstd
+Zstandard;RFC 8478
+Zcash;ZEC
+Recurrent Entity Network;EntNet
+compiler optimization;compiler optimisation
+compiler optimization;compiler optimisations
+compiler optimization;compiler optimizations
+WPGMA;Weighted Pair Group Method with Arithmetic Mean
+AIVA;Artificial Intelligence Virtual Artist
+Differentiable neural computer;DNC
+LOCO-I;LOw COmplexity LOssless COmpression for Images
+Array Based Queuing Locks;ABQL
+Lempel-Ziv, Finite State Entropy;LZFSE
+Best node search;BNS
+regret-matching;regret matching algorithm
+regret-matching;regret-matching algorithm
+Modified Modified READ;MMR
+Modified READ;MR
+test path;testing path
+sentence embedding;distributed sentence representation
+Kalyna;DSTU 7624:2014
+Kalyna;Калина
+fastText;FastText
+natural language inference;NLI
+long multiplication;written multiplication
+long multiplication;written multiplication method
+Google Wavenet;WaveNet
+Google Wavenet;Google WaveNet
+graph algorithm;algorithm in graph theory
+IOTA;IOTA (cryptocurrency)
+TransE;Translating Embeddings
+knowledge graph embedding;knowledge embedding
+Bitcoin Cash;BCC
+Bitcoin Cash;BCH
+Bitcoin Cash;Bcash
+memory-augmented neural network;MANN
+memory-augmented neural network;memory augmented neural network
+Hub-labelling Algorithm;Hub Labels
+Explainable AI;xAI
+scheduling algorithm;scheduling policy
+sequence-to-sequence learning;seq2seq
+Residual neural network;ResNet
+automated machine learning;automatic machine learning
+automated machine learning;AutoML
+computer-based question classification;question classification
+decompounding;compound splitting
+message authentication code algorithm;MAC algorithm
+Delegated Proof of Stake;DPoS
+Delegated Proof of Stake;Delegated PoS
+fork;hard fork
+fork;soft fork
+POSIX Extended Regular Expressions;ERE
+POSIX Extended Regular Expressions;Extended Regular Expressions
+POSIX Basic Regular Expressions;BRE
+POSIX Basic Regular Expressions;Basic Regular Expressions
+Putzer algorithm;Putzer’s Algorithm
+deep neural network;deep artificial neural network
+deep neural network;deep network
+deep neural network;DNN
+interactive machine learning;human-in-the-loop machine learning
+interactive machine learning;interactive learning
+biomedical natural language processing;bio-NLP
+biomedical natural language processing;bioNLP
+Hashgraph;Hedera Hashgraph
+model-based tree;Model-based recursive partitioning
+conditional inference tree;ctree
+GLM tree;generalised linear model tree
+GLM tree;generalized linear model tree
+PALM tree;partially additive linear model tree
+Telegram Open Network;TON
+graph convolutional network;GCN
+Capsule neural network;CapsNet
+ML.NET;ML dotnet
+Cimon;Crew Interactive Mobile companion
+Tezos;XTZ
+Median of medians;Blum–Floyd–Pratt–Rivest–Tarjan
+electronic code book mode;ECB
+electronic code book mode;electronic codebook mode
+GOST R 34.11-94 and GOST 34.311-95;GOST 28147-89 IMIT
+GOST R 34.11-94 and GOST 34.311-95;GOST 34.311-95
+GOST R 34.11-94 and GOST 34.311-95;GOST hash function
+GOST R 34.11-94 and GOST 34.311-95;GOST R 34.11-94
+MDC-2;MDC2
+MNOD;Multi-Networks for Object Detection
+method of double false position;double false assumption method
+method of double false position;double false position method
+method of double false position;method elchataym
+method of double false position;method of double false assumption
+quickselect;Hoare's selection algorithm
+stochastic fairness queuing;SFQ
+FNAm2;Feistel Net Algorithm mark 2
+HMAC-based One-time Password Algorithm;HOTP
+Litecoin;LTC
+MISTY1;MISTY-1
+MOSQUITO;Mosquito
+profile-guided optimization;PGO
+profile-guided optimization;PDF
+profile-guided optimization;FDO
+profile-guided optimization;feedback-directed optimization
+profile-guided optimization;profile-directed feedback
+Boyer–Moore–Horspool algorithm;Boyer-Moore-Horspool algorithm
+pixel-art scaling algorithm;pixel art scaling algorithm
+TCP congestion control;TCP congestion avoidance algorithm
+Clarke & Wright's savings algorithm;Clarke and Wright saving algorithm
+Streaming algorithm;streaming algorithms
+cognitive anthropology;Antropologia cognitiva
+Broyden–Fletcher–Goldfarb–Shanno algorithm;BFGS algorithm
+cocktail shaker sort;bidirectional bubble sort
+cocktail shaker sort;cocktail sort
+cocktail shaker sort;double bubble sort
+cocktail shaker sort;shaker sort
+International Data Encryption Algorithm;IDEA
+International Data Encryption Algorithm;IPES
+International Data Encryption Algorithm;Improved Proposed Encryption Standard
+shellsort;Shell sort
+shellsort;Shell's method
+shellsort;Shellsort, Shell sort, Shell's method
+Spanning Tree Protocol;STP
+biconjugate gradient method;BiCG
+heuristic;discover
+heuristic;heuristic function
+heuristic;heuristics
+external sorting;external sorting algorithm
+digital signature;cryptographic signing
+digital signature;signature scheme
+nyctography;nyctogram
+nyctography;nyctograph
+nyctography;typhlogram
+nyctography;typhlograph
+nyctography;typhlography
+loop optimization;loop optimisation
+Panama;PANAMA
+Panama;Panama (cryptography)
+SHA-0;Secure Hash Algorithm 0
+SHA-0;SHA
+SHA-0;SHA 0
+SHA-0;SHA0
+knowledge representation and reasoning;KRR
+knowledge representation and reasoning;KR
+knowledge representation and reasoning;Knowledge representation and reasoning
+knowledge representation and reasoning;KR&R
+knowledge representation and reasoning;KR²
+nondeterministic algorithm;non-deterministic algorithm
+BLEU;bilingual evaluation understudy
+Selectable Mode Vocoder;SMV
+Variable-Rate Multimode Wideband;VMR-WB
+Very smooth hash;VSH
+OPT;OPT algorithm
+OPT;optimal algorithm
+adaptive sort;adaptive sorting algorithm
+Median of medians;BFPRT
+Cellular Message Encryption Algorithm;CMEA
+match rating approach;MRA
+Aadaptive resonance theory;ART
+Newton's method;Newton–Raphson method
+local search;LS
+loop unrolling;loop unwinding
+Lossless Transform Audio Compression;LTAC
+Whirlpool;WHIRLPOOL
+Message Digest;MD
+Tiger;Tiger (cryptography)
+Tiger;Tiger2
+GOST 28147-89;Magma
+GOST 28147-89;GOST
+natural neighbor interpolation;natural neighbour interpolation
+SAFER;Secure And Fast Encryption Routine
+Lamport's bakery algorithm;bakery algorithm
+Lamport's bakery algorithm;Lamport's algorithm
+comparison sort;comparison sort algorithm
+comparison sort;comparison sorting algorithm
+counter mode;CTR
+sequential minimal optimization;SMO
+sequential minimal optimization;sequential minimal optimisation
+Ruffini's rule;Synthetic division
+cipher block chaining message authentication code;CBC-MAC
+Guardian of Forever;Guardians of Forever
+3D-convolutional neural network;3D-CNN
+computus;Easter algorithm
+Aitken interpolation;Aitken scheme
+BERT;Bidirectional Encoder Representations from Transformers
+Gestalt Pattern Matching;Ratcliff/Obershelp pattern recognition
+Joint Photographic Experts Group;JPEG
+image scaling algorithm;scaling algorithm
+deduced from given name;inferred from given name
+transformer;transformers
+transformer;transformer model
+transformer;transformer architecture
+Liquid Proof-of-Stake;LPoS
+collision resistant hash;CRH
+proof-of-spacetime;PoSt
+informed search algorithm;heuristic search
+informed search algorithm;heuristic search algorithm
+informed search algorithm;informed search
+Memory-Bounded A*;MA*
+inferred from place of birth;inferred from birthplace
+inferred from place of birth;deduced from place of birth
+inferred from place of birth;deduced from birthplace
+Bitcoin Satoshi Vision;BSV
+Bitcoin Satoshi Vision;Bitcoin SV
+Text-Attentional Convolutional Neural Network;Text-CNN
+LeNet-5;LeNet
+Multi-Column Deep Neural Network;MCDNN
+Multi-Column Deep Neural Network;Multi Column Deep Neural Network
+Multi-Column Deep Neural Network;Multi Column DNN
+Multi-Column Deep Neural Network;Multi-Column DNN
+higher-order neural network;higher order neural network
+higher-order neural network;HONN
+dynamic ridge polynomial neural network;DRPNN
+neural network pushdown automaton;NNPDA
+recursive cascade correlation neural network;RecCC
+machine learning;ML
+machine learning;Machine learning
+machine learning;statistical learning
+prediction by partial matching;PPM
+recursive neural tensor network;RNTN
+Generative Pre-trained Transformer;GPT
+Generative Pre-trained Transformer;Generative Pretrained Transformer
+Generative Pre-trained Transformer;Finetuned Transformer LM
+GPT-2;GPT2
+GPT-2;Generative Pre-trained Transformer 2
+GPT-2;Generative Pretrained Transformer 2
+GPT-3;Generative Pre-trained Transformer 3
+GPT-3;GPT3
+GPT-3;Generative Pretrained Transformer 3
+kernel canonical correlation analysis;KCCA
+deduced from date of registration;deduced from registration date
+deduced from date of registration;inferred from registration date
+deduced from date of registration;inferred from date of restration
+Image GPT;iGPT
+image model;image generative model
+Anderson acceleration;Anderson mixing
+Lempel–Ziv–Storer–Szymanski;LZSS
+Lempel–Ziv–Oberhumer;LZO
+Lempel–Ziv–Welch;LZW
+Lempel–Ziv–Welch;Lempel-Ziv-Welch
+DEFLATE;Deflate
+Reduced Offset Lempel Ziv;ROLZ
+Lempel–Ziv–Markov chain algorithm;LZMA
+Lempel–Ziv–Markov chain algorithm;Lempel–Ziv–Markov algorithm
+delta encoding;delta compression
+Burrows–Wheeler transform;BWT
+Burrows–Wheeler transform;block-sorting compression
+forward–backward algorithm;Forward-backward algorithm
+forward–backward algorithm;Forward/backward algorithm
+forward–backward algorithm;Posterior decoding
+algorithm;mathematical algorithm
+algorithm;algorithms
+Dijkstra's algorithm;Dijkstra algorithm
+artificial intelligence;MI
+artificial intelligence;AI
+Bcpnn;Bayesian Confidence Neural Network
+Berlekamp–Welch algorithm;Berlekamp-Welch algorithm
+Berlekamp–Welch algorithm;Welch–Berlekamp algorithm
+Steinhaus–Johnson–Trotter algorithm;Johnson–Trotter algorithm
+Steinhaus–Johnson–Trotter algorithm;plain changes
+Brooks–Iyengar algorithm;Brooks–Iyengar hybrid algorithm
+CLEAN;msClean
+Cerebellar Model Articulation Controller;CMAC
+Cerebellar Model Articulation Controller;cerebellar model arithmetic computer
+class-based queueing;CBQ
+Coffman–Graham algorithm;CG algorithm
+compositional pattern-producing network;CPPN
+consistent heuristic;consistent heuristics
+consistent heuristic;monotone heuristic
+consistent heuristic;monotone heuristics
+constraint algorithm;constraint
+Daitch–Mokotoff Soundex;D–M Soundex
+deficit round robin;DRR
+deficit round robin;deficit weighted round robin
+deficit round robin;DWRR
+Drizzle;DRIZZLE
+echo state network;ESN
+Qualcomm code-excited linear prediction;Qualcomm PureVoice
+Qualcomm code-excited linear prediction;QCELP
+Elliptic curve primality testing;ECPP
+Elliptic curve primality testing;ECCP
+Elliptic curve only hash;ECOH
+Enhanced Variable Rate Codec B;EVRC-B
+FEA-M;Fast Encryption Algorithm for Multimedia
+FINO;First In, Never Out
+Fast Syndrome Based Hash;FSB
+Fast Syndrome Based Hash;Fast syndrome-based hash
+Fast Syndrome Based Hash;Fast Syndrome-based hash Functions
+feedforward neural network;feed forward neural network
+feedforward neural network;feed-forward neural network
+iterative deepening A*;IDA*
+symbolic artificial intelligence;GOFAI
+symbolic artificial intelligence;good old fashioned AI
+symbolic artificial intelligence;good old fashioned artificial intelligence
+Galois/Counter Mode;GCM
+Galois/Counter Mode;GMAC
+Galois/Counter Mode;Galois Message Authentication Code
+Gbcast;group broadcast
+generic cell rate algorithm;GCRA
+greedy coloring;sequential coloring
+HSTCP;High-Speed TCP
+HSTCP;HighSpeed TCP
+happy path;golden path
+happy path;happy day scenario
+happy path;test path
+Candidate-Elimination Algorithm;Candidate-Elimination Learning Algorithm
+Heuristics in judgment and decision making;Heuristics_in_judgment_and_decision-making
+hierarchical fair-service curve;HFSC
+hierarchical fair-service curve;hierarchical fair service curve
+inductive transfer;transfer learning
+RMPO;Rate Monotonic Prioriy Ordering
+KCDSA;Korean Certificate-based Digital Signature Algorithm
+multivariate interpolation;spatial interpolation
+LOBPCG;Locally Optimal Block Preconditioned Conjugate Gradient
+Lemke–Howson algorithm;Lemke-Howson algorithm
+Limited-memory BFGS;LMVM
+Limited-memory BFGS;L-BFGS
+Limited-memory BFGS;LBFGS
+Limited-memory BFGS;Limited-memory variable metric method
+Limited-memory BFGS;LM-BFGS
+Liquid state machine;LSM
+Long Short-Term Memory;LSTM
+loop fission;loop distribution
+loop fusion;loop jamming
+loop nest optimization;LNO
+loop nest optimization;loop blocking
+loop nest optimization;loop tiling
+loop nest optimization;strip mine and interchange
+loopless algorithm;loopless imperative algorithm
+Metropolis light transport;MLT
+Bag-of-words model in computer vision;Bag of visual words
+Bag-of-words model in computer vision;Bag of words
+Bag-of-words model in computer vision;Bag-of-visual-words
+Momel;Modelling melody
+MPEG-1 Audio Layer III HD;.mp3
+MPEG-1 Audio Layer III HD;mp3HD
+multi-task learning;MTL
+multi-task learning;multitask learning
+Multislice;Multislice method
+non-linear iterative partial least squares;NIPALS
+nonlinear dimensionality reduction;manifold learning
+nonlinear dimensionality reduction;NLDR
+offline learning;batch learning
+offline learning;block learning
+offline learning;cumulated modification learning
+offline learning;epochal learning
+one-key message authentication code;OMAC
+one-key message authentication code;one-key MAC
+online machine learning;adaptive learning
+online machine learning;incremental learning
+online machine learning;online learning
+parallelizable message authentication code;PMAC
+parallelizable message authentication code;parallelizable MAC
+Perceptual Speech Quality Measure;PSQM
+parallel tempering;Replica exchange method
+Prime-factor FFT algorithm;Prime Factor Algorithm
+Probabilistic neural network;PNN
+proof-of-work;Proof of Work
+proof-of-work;PoW
+Pulse-coupled network;PCNN
+Pulse-coupled network;pulse coupled network
+Pulse-coupled network;pulse coupled neural network
+Pulse-coupled network;pulse-coupled neural network
+RC algorithm;RC algorithms
+RC algorithm;Rivest's Cipher
+RC algorithm;Rivest's Cipher algorithm
+RC algorithm;Ron's code
+RC algorithm;Ron's code algorithm
+ROAM;Real-time optimally adapting mesh
+RadioGatún;RadioGatun
+Read-copy-update;RCU
+SEBAL;The Surface Energy Balance Algorithm for Land
+SXAL/MBAL;MBAL
+SXAL/MBAL;Multi Block ALgorithm
+SXAL/MBAL;Substitution Xor ALgorithm
+SXAL/MBAL;Substitution Xor ALgorithm / Multi Block ALgorithm
+SXAL/MBAL;SXAL
+Scoring algorithm;Fisher's scoring
+sentence boundary disambiguation;sentence segmentation
+Shortest Path Faster Algorithm;SPFA
+SimSimi;simsimi
+Smart Bitrate Control;SBC
+statistical relational learning;RML
+statistical relational learning;relational learning
+statistical relational learning;Relational Machine Learning
+Structure from motion;SfM
+Swendsen–Wang algorithm;Swendsen–Wang algorithm
+Szymański's algorithm;Szymanski's algorithm
+Szymański's algorithm;Szymanski's mutual exclusion algorithm
+TCP Friendly Rate Control;TFRC
+TCP Friendly Rate Control;Transmission Control Protocol Friendly Rate Control
+Thalmann algorithm;VVAL18
+Ultra Low Delay Audio Coder;ULD
+RIPEMD-256;RACE Integrity Primitives Evaluation Message Digest
+universal one-way hash function;UOWHF
+weighted round robin;WRR
+loop splitting;loop peeling
+Spiking neural network;Spiking neuralnetwork
+DCLZ;Data Compression Lempel-Ziv
+edge-labelled directed tree;EDT
+ROT47;ROT-47
+uniform-cost search;UCS
+LFM;Leniar Filtering Method
+merge algorithm;merge
+stable sorting algorithm;stable sort
+Monte Carlo tree search;MCTS
+Monte Carlo tree search;Monte-Carlo tree search
+Cryptomeria cipher;Cryptomeria
+cipher-based message authentication code;cipher based MAC
+cipher-based message authentication code;cipher based message authentication code
+cipher-based message authentication code;cipher-based MAC
+Kahan summation algorithm;compensated summation
+gift wrapping algorithm;Gift_wrapping_algorithm
+gift wrapping algorithm;Jarvis march
+multilayer perceptron;MLP
+multilayer perceptron;Multi-Layer Perceptron
+Robinson–Schensted–Knuth correspondence;RSK algorithm
+Robinson–Schensted–Knuth correspondence;RSK correspondence
+AI diagnostics;diagnosis (artificial intelligence)
+AI diagnostics;diagnostics (artificial intelligence)
+Double DES;2DES
+Double DES;2-DES
+Enhanced Variable Rate Codec;EVRC
+Connected-component labeling;Connected-component analysis
+Distributed artificial intelligence;DAI
+K-medoids;PAM
+artificial intelligence;A.I.
+artificial intelligence;cognitive computing
+artificial intelligence;A. I.
+natural language processing;NLP
+self-management;machine self-management
+cipher block chaining mode;CBC
+cipher block chaining mode;CBC mode
+friendly artificial intelligence;FAI
+friendly artificial intelligence;friendly AI
+nearest-neighbor interpolation;nearest neighbor interpolation
+nearest-neighbor interpolation;point sampling
+nearest-neighbor interpolation;proximal interpolation
+rolling hash;recursive hashing
+rolling hash;rolling checksum
+Operational transformation;"Operational transformation; OT"
+uninformed search algorithm;blind search
+uninformed search algorithm;brute-force search
+uninformed search algorithm;uninformed search
+ALOPEX;ALgorithms Of Pattern EXtraction
+active learning;active learning algorithm
+cipher;cryptographic algorithm
+cipher;cypher
+Adleman–Pomerance–Rumely primality test;APRT-CL
+admissible heuristic;admissible heuristics
+aptX;apt-X
+artificial bee colony algorithm;ABC
+BHHH algorithm;Berndt–Hall–Hall–Hausman algorithm
+bubble sort;bubblesort
+fast inverse square root;Fast InvSqrt()
+Doctor;ECH
+Doctor;Joe
+Doctor;The Doctor
+Knuth–Morris–Pratt algorithm;KMP algorithm
+Knuth–Morris–Pratt algorithm;Knuth-Morris-Pratt algorithm
+Knuth–Morris–Pratt algorithm;Knuth–Morris–Pratt string searching algorithm
+Vigenère cipher;Vigenere cipher
+bubble sort;sinking sort
+sentence boundary disambiguation;sentence boundary detection
+sentence boundary disambiguation;sentence breaking
+RODM;Rover and Orbiter Delta Mars
+recursive best-first search;RBFS
+Redoc;Reduced Documentation
+cache algorithm;caching algorithms
+SHA-1;Secure Hash Algorithm 1
+SHA-1;SHA 1
+SHA-1;SHA1
+evolutionary algorithm;EA
+BLAKE;BLAKE_(hash_function)
+Dogecoin;DOGE
+Dogecoin;CEO Elon Musk
+HAIFA construction;Hash Iterative Framework
+Italian fiscal code;codice fiscale
+inductive programming;IP
+Inparanoid;InParanoid
+BMW Hash function;Blue Midnight Wish
+automatic vectorization;auto-vectorisation
+automatic vectorization;auto-vectorization
+automatic vectorization;autovectorisation
+automatic vectorization;autovectorization
+Streebog;GOST R 34.11-2012
+Ethereum;ETH
+name binding;name resolution
+deep belief network;DBN
+interleaved polling with adaptive cycle time;IPACT
+Davidon–Fletcher–Powell formula;DFP algorithm
+exponential search;doubling search
+exponential search;galloping search
+exponential search;Struzik search
+feature learning;representation learning
+jump point search;JPS
+proof of stake;PoS
+Reversible-jump Markov chain Monte Carlo;RJMCMC
+convolutional neural network;CNN
+convolutional neural network;ConvNet
+convolutional neural network;Convolution Neural Network
+convolutional neural network;Convolutional Network
+convolutional neural network;Convolutional Net
+hybrid algorithm;hybrid
+nearest-neighbor chain algorithm;nearest neighbor chain algorithm
+t-Distributed Stochastic Neighbor Embedding;t-SNE
+recursive neural network;RvNN
+recursive neural network;RecNN
+word embedding;word embeddings
+NEM;New Economy Movement
+Kneser–Ney smoothing;Kneser-Ney smoothing
+item-item collaborative filtering;item-based collaborative filtering
+item-item collaborative filtering;item-to-item collaborative filtering
+cryptographic hash and stream cipher function;cryptographic hash function and stream cipher
+Monero;MO
+Monero;XMR
+Monero;Bitmonero

@@ -1,0 +1,1879 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /vol3/mag/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.4-SNAPSHOT" ident="GROBID" when="2019-02-06T18:24+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Unsupervised classification of operator workload from brain signals Estimating workload using EEG spectral power and ERPs in the n-back task Unsupervised classification of operator workload from brain signals</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2016-04-14">Published 14 April 2016</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Anne-Marie</forename><surname>Brouwer</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Maarten</forename><forename type="middle">A</forename><surname>Hogervorst</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jan</forename><forename type="middle">B</forename></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Van Erp</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Al</forename></persName>
+						</author>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Matthias</forename><surname>Schultze-Kraft</surname></persName>
+							<email>schultze-kraft@tu-berlin.de</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Neurotechnology Group</orgName>
+								<orgName type="institution">Technische Universität Berlin</orgName>
+								<address>
+									<settlement>Berlin</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Bernstein Focus: Neurotechnology</orgName>
+								<address>
+									<settlement>Berlin</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sven</forename><surname>Dähne</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Machine Learning Group</orgName>
+								<orgName type="institution">Technische Universität Berlin</orgName>
+								<address>
+									<settlement>Berlin</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="department">Berlin Big Data Center</orgName>
+								<address>
+									<settlement>Berlin</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Manfred</forename><surname>Gugler</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="institution">Charité-University Medicine Berlin</orgName>
+								<address>
+									<addrLine>Campus Benjamin Franklin</addrLine>
+									<settlement>Berlin</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gabriel</forename><surname>Curio</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Bernstein Focus: Neurotechnology</orgName>
+								<address>
+									<settlement>Berlin</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="institution">Charité-University Medicine Berlin</orgName>
+								<address>
+									<addrLine>Campus Benjamin Franklin</addrLine>
+									<settlement>Berlin</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Benjamin</forename><surname>Blankertz</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Neurotechnology Group</orgName>
+								<orgName type="institution">Technische Universität Berlin</orgName>
+								<address>
+									<settlement>Berlin</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Bernstein Focus: Neurotechnology</orgName>
+								<address>
+									<settlement>Berlin</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Unsupervised classification of operator workload from brain signals Estimating workload using EEG spectral power and ERPs in the n-back task Unsupervised classification of operator workload from brain signals</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2016-04-14">Published 14 April 2016</date>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1088/1741-2560/13/3/036008</idno>
+					<note type="submission">Received 2 October 2015, revised 1 February 2016 Accepted for publication 10 March 2016</note>
+					<note>Journal of Neural Engineering PAPER • OPEN ACCESS To cite this article: Matthias Schultze-Kraft et al 2016 J. Neural Eng. 13 036008 View the article online for updates and enhancements. Related content Efficient mental workload estimation using task-independent EEG features R N Roy, S Charbonnier, A Campagne et al. -/2018 at 08:43 (Some figures may appear in colour only in the online journal)</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>workload</term>
+					<term>classification</term>
+					<term>brain-computer interface</term>
+					<term>unsupervised</term>
+					<term>EEG</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Abstract</head><p>Objective. In this study we aimed for the classification of operator workload as it is expected in many real-life workplace environments. We explored brain-signal based workload predictors that differ with respect to the level of label information required for training, including entirely unsupervised approaches. Approach. Subjects executed a task on a touch screen that required continuous effort of visual and motor processing with alternating difficulty. We first employed classical approaches for workload state classification that operate on the sensor space of EEG and compared those to the performance of three state-of-the-art spatial filtering methods: common spatial patterns (CSPs) analysis, which requires binary label information; source power co-modulation (SPoC) analysis, which uses the subjects' error rate as a target function; and canonical SPoC (cSPoC) analysis, which solely makes use of cross-frequency power correlations induced by different states of workload and thus represents an unsupervised approach. Finally, we investigated the effects of fusing brain signals and peripheral physiological measures (PPMs) and examined the added value for improving classification performance. Main results. Mean classification accuracies of 94%, 92% and 82% were achieved with CSP, SPoC, cSPoC, respectively. These methods outperformed the approaches that did not use spatial filtering and they extracted physiologically plausible components. The performance of the unsupervised cSPoC is significantly increased by augmenting it with PPM features. Significance. Our analyses ensured that the signal sources used for classification were of cortical origin and not contaminated with artifacts. Our findings show that workload states can be successfully differentiated from brain signals, even when less and less information from the experimental paradigm is used, thus paving the way for real-world applications in which label information may be noisy or entirely unavailable.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>In our complex modern world, many work places with high levels of automation have emerged in which human operators are required to perform monotonous but attention-demanding tasks, such as in driving, air traffic control or in industrial contexts. Such work environments that demand a high level of alertness can lead to an overload of the human operator, having critical consequences for health, safety and efficiency aspects. An assessment of operator workload has therefore become crucial for the operation of automation systems. Such an assessment can then be utilized to implement a system that automatically self-regulates the level of human-machine interaction by adapting to changes of the operator's workload <ref type="bibr" target="#b46">(Parasuraman and Wilson 2008)</ref>.</p><p>The workload state of humans is not directly observable but can be inferred indirectly through various variables, including subjective reports, psycho-and peripheral physiological measures (PPMs) as well as task performance. During the last decades, neurophysiology has proven to be a sensitive and informative modality for the measurement of mental states. In particular, the human electroencephalogram (EEG) has been shown to provide reliable estimators of workload. EEG estimators of workload are based on the fact that changes in workload are associated with characteristic changes in the EEG. These typically amount to modulations in the power of oscillatory activity in particular frequency bands of the EEG <ref type="bibr" target="#b11">(Buzsaki and Draguhn 2004</ref>). The most prominent frequency bands with power changes related to workload are theta (4-7 Hz) and alpha <ref type="bibr">(8-13 Hz)</ref>. Theta power has been shown to be positively correlated with workload, most notably over frontal regions, whereas alpha power is typically found to be negatively correlated with workload, in particular over parietal regions <ref type="bibr">Smith 2003, Holm et al 2009)</ref>.</p><p>An EEG-based assessment of workload for adaptive automation can be implemented using a brain-computer interface (BCI) <ref type="bibr" target="#b60">(Wolpaw and Wolpaw 2012)</ref>. These are systems that use techniques from machine learning in order decode intentions or mental states of individuals in real-time and translate these into computer commands. While most research on BCIs aims at providing a communication channel for users based on brain signals, so called passive BCIs (Zander and Kothe 2011) make use of spontaneously generated brain signals in order to allow for an online detection of the user's mental state ( <ref type="bibr" target="#b6">Blankertz et al 2010)</ref>. The foundations for the use of BCI for workload detection were laid already two decades ago <ref type="bibr" target="#b21">(Gevins et al 1995</ref><ref type="bibr" target="#b48">, Pope et al 1995</ref>, showing that an EEG-based workload assessment can be used for adaptive automation purposes in operational environments. Since then, several studies have shown that a moderation of operator task load based on a workload index derived from the ongoing EEG can be successfully used for enhancing task performance (Prinzel et al <ref type="bibr" target="#b49">2000</ref><ref type="bibr" target="#b37">, Kohlmorgen et al 2007</ref><ref type="bibr" target="#b59">, Wilson and Russell 2007</ref>.</p><p>One of the challenges in the development of BCIs for adaptive automation is their application in real-life environments, such as during driving, gaming or industrial workplaces. Typical tasks in such environments involve increased requirements in multiple modalities, from higher cognitive functions such as decision making and response inhibition to the more basic processing of visual input and execution of motor commands. We refer to the workload induced by such tasks as operator workload. In this study, we envisioned an industrial workplace where an automated plant produces parts at a certain speed and a human operator assembles them into a final product as they are transported past him on a conveyor. Such a workplace that requires a high and constant level of manual skills and alertness offers the ideal scenario for employing an adaptive automation system because it involves several competing goals: while a high work speed is desired to maximize productivity, a too high workload of the operator may result both in an increased rate of defective goods and may be detrimental to the operator's health. Here, a continuous assessment of workload would allow to dynamically adapt the work speed to a level that counterbalances the plant's productivity and the operator's performance. We mimicked such a scenario by designing an experimental task on a touch screen that required permanent visual and motor engagement by subjects. By changing task difficulty, the experiment induced two levels of operator workload in subjects. Note that the two workload states in this study are defined by a difference in task performance but are not directly based on a subjective measure <ref type="bibr">(Hart and Stave- land 1988)</ref>. While participants consistently reported the difference between the two workload conditions as clearly distinguishable, error metrics and subjective workload are not identical ( <ref type="bibr" target="#b51">Putze et al 2010)</ref>. In an offline analysis we then investigated to what extent the workload condition could be classified from the acquired EEG data.</p><p>In this study, we sought to investigate the performance of workload classification from EEG spectral features, using progressively less label information from the experiment. In most experiments the labels of the experimental condition at given points in time are well-known. Thus, the classical approach is to train a linear classifier on the extracted features using those exact labels. In our industrial workplace scenario, however, a situation is very well conceivable in which the different workload conditions are neither externally induced nor known (but result e.g. from a self-regulation mechanism) but instead the performance of the operator (e.g. error rate) is known. This variable is expected to reflect the workload state and can be considered a noisy version of the true labels. The obvious approach in this case is to employ a linear regression on the EEG features, using the error rate as target variable. In a third scenario we assume that also the error rate is unknown and no other information about the workload condition is available. This scenario requires an approach that combines EEG features using only the prior knowledge about the spectral changes in the EEG associated with workload and their spatial localization <ref type="bibr">Smith 2003, Holm et al 2009)</ref>. Because no label information is available, such an approach must be inherently unsupervised.</p><p>In order to classify (or predict) workload levels we implemented six different predictive models, which fall into one out of two categories: (i) channel-based and (ii) spatialfilter-based. In the channel-based models, feature extraction is done for each recording channel separately. In the spatialfilter-based models the data are first projected onto a set of optimized spatial filters and features are then extracted from the output of the spatial filters. Furthermore, each of the channel-based and spatial-filter-based models fall into one out of three sub-categories, depending on the amount of information required by the approach. As outlined above, these sub-categories include (a) the use of binary class labels, (b) the use of a continuous error measure, and (c) no use of a supervision signal at all. We applied each of the six predictive models to the recorded EEG data and validated their performance in discriminating between induced workload states and in predicting the subjects' error rate. Since we sought to implement a 'true' BCI that uses exclusively brain signals for workload classification, before validation we removed confounding signals that might stem from artifacts. Finally, in addition to EEG, we recorded the subjects' heart rate, respiration rate and skin conductance and examined the potential of such non-cerebral signals in improving the BCI performance.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.">Experimental task</head><p>Ten healthy male subjects, aged 26-40, participated in the experiments. All participants gave their informed oral and written consent. Subjects were instructed to carry out a task on a 21 inch touch screen lying on a table in front of them ( <ref type="figure" target="#fig_0">figure 1(a)</ref>). The task was designed as a computer game: objects consisting of three vertically aligned screws (screw triplets) were falling vertically with equal velocity from random positions at the top of the screen, approaching the bottom of the screen. Each screw in a triplet was randomly tagged and colored with one out of four predefined colors, multiple occurrences of one color were not allowed. At the bottom border of the screen was a bucket consisting of three vertical segments. Using their index fingers, subjects could tag (and untag) the bucket segments with colors by pressing colored buttons positioned both at the left and right borders of the screen. Furthermore they could move the bucket horizontally along the entire bottom screen border by sliding the bucket with one of the index fingers. The task was to catch each falling screw triplet with the bucket before it reached the bottom, ensuring that each time the bucket was tagged with the same colors and in the same order as the caught screw triplet. Catching with wrong colors was considered an error as well as letting a triplet hit the bottom of the screen. The falling speed of the triplets was constant throughout the experiment, however the interval between the occurrence of the triplets varied in two different conditions. In the low workload condition (L) the interval between each set was constant, whereas in the high workload condition (H) the intervals were shorter and varied randomly.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">Experimental setup</head><p>Before the experiment started the game's parameters were calibrated for each subject individually in three 5 min runs. The first run was a free trial run during which subjects could familiarize themselves with the game. All participants quickly reached a fairly constant error rate. In the second run the falling velocity of the screw triplets and the intervals between them were adjusted such that subjects where able to accomplish the task with an error rate of approximately 10%. Participants consistently reported the task being moderately demanding but not stressful. This setting was then used during the experiment for the low workload condition. In the third run the game parameters for the high workload condition were determined by adjusting the variance of the randomly occurring intervals between the screw triplets such that an increased sense of stress was reported and yielding error rates between 20% and 25%. Eventually, each subject performed four sessions of 24 min each during which EEG was recorded ( <ref type="figure" target="#fig_0">figure 1(b)</ref>). Each session consisted of 16 blocks of 90 s each of alternating L and H conditions, starting with condition L. In order to mimic the conditions of an industrial workplace, during the whole experiment a closed loop recording of a real acoustic scenery of an industrial work environment was played through speakers at realistic volume. The touch screen task was implemented in the open source framework <ref type="bibr">Pyff (Venthur et al 2010)</ref>. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.">Data acquisition</head><p>EEG data was recorded at 1000 Hz using BrainAmp amplifiers and 64 electrode actiCAP (Brain Products GmbH, Gilching, Germany). In addition to the EEG three peripheral physiological signals were recorded: electrocardiogram (ECG) was recorded bipolarly with two surface Ag/AgCl electrodes positioned at breast height at the front and back of the body, respiration activity was recorded using a Sleepmate respiratory effort belt (Ambu, Ballerup, Denmark), skin conductance was recorded with a GSR module (Becker Meditec GmbH, Karlsruhe, Germany).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.">Data analysis</head><p>The data analysis employed in this study is schematically described in <ref type="figure" target="#fig_1">figure 2</ref> and detailed in the following subsections. First, several preprocessing steps including artifact removal and bandpass filtering were performed on all data sets. Next, one of six predictive models was trained on part of the data and subsequently tested on data that was not used for training. The output of a predictive model was evaluated in two separate ways, namely by computing the model's correct classification rate of workload conditions and the correlation of the model's output with the error rate.</p><p>Some of the predictive models employ so-called spatial filtering methods which are in turn based on a linear generative model of EEG. In order not to interrupt the flow of reading, we have summarized the background theory on the generative model, as well as a detailed description of spatial filtering methods CSP, SPoC, cSPoC and spatio-spectral decomposition (SSD) in appendix. The appendix also details how to derive spatial activation patterns that can be interpreted with respect to the physiological origin of the signal that was extracted by a spatial filtering method.</p><p>We now continue with a detailed account of the preprocessing steps and thereafter describe the predictive models.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.1.">Preprocessing of EEG.</head><p>Suppression of motion-and eye movement artifacts. Owing to the design of the experimental task, which involved a persistent moving of eyes and head, it was expected that the recorded EEG data was contaminated by muscular and ocular artifacts. Electromyogram (EMG) activity is most strongly manifested in frequency bands higher than 20 <ref type="bibr">Hz (Whitham et al 2007)</ref>. In our study we made use of theta (4-7 Hz) and alpha (8-13 Hz) frequency bands only, and therefore contamination with EMG was of little concern in our study. Artifacts caused by eye movements (also known as Electrooculogram, short EOG, activity) on the other hand may pose a problem, because their frequency content overlaps strongly with the frequency bands of interest in this study. Due to the lack of electrodes that directly recorded this activity, we used the difference between electrodes F9 and F10 and the average of electrodes Fp1 and Fp2 to estimate horizontal and vertical EOG activity, respectively. Those four electrodes were excluded from all subsequent analyses. The estimated horizontal and vertical EOG activity was then removed from the EEG data by means of a regression approach, which is described in detail in <ref type="bibr" target="#b47">Parra et al (2005)</ref>. In this approach, the contribution of the EOG signals to each of the remaining recording channels is estimated and subsequently removed. Nevertheless, we investigated the possible influence of residual EOG activity on our predictive models, see section 3.3.</p><p>Segmentation into epochs. The bandpass filtered EEG data were then segmented into non-overlapping time windows of 90 s length. We refer to the data within such a time window as an epoch. Bandpass filtering. The scalp EEG was bandpass filtered in two separate frequencies bands, namely the theta range (4-7 Hz) and the alpha range <ref type="bibr">(8-13 Hz)</ref>. For each of the two frequency bands, a Butterworth filter of order 5 and noncausal IIR filtering was employed. This operation yielded two bandpass filtered datasets per subject, which served as input to the channel-based prediction models.</p><p>Bandpass filtering and dimensionality reduction (spatialfilter-based models only). For the spatial filtering methods (see next section) an additional preprocessing step consisting of dimensionality reduction was applied. We used SSD (Nikulin et al 2011, Haufe et al 2014a) (see also section .2 in the appendix) in order to extract a maximally oscillatory subspace for the theta range and the alpha range, respectively. Thus, SSD was applied twice to the EEG data in order to optimize for theta and alpha separately. From both applications of SSD, the first 15 SSD components were retained while the remaining components were discarded, yielding two 15 dimensional datasets per subject, which served as input to the spatial-filter-based predictive models.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.2.">Preprocessing of PPMs.</head><p>Extraction of cardiac-and respiration frequency signal. A subject-specific heart beat template was extracted from the raw ECG signal and subsequently correlated with the signal in a sliding window. The times of high correlation peaks detected by a threshold represented the times of heart beats, from which the time resolved frequency was obtained. Similarly, the respiratory activity recorded by the respiratory effort belt was lowpass filtered and the peaks and troughs of each inhalation and exhalation threshold detected, yielding a time resolved respiration frequency.</p><p>2.4.3. Predictive models. We implemented three predictive models based on single-channel features (channel-based models) and three corresponding models based on features derived from the output of spatial filters (spatial-filter-based models). The models are tailored to one of three scenarios in which different amount of information about the current workload state is available for training the models.</p><p>In all models, we used log-variance of bandpass filtered data, computed within 90 s epochs, as features that represent spectral modulations. For the channel-based models, log-var features are computed according to</p><formula xml:id="formula_0">( ) ( ( ( ))) ( ) = P e e x log Var , 1 i f i f , ,<label>where ( )</label></formula><formula xml:id="formula_1">e x i f , denotes the signal of a single EEG channel indexed by { } Î i N 1 ,..., channels , bandpassed filtered for frequency band { } q a Î f , , within the epoch indexed by { } Î e N 1 ,.</formula><p>.., epochs . For the spatial-filter-based models, log-var features are computed according to</p><formula xml:id="formula_2">( ) ( ( ( ))) ( ) ( )  = P e e w X log Var , 2 i f f i f ,</formula><p>where ( ) e X f denotes the signal of all bandpass-filtered EEG channels within the epoch e, while ( ) w f i denotes the frequencyband-specific spatial filter indexed by</p><formula xml:id="formula_3">{ } Î i K 1 ,...,</formula><p>with K being the number of filters to be used per frequency band.</p><p>In order to suppress drifts and fluctuations that are outside of the relevant time-scale, the log-var features were high-pass filtered at 1 600 Hz (thereby removing changes slower than 10 min). Once the log-var features have been computed and filtered, they are combined according tô</p><formula xml:id="formula_4">tô ( ) · ( ) ( ) { } å å = a q = = y e b P e , 3 f i i f i f , 1</formula><p>, , wherê ( ) y e denotes the scalar output of the model for the e'th epoch.</p><p>The parameters that all of the predictive models have to estimate using training data are the weighting coefficients b i f , . Additionally, spatial-filter-based models have to estimate the spatial filters ( ) w f i . The predictive models differ in the algorithms that are used to optimize the spatial filters and weighting coefficients. In the following we describe the properties of each predictive model in detail.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Classification models:</head><p>If the true exact labels from the experiment are available, it is possible to employ a classification based approach.</p><p>Model Ch Cla (classification on channels) uses regularized linear discriminant analysis (LDA) to train the weighting coefficients based on labels <ref type="bibr">7</ref> . The regularization is based on shrinkage of the feature covariance matrix (Blankertz et al 2011).</p><p>The corresponding spatial-filter-based model SF Cla (spatial filtering and classification) uses the common spatial patterns (CSPs) algorithm (Blankertz et al 2008) to train the spatial filters and LDA to combine the resulting logvar features. CSP finds filters that increase the power contrast between two experimental conditions and is a popular method in BCI research. The spatial filters were optimized using the CSP algorithm separately for each frequency band, such that the resulting CSP signals have maximal variance difference between the two workload classes. From each of the two resulting set of filters, the K=3 filters with the largest absolute Eigenvalue were selected, yielding six filters in total.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Regression models:</head><p>Whenever a continuous measure, such as the the error rate, is available a regression based approach can be used.</p><p>In the model Ch Reg (regression on channels) we use the error rate as a supervision signal to optimize the weighting coefficients using ridge regression, which is a regularized version of ordinary regression. The regularization is based on shrinkage of the feature covariance matrix.</p><p>The corresponding spatial-filter-based model is denoted by SF Reg (spatial filtering and regression). In order to train the spatial filters, we employ a novel method called the source power co-modulation (SPoC) analysis, which optimizes the correlation of band power to a given target function, in this case the error rate (Dähne et al 2014a). The spatial filters were optimized using the SPoC algorithm separately for each <ref type="bibr">7</ref> Note that the labels are defined by the experimental paradigm, i.e. they correspond directly to the L and H condition of the experiment. frequency band. From each of the two resulting sets of filters, the K=3 filters with the largest absolute Eigenvalue were selected, yielding six filters in total. The resulting log-var features were then combined using ridge regression.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Unsupervised models:</head><p>In this setting no supervision signal is present. A well-known, workload-modulated interaction between frontal theta and parietal alpha power <ref type="bibr" target="#b28">(Holm et al 2009)</ref> forms the basis of the model Ch Uns (unsupervised on channels). The model output is constructed by subtraction of theta log-var features at channel Fz from alpha log-var features at channel Pz.</p><p>The filters for the corresponding spatial-filter-based model were optimized using the cSPoC algorithm (Dähne et al 2014b). Given two datasets, cSPoC maximizes pairs of filters such that the bandpower dynamics between pairs are highly (anti-)correlated. In this setting, cSPoC was employed to maximize anti-correlation between theta and alpha bandpower dynamics, i.e. it builds on the same assumption as <ref type="bibr" target="#b28">(Holm et al 2009)</ref>. Three filter pairs (i.e. K = 3 filters per frequency band) were optimized and the resulting log-var features are combined by averaging them within bands and then subtracting the resulting averaged theta cSPoC features from the averaged alpha cSPoC features.</p><p>The six models are summarized in table 1. In this table, the models are categorized according to the level at which features are extracted and to how much information is required during training.</p><p>In addition to the EEG-based features and predictive models outlined above, we tested whether features derived from the PPMs constitute an added value.</p><p>PPM model: This model is comprised of the PPMs recorded during the experiment. An inspection of their change over time confirmed that they were modulated by the induced workload state with equal direction (figure 3 and section 3.1). The mean heart rate, respiration rate and skin conductance in each data epoch were computed, highpass filtered at 1 600 Hz (thereby removing changes slower than 10 min), z-scored, and finally summed up in order to generate the model output.</p><p>What all models have in common is that they yield a onedimensional output with one value for each data epoch. This model output was then used two-fold for validation: One validation approach consisted in treating the sign of the output as the classification of workload into either the low (positive sign) or high (negative sign) state and computing the average classification accuracy. The other approach consisted in computing the correlation of the model output with the error rate of the subject. In order to test for generalization, the validation was done in a chronological four-fold crossvalidation. In this cross-validation scheme, each of the four sessions became the test set once, while the remaing three were used for training. The classification accuracy and correlation value were then computed from the average across test folds.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Behavioral and physiological data</head><p>The task induced workload had a clear impact on subjects' error rate. As shown in figure 3(a), the error rate was modulated by the condition in a step function manner. During the low workload condition the rate was approximately 10%. When the condition was changed from low to high workload (at t = 90 s) the error rate rapidly increased to about 20%-25% after which it remained approximately constant throughout the high workload condition. Accordingly, the opposite occured when switching from high to low workload. We found that also the three PPMs respiration, heart beat and electrodermal response were modulated by the task (figures 3(b)-(d)). Similar to the error rate, the respiratory and cardiac frequency were modulated by the condition in a step function manner, with lower rates during the low workload condition. Electrodermal response, on the other hand, constantly decreased during low workload and increased during high workload condition.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Validation of models</head><p>We assessed the ability of each of the six predictive models to classify between both workload conditions and to predict the error rate. Therefore, according to the analysis pipeline described above, each model was trained and validated individually. <ref type="figure" target="#fig_2">Figure 4(a)</ref> shows the mean classification accuracies for the six models, averaged across subjects. Among the channel-based models, Ch Cla performs best (90.4%), followed by Ch Reg (87.5%) and Ch Uns (75.7%). Among the spatial-filter-based models, SF Cla performs best (94.1%), followed by SF Reg (91.8%) and SF Uns (82.3%). The correlations of model outputs with the error rate show a very similar picture ( <ref type="figure" target="#fig_2">figure 4(b)</ref>), with mean correlations of 0.65, 0.63 and 0.47 for the channel-based models and 0.68, 0.67 and 0.60 for the spatial-filter-based models, respectively. These results reveal that both across model type (i.e. without or with spatial filtering) and across validation type (i.e. classification accuracy or correlation with error rate) there is a successive decrease of performance with respect to the type of labels used by the model: Cla &gt; Reg &gt; Uns. An inspection of classification <ref type="table">Table 1</ref>. The six models used to predict workload and which algorithms they use. The models are categorized with respect to the level at which log-var features are extracted (channel-based vs spatial-filter-based) and the amount of information required during training (binary labels for classification, continuous measure for regression, no supervision signal for unsupervised).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Channel-based</head><p>Spatial accuracies of single subjects for the spatial-filter-based models (figure 4(c)) shows that this performance gradient is most evident for subjects with lowest classification accuracies (e.g. subjects icb, icc and ik) but is otherwise less pronounced or absent. Considering that a classification accuracy of 70% has been suggested as a minimum criterion for <ref type="bibr">BCIs (Kübler et al 2001)</ref>, figure 4(c) shows that this value is achieved in 10 out of 10 subjects with the SF Cla model, followed by SF Reg (9/10) and SF Uns (8/10). <ref type="figure" target="#fig_2">Figures 4(a)</ref> and (b) furthermore reveal that, compared to the channel-based models, employing the spatial filtering methods CSP, SPoC and cSPoC in the spatial-filter-based models results in a performance increase of 3.8%, 4.2% and 8.2%, respectively. A statistical assessment on classification accuracies shows that this increase is not significant for classification models Ch Cla and SF Cla (one-sided, paired ( ) = -t 9 1.60, p=0.07) and the unsupervised models Ch Uns and SF Uns (one-sided, paired ( ) = -t 9 1.32, p=0.11) but is significant for the regression models Ch Reg and SF Reg (one-sided, paired ( ) = -t 9</p><p>2.27, p=0.025).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.">Interpretation of components</head><p>We further aimed to investigate whether the EEG features used to train the CSP, SPoC and cSPoC filters were of cortical origin or whether they might possibly stem from ocular or other artifact sources. For this purpose we examined the spatial activation patterns that correspond to the components found by the three methods as well as the corresponding power envelopes of the components' time series. In contrast to spatial filters, the spatial activation patterns of components can be interpreted physiologically, as they allow to draw conclusions about the spatial location of the cerebral source that generated the component's activity <ref type="figure" target="#fig_0">(Haufe et al 2014b)</ref>. <ref type="figure">Figure 5</ref> shows the patterns and power envelopes of all three EEG methods. The components were computed on the whole data set and then projected on the band-pass filtered data that had been segmented into epochs of 10 s length. The resulting power envelope was then smoothed with a 50 s, sliding, zero-phase boxcar window and averaged over all 32 pairs of consecutive L-H blocks. For the sake of clarity, we show results only <ref type="figure">Figure 3</ref>. Impact of the experimental paradigm on task performance and peripheral physiological measures (PPMs). Shown are the grand averages of the mean over all L-H block pairs of the error rate (a), respiratory frequency in breaths per minute (b), cardiac frequency in beats per minute (c) and electrodermal response in Galvanic skin potential (d). Light blue shadings indicate the standard error of the mean. Single subject data was computed over 5 s segments and subsequently smoothed with a 20 s sliding zero-phase boxcar window and averaged over all 32 pairs of consecutive L-H blocks. Due to large inter-subject differences in the average of the PPMs, the grand average and standard error were computed after subtracting the mean in the indicated bar. Thus, the plotted values represent changes from this baseline.</p><p>exemplarily for four different subjects. Subjects were selected such that they roughly represent the spectrum of classification performance in our study, from best (subject gaa), over moderate (subject lh) to lowest (subjects icc and ik). Furthermore, for the same reason we show only the component pairs that correspond to the highest value of the corresponding optimization criterion, that is, for example, the component with largest absolute-value eigenvalue in the case of CSP.</p><p>3.3.1. Spatial activation patterns. The form of the CSP, SPoC and cSPoC components' activation patterns shown in <ref type="figure">figure 5</ref>-but also the patterns of the other components not shown in the figure, as well as all those of the other subjects (also not shown)-shows none of the characteristics of patterns related to EOG or muscle activity, hence suggesting that the components found by the three methods are of cortical origin. An examination of the patterns in the theta frequency band shows that all three methods consistently found a characteristic theta mid-frontal component, either among the component with the highest value of the corresponding optimization criterion (figure 5: cSPoC for subject gaa, all methods for subject lh, CSP and SPoC for subjects icc and ik), or among the components with lower values of the optimization criterion. Regarding the patterns of the alpha band components, although no particular consistency is observable across subjects, the spatial distribution of these patterns suggest that the sources that generated them are of cortical origin as well.</p><p>3.3.2. Power envelopes. The right column in the four panels of <ref type="figure">figure 5</ref> shows the power envelopes of the corresponding components' time series, averaged over all L-H block pairs. The envelopes of theta components (blue) shown in <ref type="figure">figure 5</ref> all show a positive correlation between band power and the task difficulty, i.e. low power during the L, high power during the H condition. Also a majority amongst all other theta components used for classification shows this positive correlation. This finding is consistent with workload literature <ref type="bibr">Smith 2003, Holm et al 2009)</ref> and substantiates the assumption that the theta components found by the three models are sound. The power envelopes of alpha components (red), on the other hand, do not show a consistent tendency towards a negative correlation of alpha power against induced workload state, as is often reported in workload literature. For instance, while for subjects gaa and lh the expected negative correlation is indeed observed in all models, for subjects icc and ik the correlation has the same sign as that of the its theta counterpart.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4.">Added value of physiological measures</head><p>Given the modulation of PPMs by the workload condition (figures 3(b)-(d)) and given that PPM features can be extracted from the data as an unsupervised signal, we assessed whether PPM features consitute an added value to the features extracted in the unsupervised models Ch Uns and SF Uns . We first of all found that the mean classification accuracy using only PPM features was 81.8% ( <ref type="figure">figure 6(a)</ref>, white bar). We then repeated the cross-validation with models Ch Uns and SF Uns , this time however augmenting the EEG features with PPM features, resulting in classification accuracies of 79.3% for model Ch Uns (3.6% increase) and 88.2% for model SF Uns (4.3% increase). While the increase for model Ch Uns is not significant (paired, onesided ( ) = -t 9 0.90, p=0.19), the increase for model SF Uns is significant (paired, one-sided ( ) = -t 9</p><p>3.03, p=0.007). These results support the assumption that peripheral physiology can indeed provide an added value to the unsupervised model SF Uns for the classification of workload.</p><p>Figure 5. Spatial activation patterns and power envelopes of components extracted by the three EEG spatial filtering methods. Shown are four exemplary results from subjects gaa (a), lh (b), icc (c) and ik (d). The shown activation patterns (scalp maps) and power envelopes correspond to the components with the highest value of the optimization criterion of the respective method. The left and middle column show the activation patterns of components obtained from the theta (blue) and alpha (red) bandpassed data, respectively. The color coding and sign of the activation patterns were adjusted to be consistent across methods and subjects but are arbitrary otherwise. The power envelopes (right column) are color coded accordingly (theta: blue, alpha: red), the x-axis shows time in seconds. Due to standardizing to z-scores, the amplitudes of the curves do not relate to discriminative power.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Discussion</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Goal of study</head><p>We investigated the limits of classifying workload states by progressively confining the information about the experiment available to the BCI, ultimately striving for a fully unsupervised approach. We therefore employed six predictive models, three of which use state-of-the-art spatial filtering methods, on EEG data that were recorded while subjects performed a task that alternately induced low and high operator workload. In order to classify both workload conditions, all models exploit the known relationship between workload and power modulations in the theta and alpha frequency bands in the EEG. However, they differ in the type and amount of information they require about the experiment. While the classification and the regression models required either direct or indirect label information from the experiment, the unsupervised models do not require any information at all, thus constituting virtually unsupervised approaches.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Performance of predictive models</head><p>We found that the three predictive models SF Cla , SF Reg and SF Uns were highly successful in their task to classify both workload states, with mean classification accuracies of 94%, 92% 82%, respectively (figure 4). The progressive restriction of information is reflected in a decrease of classification performance. The predictive models SF Cla and SF Reg (and the spatial filtering methods used therein, CSP and SPoC) both represent typical examples of supervised approaches. However, while CSP and LDA need to be trained using binary labels of induced workload states, SPoC in combination with regression may use any continuous variable or measurement that reflects the induced state. In our study the error rate of subjects is an obvious candidate for a target variable for SPoC, since it was found to be clearly modulated by the workload state ( <ref type="figure">figure 3(a)</ref>). However, it is likely that changes in the error rate are additionally influenced by other, perhaps more stochastic, aspects of brain activity. The error rate can thus be regarded as a noisy version of the workload condition labels. Therefore, a decline in classification accuracy as well as error rate prediction performance is to be expected when going from the SF Cla model (trained with noise free workload condition labels) to the SF Reg model (trained with the error rate).</p><p>The mean classification accuracy of the SF Uns model showed a further decline in performance relative to that of the SF Reg model. This decrease was expected as well, since-as opposed to models SF Cla and SF Reg -the optimization procedure in cSPoC (the spatial filtering method used in model SF Uns ) is agnostic of the precise experiment structure and relies solely on the known workload induced modulations of cross-frequency couplings in the EEG. To some degree this method may suffer from the fact that the sign of workload induced power modulations in the alpha band is not so clear (see discussion bellow). This assumption is supported when inspecting the power envelopes of the cSPoC components of subjects icc and ik (figures 5(c) and (d)). Although it is intrinsic to the optimization procedure of cSPoC to find component pairs whose power envelopes are maximally negatively correlated, the power envelopes of the cSPoC alpha components of these subjects show a rather positive correlation with the envelopes of the theta components and therefore with the workload condition. Correspondingly, those two subjects have the lowest classification accuracies with the predictive model SF Uns . With a mean classification accuracy of 82% across subjects and achieving single subject accuracies above 70% in 8 out of 10 subjects, SF Uns still performs remarkably well considering its unsupervised nature. Our results thus provide evidence for the general feasibility of a reliable classification of workload states using a practically unsupervised approach.</p><p>For similar reasons as stated above, the three channelbased models Ch Cla Ch Reg and Ch Uns show the same decline of performance when going from using class labels to the unsupervised case. While model Ch Cla uses precise binary labels to combine the extracted features, model Ch Reg performs a regression on the error rate, a noisy version of the class labels. Finally, model Ch Uns comprises a fundamentally simple unsupervised approach that makes use solely of the know workload-induced, localized anticorrelation of theta and alpha power. The more interesting finding however is that in comparison to the spatial-filter-based models, the use of spatial filtering leads to classification accuracy increases of roughly 4%, 4% and 8%, respectively. Due to the small number of subjects and-particularly for the unsupervised models-due to the large spread of accuracies across subjects, this increase is not statistically significant for all models. Nevertheless, this finding substantiates the argument that the use of spatial filtering is essential for extracting meaningful features from oscillatory EEG signals and can result in considerable performance increases in the classification of workload states from EEG.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Comparison to existing work</head><p>Numerous studies have shown the suitability of using EEG for the decoding and prediction a variety of mental states, such as workload (Gevins and Smith 2003, Holm et al 2009, <ref type="figure">Figure 6</ref>. Added value of peripheral physiological measures. Mean classification accuracy and standard error across subjects when using only PPM features (white) and comparison to the two unsupervised predictive models Ch Uns and SF Uns before (dotted, same as in <ref type="figure" target="#fig_2">figure 4</ref>(a) and after (solid) augmenting with PPM features.</p><p>Borghini et al 2014), alertness (Jung et al 1997) and fatigue (Stikic et al 2011). An index for workload can be derived from the absolute power in the theta and alpha frequency bands in the EEG <ref type="bibr">Smith 2003, Berka et al 2007)</ref> or from the ratio between them (Pope et al 1995, <ref type="bibr" target="#b28">Holm et al 2009)</ref>. Other studies have additionally made use of power changes in other frequency bands such as delta, beta and gamma <ref type="bibr" target="#b10">(Brouwer et al 2012</ref><ref type="bibr" target="#b13">, Christensen et al 2012</ref>. EEG-based workload indices can be further obtained using not only spectral but also features from event-related potentials (ERPs) ( <ref type="bibr" target="#b50">Prinzel et al 2003</ref><ref type="bibr" target="#b10">, Brouwer et al 2012</ref><ref type="bibr" target="#b40">, Martel et al 2014</ref>. Other studies have strived to make workload state detection robust against affective contexts ( <ref type="bibr">Mühl et al 2014)</ref> and day-to-day variability <ref type="figure" target="#fig_0">(Christensen et al 2012)</ref>. And finally, studies have aimed at using optical measures as functional near-red spectroscopy for the assessment of mental workload <ref type="figure" target="#fig_0">(Ayaz et al 2012)</ref>. It has been suggested that a continuous assessment of workload can be used to automatically moderate operator task load with the goal to enhance task performance <ref type="bibr" target="#b45">(Parasuraman 2003, Parasuraman and</ref><ref type="bibr" target="#b46">Wilson 2008)</ref>. Several studies have successfully demonstrated this idea, assessing mental workload as induced by cognitive effort, such as in the n-back task (Prinzel et al <ref type="bibr" target="#b49">2000</ref><ref type="bibr" target="#b59">, Wilson and Russell 2007</ref>. However, to the best of our knowledge, only a few studies have undertaken the challenge of assessing operator workload as induced in many real-life environments. <ref type="bibr" target="#b37">Kohlmorgen et al (2007)</ref> assessed the workload of subjects driving a vehicel in real traffic conditions. While they demonstrated the technical feasibility in a noisy environment, they assessed mental workload as modulated by a secondary task during driving and not by the driving task itself. Another recent study aimed at directly classifying visuomotor workload states in a simulated driving environment ( <ref type="bibr" target="#b18">Dijksterhuis et al 2013)</ref>. Although they report very high classification accuracies their results strongly suggest that a majority of signals used for classification were movement artifacts assossiated with the driving task.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Using brain signals only</head><p>When validating the predictive models we placed emphasis on removing any non-cortical signals from the EEG that might be correlated with the task, hence aiming for a 'true' BCI in its classical meaning. It was therefore important to ensure that the EEG data were not contaminated with artifacts that could potentially confound the extracted EEG features. The task required participants to constantly execute both head and eye movements, which were both expected to be correlated with task difficulty. Thus, the two main artifact sources in the EEG are electrooculogram (EOG) and EMG activity. Because EMG activity is largely absent from frequencies below 20 <ref type="bibr">Hz (Whitham et al 2007)</ref>, EMG contamination was negligible in our study since the highest frequencies used for classification lay in the alpha band <ref type="bibr">(8-13 Hz)</ref>. EOG activity on the other hand may well pose a problem, moreover because workload has been shown to have an impact on eye blink frequency and duration <ref type="bibr">(Brookings et al 1996, Veltman and</ref><ref type="bibr" target="#b55">Gaillard 1996)</ref>. During preprocessing we therefore estimated horizontal and vertical eye movements and removed it from the EEG data via regression. An inspection of the patterns corresponding to the filters found by the methods CSP, SPoC and cSPoC shows that they all lack the characteristics of components associated with EOG activity ( <ref type="figure">figure 5</ref>). This finding suggests that the signals used by the four EEG models were indeed generated by cortical sources and were not confounded by other (non-EEG) variables related to workload or to the task.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Interpretation of model components</head><p>Findings from neurophysiology indicate a relationship between theta and alpha oscillations in the EEG on the one hand and cognitive effort, task engagement and workload on the other hand <ref type="bibr" target="#b34">(Klimesch 1999</ref>). An increase of theta power has been shown to be associated with working memory, task requirements and cognitive control, predominantly over frontal regions <ref type="bibr" target="#b30">(Jensen and Tesche 2002</ref><ref type="bibr" target="#b44">, Onton et al 2005</ref><ref type="bibr" target="#b12">, Cavanagh and Frank 2014</ref>). Our results confirm the positive correlation with workload (figure 5). Not only did all three spatial filtering methods found at least one component that shows the characteristic frontal midline theta activation pattern, but also the power envelope corresponding to those patterns was positively correlated with the workload condition. The exact role of the alpha rhythm with respect to workload, on the other hand, is still not very clear. Findings from numerous studies have lead to the prevailing idea of alpha band synchronization as a cortical 'idling' mechanism. Accordingly, a decrease in alpha power has been shown to be associated with an increase in resource allocation or workload ( <ref type="bibr" target="#b34">Klimesch 1999</ref><ref type="bibr" target="#b33">, Keil et al 2006</ref>, thus representing a marker for workload that is opposite to that of the theta band. However, several studies have questioned a clear negative relationship between alpha power and workload, showing that alpha power can indeed increase with memory load  and that the exact direction depends on the specific task and the strategy of subjects ( <ref type="bibr" target="#b35">Klimesch et al 1999</ref><ref type="bibr" target="#b14">, Cooper et al 2003</ref> and even depends on the precise frequency subrange ( <ref type="bibr" target="#b20">Fink et al 2005)</ref>. This unclear role of the alpha band is a likely explanation for the fact that our data shows neither an apparent consistency across subjects in the shape of the activation patterns, nor in the sign of the correlation between the envelopes and the workload condition. Since the spectral features resulting from the spatial filters in the predictive models SF Cla and SF Reg are subsequently optimized via LDA and regression, respectively, the inconsistency in the sign of the relationship between alpha power and workload is irrelevant for these models. For the unsupervised model SF Uns , however, the unsupervised subtraction of cSPoC features may have a detrimental effect on its performance.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Peripheral physiology</head><p>Previous studies have shown that workload is not only associated with changes in the EEG but also with PPMs such as heart rate <ref type="figure" target="#fig_1">(Vogt et al 2006)</ref>, respiration frequency (Karavidas et al 2010) and electrodermal response <ref type="bibr" target="#b36">(Kohlisch and</ref><ref type="bibr">Schaefer 1996, Reimer and</ref><ref type="bibr" target="#b52">Mehler 2011)</ref>. We recorded these three PPMs in addition to the EEG and investigated their ability to classify the induced workload states. We found that the three PPMs were modulated by task difficulty (figure 3) and that features extracted from them can be combined unsupervised to classify the workload conditions with an accuracy of 81% ( <ref type="figure">figure 6</ref>). Studies have shown that multiple measures for mental workload are only weakly correlated and provide non-overlapping information, calling into question whether they assess a common factor <ref type="bibr" target="#b23">(Hankins and</ref><ref type="bibr">Wilson 1998, Matthews et al 2015)</ref>. These findings suggest that physiological measures of workload may constitute an added value to the EEG in predicting different states of workload. Previous studies have reported only small and non-significant classification increases when fusing EEG features with features from physiological measures, as compared to using only EEG <ref type="bibr" target="#b13">(Christensen et al 2012</ref><ref type="bibr" target="#b27">, Hogervorst et al 2014</ref>. In contrast, we found that even an unsupervised fusion of PPM features with the cSPoC features in model SF Uns resulted in a significant increase of classification performance of 4.3%. A possible explanation for this disagreement is that the type of workload induced in this study, which involved constant motor engagement, has a stronger effect on the vegetative system than the mental workload as induced by an n-back task <ref type="figure" target="#fig_0">(Hogervorst et al 2014)</ref>. Hence, physiological measures can indeed consitute an added value to EEG-derived signals for the classification of workload states, even with an unsupervised approach.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusions and outlook</head><p>Our findings demonstrate the general feasibility to detect different states of workload by means of brain signals, using a virtually unsupervised approach. While the predictive model SF Reg can be trained on a-however measured-time variable that reflects workload, the predictive model SF Uns eliminates the need for an external variable during training. Our approach furthermore allows for a continuous measurement of workload from ongoing EEG activity without intervening with the user's task. This is in contrast to alternative approaches that rely on the evocation of ERPs by means of secondary stimuli <ref type="bibr" target="#b0">(Allison and Polich 2008)</ref>. Finally, since the predictive models were employed in a four-fold crossvalidation, the basic requirements for their application in an online scenario are existent. Recently, the longterm stability of parameters in an online workload detection system have been demonstrated <ref type="bibr" target="#b1">(Arico et al 2014)</ref>. In order to fully achieve an online applicability, some preprocessing steps need to be adapted first, such as the dimensionality reduction via SSD and removal of EOG activity. Regarding the industrial workplace outlined above, such an online workload detector could be used to mitigate the operator's workload by automatically down-or up-regulating the task's speed-in the case of the SF Uns model without needing to define external variables.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Acknowledgments</head><p>Support was provided by grants 01IB001A, 01IB001C, 01GQ0850, 01GQ0851, and 01IS14013A-E from the German Federal Ministry of Education and Research (BMBF) and by grant MU 987/19-1 from the German Research Foundation (DFG). The authors declare no conflicts of interest.</p><p>Appendix. The generative model of EEG and spatial filtering methods</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Generative model for EEG</head><p>All of the spatial filters methods that we applied here are based on what is called a linear forward model or linear generative model for EEG data. The generative model states that the observed data can be decomposed into a limited set of components. Each component, in turn, is characterized by a fixed spatial activation pattern and a corresponding time course of activity. The physics of electrophysiology implies that the scalp measurements are a linear superposition (i.e., a weighted sum) of the indvidual component activities. Thus, the mapping of component activity to the EEG recording channels is modeled by the following equation. Let </p><formula xml:id="formula_5">( )  Î t x N x denote the N x -dimensional EEG recording at time point t, then ( ) · ( )<label>( ) ( ) ( ) (</label></formula><formula xml:id="formula_6">havê ( ) ( ) ( )  = t t s Wx . 5</formula><p>An estimate of the corresponding spatial activation patterns can be derieved from the spatial filters using the filter/pattern transformation presented in (Haufe et al 2014b)</p><formula xml:id="formula_7">ˆ ( ) ( )  = - A CW W CW , 6 1</formula><p>where C denotes the covariance matrix of the EEG data x. From equations (5) and (6) it follows that the estimation of components is reduced to finding appropriate spatial filters, i.e., columns of matrix W. However, in order to find W additional assumptions about the nature of (some or all of) the components have to be made. For further details on spatial filters and spatial patterns, as well as the relationship between spatial activation patterns and EEG/MEG source localization we refer the interested reader to (Dähne et al 2015).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Methods for optimizing spatial filters</head><p>We now discuss a selection of methods that optimize spatial filters based on certain assumptions about the statistics of the components that are to be extracted from the data. In particular, these methods make assumptions about the spectral properties of the component time courses. It is important to note however that all of the methods we discuss below are examples of backward modeling techniques and they are all based on the linear generative model shown in equation (4). In order to optimize spatial filters that extract oscillatory components it is useful to express the spectral power of a signal in terms of variance. Let { ˆ} P s f denote the spectral power of the estimated component time coursê s in a frequency band f. Then { ˆ} P s f is well approximated by first bandpass filtering the time-domain signal and then computing its variance, which we denote by ( ˆ ) s Var f . Note that the variance of the (bandpass filtered) component time series can be expressed in terms of the spatial filter w that is necessary to extractˆsextractˆ extractˆs from the data:</p><formula xml:id="formula_8">{ ˆ} (ˆ ) ( )  » = P s s w C w Var , 7 f f f</formula><p>where C f denotes the covariance matrix of the bandpass filtered data. Spatio spectral decomposition (SSD). The aim of SSD is optimize spatial filters W for components that concentrate most of their spectral power in a given frequency band. The idea is to separate components with a 'peaky' power spectrum from components which exhibit more of a '1/f' spectrum. While the former is attributed to genuine brain processes, the latter is considered background noise. Thus, it is useful to define the spectral signal-to-noise ratio (SNR) of a component for a given frequency band f as reduction tool for the analysis of oscillatory processes in the EEG. Source power co-modulation (SPoC). The bandpower of neural oscillations changes over time and these power dynamics have been related to switching of mental states. A method that optimizes spatial filters based on a presumed covaration between band power dynamics and an external target signal is SPoC <ref type="figure" target="#fig_0">(Dähne et al 2014a)</ref>. Let the variable z denote the target signal and let us further assume that z has zero mean. Then the covariance between the bandpower dynamics of a componentˆscomponentˆ componentˆs and the target signal z can be expressed in terms of the spatial filter w as The SPoC algorithm optimizes spatial filters that maximize the above expression under the constraint that extracted source time courses have unit variance and are mutually decorrelated.</p><p>Common spatial patterns (CSPs). If the bandpower dynamics of a component are to be used in a classification setting, one can base the optimization of the spatial filters on the assumed difference of bandpower between classes. This then leads to an algorithm called CSPs ( <ref type="bibr" target="#b38">Koles 1991</ref><ref type="bibr">, Blan- kertz et al 2008</ref>, which has become one of the corner stones of sensorimotor rhythm based <ref type="bibr">BCIs (Fazli et al 2015</ref> subject to unit variance and mutual decorrelation constraints. Note that CSP can be obtained as a special case of SPoC by encoding the class labels in the SPoC target function z. canonical source power co-modulation (cSPoC). While CSP and SPoC used label information for the extraction of cSPoC optimizes the above expression for pairs of filters w and́wand́ and́w under unit variance and mutual decorrelation constraints. The algorithm can be set to either maximize or minimize the objective function, thereby searching for components with positive or negative bandpower covariance, respectively.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Experimental task. (a) Snapshot from one of the experiments showing a subject play the game on the touch screen. (b) Block structure of the experiment. Participants performed four runs of 24 min, each consisting of 90 s blocks of alternating low (L) and high (H) workload condition.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>Schematic representation of the data analysis workflow. See text for details.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 4 .</head><label>4</label><figDesc>Validation of models. (a) Classification accuracy means and standard errors of the six models across subjects. (b) Correlation of model output with error rate across subjects. (c) Single subject classification accuracies of models SF Cla , SF Reg and SF Uns , color coded as in (a) and (b). Each bar group corresponds to one subject. Subjects are ordered by the mean classification accuracy across models.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head></head><label></label><figDesc>A time-resolved expression for component bandpower can be derived by simply computing the variance in short consecutive time windows. Let these time windows by indexed by the index e, then we have{ ˆ}( ) ( ) ( )  » P s e e w C w, 8 f fwhere ( ) e C f denotes the covariance matrix of the bandpass filtered data within the eth time window.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head></head><label></label><figDesc>denote frequency bands neighboring the band of interest f. Using the variance approximation for spectral power, it is possible to parameterize the spectral SNR of a component time coursê s in terms of the spatial filter w:{ ˆ} ( {ˆ} {ˆ}) ( ) ( )   + » + d d d d - + - + Ps P s P s w C w w C C w . 9 f f f f f f SSD optimizes the above expression for a set of weight vectors under the constrained that the component time courses are decorrelated to each other. Haufe et al (2014a) have demonstrated the usefulness of SSD as a dimensionality</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head></head><label></label><figDesc>relevant components, cSPoC (Dähne et al 2014b) is an unsupervised method. The method optimizes spatial filters solely based on assumptions about (positive or negative) co- variation between bandpower dynamics of individual com- ponents. In addition to { ˆ}( )P s e f let { ˆ ́ }( ) ́ P s e fdenote the time-resolved bandpower dynamics of a separate componentˆ́ componentˆcomponentˆ́ s at a frequency band́fband́ band́f , with́¹with́with́¹ f f. As before, let ( ) ́ e C f denote the corresponding timeseries of covariance matrices. With these definitions the notion of bandpower covariance</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1" validated="false"><head></head><label></label><figDesc>)   å = + = + = t s t t t t x a As , 4 i K i i 1 where  Î a i N x denotes the spatial activation pattern and s i (t) the temporal activation of the ith component, for { } Î i K 1 ,..., . The matrix [ ]  = Î ´ A a a ,..., K N K 1 x contains the spatial activation patterns of the K components in its columns and the vector ( ) ( ( ) ( ))   = Î t s t s t s ,..., K K 1 con- tains the temporal activity of all components at time point t. Activity that is not explained by the K components is captured by ( )   Î t N x and considered noise. The estimation of components from the data, i.e., the inversion of the generative model, is called backward mod- eling. In this approach, the estimation of the time courses and spatial activation patterns is paramterized by a so-called spatial filter matrix, here denoted by  Î ´ W N K x . An estimate of the component time courses, denoted byˆsbyˆ byˆs, is extracted by projecting the data onto the columns of W. Thus we havê</figDesc><table> 
+
+ 
+
+å 
+
+= 
++ 
+
+= 
++ 
+
+= 
+
+t 
+s t 
+t 
+
+t 
+t 
+
+x 
+a 
+
+As 
+, 
+4 
+
+i 
+
+K 
+i 
+i 
+1 
+
+where 
+ 
+Î 
+a i 
+N x { 
+} 
+Î 
+i 
+K 
+1 ,..., . The matrix 
+[ 
+]  
+= 
+Î 
+
+´ 
+
+A 
+a 
+a 
+,..., K 
+
+N K 
+1 
+
+x 
+
+( ( ) 
+( ))   
+= 
+Î 
+t 
+s t 
+s t 
+s 
+,..., K 
+
+K 
+1 
+
+´ 
+
+W 
+
+N K 
+
+x 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2" validated="false"><head></head><label></label><figDesc>). CSP seeks components that maximize the class difference of bandpower. Let { ˆ} P s f i ,and C f i , respectively denote the power and covariance of componentˆscomponentˆ componentˆs for class { } Î i1, 2 . The CSP objective function can be formalized as</figDesc><table>{ ˆ} 
+P s 
+
+f i 
+, 
+
+{ ˆ} 
+{ˆ} 
+( 
+) 
+( ) 
+
+ 
+
+-
+» 
+-
+P s 
+P s 
+w C 
+C w, 
+1 1 
+
+f 
+f 
+f 
+f 
+,1 
+,2 
+,1 
+,2 
+
+</table></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Workload assessment of computer gaming using a single-stimulus event-related potential paradigm</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B Z</forename><surname>Allison</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Polich</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biol. Psychol</title>
+		<imprint>
+			<biblScope unit="volume">77</biblScope>
+			<biblScope unit="page" from="277" to="83" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Towards a multimodal bioelectrical framework for the online mental workload evaluation Engineering in Medicine and Biology Society (EMBC)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Arico</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Borghini</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Graziani</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Taya</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Bezerianos</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Thakor</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Cincotti</forename><forename type="middle">F</forename><surname>Babiloni</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename></persName>
+		</author>
+		<idno type="doi">doi:10.1109/EMBC.2014.6944254</idno>
+	</analytic>
+	<monogr>
+		<title level="m">36th Annual Int. Conf. IEEE pp</title>
+		<imprint>
+			<date type="published" when="2014" />
+			<biblScope unit="page" from="3001" to="3005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Optical brain monitoring for operator training and mental workload assessment</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Ayaz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P A</forename><surname>Shewokis</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S C</forename><surname>Bunce</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Izzetoglu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Willems</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Onaral</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">NeuroImage</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page" from="36" to="47" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">EEG correlates of task engagement and mental workload in vigilance, learning, and memory tasks</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Berka</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D J</forename><surname>Levendowski</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M N</forename><surname>Lumicao</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Yau</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Davis</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V T</forename><surname>Zivkovic</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R E</forename><surname>Olmstead</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P D</forename><surname>Tremoulet</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P L</forename><surname>Craven</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Aviat. Space Environ. Med</title>
+		<imprint>
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="page" from="231" to="275" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Blankertz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Lemm</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M S</forename><surname>Treder</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Haufe</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K-R</forename><surname>Müller</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<title level="m" type="main">Single-trial analysis and classification of ERP components-a tutorial NeuroImage</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="814" to="839" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title level="m" type="main">The Berlin brain-computer interface: non-medical uses of BCI technology Frontiers Neurosci</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Blankertz</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2010" />
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page">198</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Optimizing spatial filters for robust EEG single-trial analysis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Blankertz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Tomioka</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Lemm</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kawanabe</forename><forename type="middle">M</forename><surname>Müller</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K-R</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Signal Process. Mag</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="41" to="56" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Measuring neurophysiological signals in aircraft pilots and car drivers for the assessment of mental workload, fatigue and drowsiness Neurosci</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Borghini</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Astolfi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Vecchiato</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Mattia</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Babiloni</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biobehavioral Rev</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="58" to="75" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Psychophysiological responses to changes in workload during simulated air traffic control</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J B</forename><surname>Brookings</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G F</forename><surname>Wilson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C R</forename><surname>Swain</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biol. Psychol</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="361" to="77" />
+			<date type="published" when="1996" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Estimating workload using EEG spectral power and ERPs in the n-back task</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A-M</forename><surname>Brouwer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M A</forename><surname>Hogervorst</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J B F</forename><surname>Van Erp</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Heffelaar</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P H</forename><surname>Zimmerman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Oostenveld</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Neural Eng</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">45008</biblScope>
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Buzsaki</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Draguhn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Neuronal oscillations in cortical networks Science</title>
+		<imprint>
+			<biblScope unit="volume">304</biblScope>
+			<biblScope unit="page" from="1926" to="1964" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Frontal theta as a mechanism for cognitive control</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J F</forename><surname>Cavanagh</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M J</forename><surname>Frank</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Cogn. Sci</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="414" to="435" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">The effects of day-to-day variability of physiological data on operator functional state classification</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J C</forename><surname>Christensen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J R</forename><surname>Estepp</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Wilson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">NeuroImage</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page" from="57" to="63" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Paradox lost? exploring the role of alpha oscillations during externally versus internally directed attention and the implications for idling and inhibition hypotheses</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N R</forename><surname>Cooper</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R J</forename><surname>Croft</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S J</forename><surname>Dominey</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Burgess</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J H</forename><surname>Gruzelier</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Psychophysiology</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="65" to="74" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Multivariate machine learning methods for fusing functional multimodal neuroimaging data Proc</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Dähne</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Bießmann</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Samek</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Haufe</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Goltz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Gundlach</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Villringer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Fazli</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K-R</forename><surname>Müller</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE</title>
+		<imprint>
+			<biblScope unit="volume">103</biblScope>
+			<biblScope unit="page" from="1507" to="1537" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Dähne</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F C</forename><surname>Meinecke</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Haufe</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Höhne</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Tangermann</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K-R</forename><surname>Müller</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V V</forename><surname>Nikulin</surname></persName>
+		</author>
+		<title level="m">SPoC: a novel framework for relating the amplitude of neuronal oscillations to behaviorally relevant parameters NeuroImage</title>
+		<imprint>
+			<date type="published" when="2014" />
+			<biblScope unit="volume">86</biblScope>
+			<biblScope unit="page" from="111" to="133" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Dähne</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V V</forename><surname>Nikulin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Ramírez</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P J</forename><surname>Schreier</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K-R</forename><surname>Müller</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Haufe</surname></persName>
+		</author>
+		<title level="m">Finding brain oscillations with power dependencies in neuroimaging data NeuroImage</title>
+		<imprint>
+			<date type="published" when="2014" />
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="page" from="334" to="382" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<monogr>
+		<title level="m" type="main">Classifying visuomotor workload in a driving simulator using subject specific spatial brain patterns Frontiers Neurosci</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Dijksterhuis</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>De Waard</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Brookhuis</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Mulder</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jong</forename><surname>De</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2013" />
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">149</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Learning from more than one data source: data fusion techniques for sensorimotor rhythm-based brain-computer interfaces Proc</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Fazli</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Dähne</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Samek</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Bießmann</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K-R</forename><surname>Müller</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE</title>
+		<imprint>
+			<biblScope unit="volume">103</biblScope>
+			<biblScope unit="page" from="891" to="906" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">EEG alpha band dissociation with increasing task demands Cogn</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Fink</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Grabner</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Neuper</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Neubauer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Brain Res</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="252" to="261" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Towards measurement of brain function in operational environments</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Gevins</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Leong</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Du</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">E</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Le</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Durousseau</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Libove</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biol. Psychol</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="169" to="86" />
+			<date type="published" when="1995" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Neurophysiological measures of cognitive workload during human-computer interaction Theor</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Gevins</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M E</forename><surname>Smith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Issues Ergon. Sci</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="113" to="144" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">A comparison of heart rate, eye activity, EEG and subjective measures of pilot mental workload during flight</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T C</forename><surname>Hankins</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G F</forename><surname>Wilson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Aviat. Space Environ. Med</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page" from="360" to="367" />
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Development of NASA-TLX (task load index): results of empirical and theoretical research</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S G</forename><surname>Hart</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L E</forename><surname>Staveland</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Psychol</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="139" to="83" />
+			<date type="published" when="1988" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Dimensionality reduction for the analysis of brain oscillations</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Haufe</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Dähne</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V V</forename><surname>Nikulin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">NeuroImage</title>
+		<imprint>
+			<biblScope unit="volume">101</biblScope>
+			<biblScope unit="page" from="583" to="97" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">On the interpretation of weight vectors of linear models in multivariate neuroimaging</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Haufe</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Meinecke</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Görgen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Dähne</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J-D</forename><surname>Haynes</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Blankertz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Bießmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">NeuroImage</title>
+		<imprint>
+			<biblScope unit="volume">87</biblScope>
+			<biblScope unit="page" from="96" to="110" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<monogr>
+		<title level="m" type="main">Combining and comparing EEG, peripheral physiology and eye-related measures for the assessment of mental workload Frontiers Neurosci</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M A</forename><surname>Hogervorst</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A-M</forename><surname>Brouwer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Van</forename><surname>Erp</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2014" />
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">322</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Holm</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Lukander</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Korpela</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Sallinen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K M I</forename><surname>Müller</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Estimating brain load from the EEG Sci. World J</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="639" to="51" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">12 Hz) increase with memory load during retention in a short-term memory task</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">O</forename><surname>Jensen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Gelfand</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kounios</forename><forename type="middle">J</forename><surname>Lisman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J E</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">the alpha band</title>
+		<imprint>
+			<date type="published" when="2002" />
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="877" to="82" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Frontal theta activity in humans increases with memory load in a working memory task</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">O</forename><surname>Jensen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C D</forename><surname>Tesche</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur. J. Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="1395" to="1404" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Estimating alertness from the EEG power spectrum</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T-P</forename><surname>Jung</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Makeig</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Stensmo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Sejnowski</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans. Biomed. Eng</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="60" to="69" />
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">The effects of workload on respiratory variables in simulated flight: a preliminary study</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M K</forename><surname>Karavidas</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P M</forename><surname>Lehrer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S-E</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Vaschillo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Vaschillo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Cheng</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biol. Psychol</title>
+		<imprint>
+			<biblScope unit="volume">84</biblScope>
+			<biblScope unit="page" from="157" to="60" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<monogr>
+		<title level="m" type="main">Alpha-band activity reflects reduction of mental effort in a comparison task: a source space analysis Brain Res</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Keil</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Mussweiler</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Epstude</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2006" />
+			<biblScope unit="volume">1121</biblScope>
+			<biblScope unit="page" from="117" to="144" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">EEG alpha and theta oscillations reflect cognitive and memory performance: a review and analysis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Klimesch</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Brain Res. Rev</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="169" to="95" />
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">paradoxical&apos; alpha synchronization in a memory task Cogn</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Klimesch</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Doppelmayr</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Schwaiger</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Auinger</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Winkler</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Brain Res</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="493" to="501" />
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Physiological changes during computer tasks: responses to mental load or to motor demands?</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">O</forename><surname>Kohlisch</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Schaefer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ergonomics</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="213" to="237" />
+			<date type="published" when="1996" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<monogr>
+		<title level="m" type="main">Improving human performance in a real operating environment through real-time mental workload detection Toward Brain-Computer</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Kohlmorgen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Dornhege</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Braun</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Blankertz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K-R</forename><surname>Müller</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Curio</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Hagemann</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Bruns</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Schrauf</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Kincses</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2007" />
+			<publisher>MIT Press</publisher>
+			<biblScope unit="page" from="409" to="431" />
+			<pubPlace>Cambridge, MA</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Interfacing ed G Dornhege et al</note>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">The quantitative extraction and topographic mapping of the abnormal components in the clinical EEG Electroencephalogr</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Z</forename><surname>Koles</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin. Neurophysiol</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="page" from="440" to="447" />
+			<date type="published" when="1991" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">communication: selfregulation of slow cortical potentials for verbal communication</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Kübler</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Neumann</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Kaiser</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Kotchoubey</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Hinterberger</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N P</forename><surname>Birbaumer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arch. Phys. Med. Rehabil</title>
+		<imprint>
+			<biblScope unit="volume">82</biblScope>
+			<biblScope unit="page" from="1533" to="1542" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+	<note>Brain-computer</note>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">EEG predictors of covert vigilant attention</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Martel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Dähne</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Blankertz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Neural Eng</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">35009</biblScope>
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">The psychometrics of mental workload: multiple measures are sensitive but divergent</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Matthews</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Reinerman-Jones L E</forename><surname>Barber</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D J</forename><surname>Abich</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Hum. Factors</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="page" from="125" to="168" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<monogr>
+		<title level="m" type="main">EEG-based workload estimation across affective contexts Frontiers Neurosci</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Mühl</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Jeunet</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Lotte</forename><forename type="middle">F</forename></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2014" />
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">114</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">A novel method for reliable and fast extraction of neuronal EEG/MEG oscillations on the basis of spatio-spectral decomposition</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V V</forename><surname>Nikulin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Nolte</forename></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Curio</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">NeuroImage</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="page" from="1528" to="1563" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<monogr>
+		<title level="m" type="main">Frontal midline EEG dynamics during working memory NeuroImage</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Onton</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Delorme</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Makeig</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2005" />
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="341" to="56" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Neuroergonomics: research and practice Theor</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Parasuraman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Issues Ergon. Sci</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="5" to="20" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Putting the brain to work: neuroergonomics past, present, and future Hum</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Parasuraman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G F</forename><surname>Wilson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Factors</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="468" to="74" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L C</forename><surname>Parra</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C D</forename><surname>Spence</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Gerson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Sajda</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2005" />
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="326" to="367" />
+		</imprint>
+	</monogr>
+	<note>Recipes for the linear analysis of EEG NeuroImage</note>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Biocybernetic system evaluates indices of operator engagement in automated task</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A T</forename><surname>Pope</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E H</forename><surname>Bogart</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D S</forename><surname>Bartolome</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biol. Psychol</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="187" to="95" />
+			<date type="published" when="1995" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">A closed-loop system for examining psychophysiological measures for adaptive task allocation</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L J</forename><surname>Prinzel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F G</forename><surname>Freeman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M W</forename><surname>Scerbo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Mikulka</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A T</forename><surname>Pope</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Aviat. Psychol</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="393" to="410" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Effects of a psychophysiological system for adaptive automation on performance, workload, and the event-related potential P300 component</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L J</forename><surname>Prinzel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F G</forename><surname>Freeman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M W</forename><surname>Scerbo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Mikulka</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A T</forename><surname>Pope</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Hum. Factors</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="601" to="615" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Putze</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J-P</forename><surname>Jarvis</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Schultz</surname></persName>
+		</author>
+		<title level="m">Multimodal recognition of cognitive workload for multitasking in the car 2010 20th Int. Conf. on Pattern Recognition (ICPR)</title>
+		<imprint>
+			<date type="published" when="2010" />
+			<biblScope unit="page" from="3748" to="51" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">The impact of cognitive workload on physiological arousal in young adult drivers: a field study and simulation validation</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Reimer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Mehler</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ergonomics</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page" from="932" to="974" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">A brain-based system for adaptive automation Theor</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M W</forename><surname>Scerbo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Freeman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P J</forename><surname>Mikulka</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Issues Ergon. Sci</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="200" to="219" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">EEG-derived estimators of present and future cognitive performance</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Stikic</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R R</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D J</forename><surname>Levendowski</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D P</forename><surname>Popovic</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R E</forename><surname>Olmstead</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Berka</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Frontiers Hum. Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">70</biblScope>
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Physiological indices of workload in a simulated flight task</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Veltman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Gaillard</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biol. Psychol</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="323" to="365" />
+			<date type="published" when="1996" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<monogr>
+		<title level="m" type="main">Pyff-a pythonic framework for feedback applications and stimulus presentation in neuroscience Frontiers Neurosci</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Venthur</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Scholler</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Williamson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Dähne</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M S</forename><surname>Treder</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M T</forename><surname>Kramarek</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K-R</forename><surname>Müller</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Blankertz</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2010" />
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page">179</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">The impact of workload on heart rate and blood pressure in en-route and tower air traffic control</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Vogt</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Hagemann</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Kastner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Psychophysiology</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="297" to="314" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Scalp electrical recording during paralysis: quantitative evidence that EEG frequencies above 20 Hz are contaminated by EMG</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Whitham</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin. Neurophysiol</title>
+		<imprint>
+			<biblScope unit="volume">118</biblScope>
+			<biblScope unit="page" from="1877" to="88" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Performance enhancement in an uninhabited air vehicle task using psychophysiologically determined adaptive aiding</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G F</forename><surname>Wilson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C A</forename><surname>Russell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Hum. Factors</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="1005" to="1023" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Wolpaw</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E W</forename><surname>Wolpaw</surname></persName>
+		</author>
+		<title level="m">Brain-Computer Interfaces: Principles and Practice</title>
+		<meeting><address><addrLine>Oxford</addrLine></address></meeting>
+		<imprint>
+			<publisher>Oxford University Press</publisher>
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Towards passive brain-computer interfaces: applying brain-computer interface technology to human-machine systems in general</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T O</forename><surname>Zander</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Kothe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Neural Eng</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">25005</biblScope>
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

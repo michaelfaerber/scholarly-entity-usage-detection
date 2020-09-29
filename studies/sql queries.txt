@@ -1,0 +1,18 @@
+SELECT paperfieldsofstudy.paperid, fieldsofstudy.displayname FROM paperfieldsofstudy
+    JOIN fieldsofstudy ON paperfieldsofstudy.fieldofstudyid = fieldsofstudy.fieldofstudyid
+WHERE paperfieldsofstudy.paperid IN (...)
+
+
+
+SELECT DISTINCT papers.paperid, paperauthoraffiliations.originalaffiliation FROM papers
+    INNER JOIN paperauthoraffiliations ON papers.paperid = paperauthoraffiliations.paperid
+WHERE paperauthoraffiliations.originalaffiliation IS NOT NULL AND papers.paperid IN (...)
+
+
+
+SELECT papers.paperid, papers.originaltitle, papers.publishedyear, papers.citationcount, papers.originalvenue,
+       journals.displayname, journals.citationcount, journals.papercount,
+       conferenceseries.displayname, conferenceseries.citationcount, conferenceseries.papercount FROM papers
+    LEFT JOIN journals on papers.journalid = journals.journalid
+    LEFT JOIN conferenceseries on papers.conferenceseriesid = conferenceseries.conferenceseriesid
+WHERE papers.paperid IN (...)

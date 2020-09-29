@@ -1,0 +1,2092 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /vol3/mag/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.4-SNAPSHOT" ident="GROBID" when="2019-02-06T13:52+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">ARCHIVES OF CLINICAL MICROBIOLOGY iMedPub Journals Preventative and Curative Effect of Moringa oleifera Aqueous Extract to Ensure Safe Natural Antimicrobials Targeting Foodborne Pathogens ARCHIVES OF CLINICAL MICROBIOLOGY</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2017">2017</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sofy</forename><surname>Ar</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Botany and Microbiology</orgName>
+								<orgName type="institution">Al-Azhar University</orgName>
+								<address>
+									<addrLine>Nasr City-11884</addrLine>
+									<settlement>Cairo</settlement>
+									<country key="EG">Egypt</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Hmed</forename><surname>Aa</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Botany and Microbiology</orgName>
+								<orgName type="institution">Al-Azhar University</orgName>
+								<address>
+									<addrLine>Nasr City-11884</addrLine>
+									<settlement>Cairo</settlement>
+									<country key="EG">Egypt</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sharaf</forename><surname>Ama</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Botany and Microbiology</orgName>
+								<orgName type="institution">Al-Azhar University</orgName>
+								<address>
+									<addrLine>Nasr City-11884</addrLine>
+									<settlement>Cairo</settlement>
+									<country key="EG">Egypt</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">El-Dougdoug</forename><surname>Ka</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Department of Agricultural Biotechnology</orgName>
+								<orgName type="department" key="dep2">Department of Botany and Microbiology</orgName>
+								<orgName type="institution">Ain Shams University</orgName>
+								<address>
+									<settlement>Cairo-11241</settlement>
+									<country key="EG">Egypt</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="institution">Al-Azhar University</orgName>
+								<address>
+									<addrLine>11884 Nasr City</addrLine>
+									<settlement>Cairo</settlement>
+									<country key="EG">Egypt</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">ARCHIVES OF CLINICAL MICROBIOLOGY iMedPub Journals Preventative and Curative Effect of Moringa oleifera Aqueous Extract to Ensure Safe Natural Antimicrobials Targeting Foodborne Pathogens ARCHIVES OF CLINICAL MICROBIOLOGY</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<biblScope unit="volume">8</biblScope>
+							<biblScope unit="page">51</biblScope>
+							<date type="published" when="2017">2017</date>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.4172/1989-8436.100051</idno>
+					<note type="submission">Received: July 03, 2017; Accepted: July 10, 2017;</note>
+					<note>Research Article 1 This article is available from: www.acmicrob.com www.imedpub.com Citation: Sofy AR, Hmed AA, Sharaf AMA, El-Dougdoug KA (2017) Preventative and Curative Effect of Moringa oleifera Aqueous Extract to Ensure Safe Natural Antimicrobials Targeting Foodborne Pathogens. Arch Clin Microbiol. Vol. 8 No. 4 : 51. This article is available from: www.acmicrob.com</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Moringa oleifera</term>
+					<term>Biopreservation</term>
+					<term>Pathogenic bacteria</term>
+					<term>Antibacterial activity</term>
+					<term>Antifungal activity</term>
+					<term>Antibiofilm activity</term>
+					<term>Healthy food</term>
+					<term>MIC</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Abstract</head><p>The interest in biopreservation of food has prompted the quest for new natural antimicrobial compounds from different origins including plants. Medicinal plants are moving from fringe to mainstream use with a greater number of people seeking for remedies and health approaches from side effects caused by synthetic chemicals. This has aggravated the search for antimicrobials from plants sources. In this study, aqueous extract of Moringa oleifera was screened for antimicrobial activity against five foodborne bacterial isolates (Bacillus cereus, Staphyllococcus aureus, Escherichia coli, Salmonella typhi and Pseudomonas aeruginosa). As well as, against five fungal and yeast strains, including Aspergillus niger, Aspergillus flavus, Penicillium italicum, Rhizopus stolonifer and Candida albicans. Various methods for better antimicrobial activity were established. Minimum Inhibitory Concentration (MIC) and time-kill assays were also determined. The Moringa oleifera aqueous extract exhibited antimicrobial activity towards all tested microorganisms with markedly stronger anti-Gram positive bacteria activities were 26.2 ± 0.55 and 24.26 ± 0.71 (mm) against B. cereus and S. aureus, respectively, while the antiGram negative bacteria halos of inhibition ranged from 18.230.81 to 21.73 ± 0.55 as an organism specific. However, the Moringa oleifera aqueous extract showed strong antifungal activity in exception C. albicans, the effect was concentration dependant in a range from 15.2 ± 0.79 to 35.7 ± 0.63. Based on MICs values Moringa oleifera aqueous extract exhibited a wide spectrum of actions against both two Gram-types bacteria and tested fungal/yeast strains and the concentration values ranged from 1.562 to 12.5 mg/ml against bacteria depending on Gram character and ranged from 1.562 to 25 mg/ml against the panel of fungi and yeast tested. The MICs values were organism specific and concentration dependent. Based on the time-kill assay Gram-negative bacteria required longer time of exposure than the Gram-positive one. Interestingly, Moringa oleifera aqueous extract at sub-inhibitory concentrations showed strong activity in smashing up foodborne bacterial biofilm as a dose dependent manner. Scanning Electron Microscopy (SEM) images showed the morphological damages and strong destructive effects against both Gram-positive and Gram-negative bacteria. Finally, Moringa oleifera aqueous extract has good potential for controlling growth of foodborne pathogenic and spoilage microorganisms and open new fields in food biopreservation. As well as, breaks the increasing prevalence of multi-drug resistant strains of bacteria and the recent appearance of strains with reduced susceptibility to antibiotics raised the specter of 'untreatable' bacterial infections and adds urgency to the search for new infection-fighting strategies.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>Food is an essential commodity for nutrition and growth of human being and also an excellent medium of growth for various microorganisms. Most of the time foods rapidly become unfit for consumption as a consequence of microbiological (bacteria, fungi and viruses). Food spoilage and food pathogenesis causing increased health expenses will lead to huge economic losses. Hence, the need of controlling pathogenic and spoilage microorganisms in food is essential <ref type="bibr" target="#b0">[1]</ref>.</p><p>Food-borne pathogens are one of the major public concerns in both developed and developing countries and account for considerably high cases of illnesses attacking human and animals <ref type="bibr" target="#b1">[2]</ref>. In addition, increase of international trade of commodities and food products has raised the risk of dispersion of pathogenic bacteria from production sites to faraway places of consumption, thus, at the present time; it is a necessity to use the chemical preservatives to prevent the growth of food spoiling microbes in the food industry <ref type="bibr" target="#b2">[3]</ref>. But, at the same time there has been an increasing consumer demand for foods free or with low, if any, added synthetic preservatives because synthetic preservatives could be toxic to human <ref type="bibr" target="#b3">[4]</ref>. Some chemical preservatives have been related to carcinogenic and teratogenic attributes as well as residual toxicity <ref type="bibr" target="#b4">[5]</ref>.</p><p>All of the above concerns have been put pressure on the food industry for the progressive removal of chemicals preservatives and adoption of natural alternatives to obtain its goals concerning safe food with long shelf lives <ref type="bibr" target="#b3">[4]</ref>. Scientific research reveals that not only the chemical from the plant has effect against a particular disease, but, that the antioxidant property of the plant extracts also gives beneficial effect to human health <ref type="bibr" target="#b5">[6]</ref>. In addition, the perception that there is a lower incidence of adverse reactions to plant preparations compared to synthetic pharmaceuticals and the reduced cost of plant preparations <ref type="bibr" target="#b6">[7]</ref>. Make the development of plant extract as the anti-food borne pathogens one useful possibility <ref type="bibr" target="#b7">[8]</ref>.</p><p>Moringa oleifera is medicinal species, belonging to monogeneric family Moringaceae (order Brassicales). It has 33 species of trees and shrubs distributed in sub-Himalayan ranges of India, Sri Lanka, North Eastern and South Western Africa, Madagascar and Arabia <ref type="bibr">[9]</ref>. It has become naturalized in many locations of the tropics and is widely cultivated in Africa, Ceylon, Thailand, Burma, Singapore, West Indies, Srilanka, India, Mexico, Malabar, Malaysia and the Philippines <ref type="bibr" target="#b8">[10]</ref>. Almost all the parts of this plant: root, bark, gum, leaf, pods, flowers, seeds and seeds oil have been used for the various ailments in the indigenous medicine <ref type="bibr" target="#b9">[11]</ref>. It has been known to be anti-helminthic activity, antimicrobial activity, detoxifier, immune booster and anti-parasitic activity <ref type="bibr" target="#b10">[12]</ref>. Antimicrobial activities of various M. oleifera morphological parts against some pathogenic microorganisms have been reported <ref type="bibr" target="#b11">[13]</ref>.</p><p>However, not so extensive work on antimicrobial properties of its aqueous extract has been studied and more so, some of its morphological parts are unexplored. The objectives of the present study are to screen the antimicrobial activity of the aqueous extract of M. oleifera against foodborne pathogens and spoilage microorganisms to develop natural antimicrobials, from plant sources, have good potential for use as preservative agents while promoting the image of "healthier" foods. In addition, minimal inhibitory concentration (MIC) was also determined as well as, pathogenic and spoilage bacteria have been shown to attach to a wide variety of food-contact and non-contact surfaces. Such attachment of microorganisms to food contact surfaces frequently referred to as biofilms, can impact the food industry by complicating sanitation and increasing the risk of cross contamination with spoilage and pathogenic microorganisms. Time-kill assay and the antibiofilm activity of M. oleifera aqueous extract sub-inhibitory concentration were examined.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Material and Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Plant material</head><p>Moringa oleifera leaves were obtained from Ain Shams Univ. The collected, plant part was cleaned, washed and shade dried, exposure to sunlight was avoided to prevent the loss of active components.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Aqueous extract preparation:</head><p>The dried materials were ground to fine powders by electric grinder. The pulverized leaves weighing 200 g were extracted by maceration in two liters of distilled water (1:10 w/v) for 4 days by means of cold extraction and extract evaporated in vacuo. The extract was concentrated in vacuo using a rotary evaporator at 40°C. The water remaining in the extract was finally removed by placing the extract in porcelain dishes in temperature-controlled oven to give a residue weighing 8.5 g. The residues were stored at 4°C for till use. The yielded extract was lyophilized then reconstituted with sterilized distilled water when needed for testing. Prior to testing, prepared extract was sterilized by filtration with 0.2 μm syringe filter <ref type="bibr" target="#b12">[14]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Tested microorganisms</head><p>Bacteria: Five isolates were Bacillus cereus, Staphyllococcus aureus, Escherichia coli, Salmonella typhi and Pseudomonas aeruginosa isolated from food (Meat and dairy products), identified depending on cultural, morphological and biochemical analysis according to Bergey's manual <ref type="bibr" target="#b13">[15]</ref>, moreover API and Biolog systems were performed for confirm the identification.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Fungi/Yeast: Five food isolates were Aspergillus niger, Aspergillus</head><p>flavus, Penicillium italicum, Rhizopus stolonifer and Candida albicans identified and obtained from Mycology Laboratory of the Botany and Microbiology Department, Faculty of Science (Boys), Al-Azhar University, Cairo, Egypt.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Antimicrobial susceptibility testing</head><p>For antimicrobial susceptibility tests according to <ref type="bibr">No et al.</ref> [16], the tested microorganisms suspensions were prepared by suspending 3-5 well-isolated colonies from appropriate agar plates into 3 ml Mueller Hinton Broth (CAMHB; BD Diagnostic Systems, adjusted to pH 5.9) for bacteria, while Sabouraud Dextrose Broth (SDB; Difco Co.) for fungi/yeast. The turbidity was adjusted equivalent to a 0.5 McFarland standard.</p><p>For disk diffusion, agar well diffusion the concentration of M. oleifera aqueous extract was 50 mg/ml. While, for broth microdilution the concentrations were ranged from 0.78-50 mg/ml. Disk diffusion assay: Impregnated paper discs disks (6 mm in diameter; BD Diagnostic Systems) with extracts in concentration were placed on the surface of inoculated each MHA plate using a sterile pair of forceps (~ 4 mm thickness agar layer). The Petri dishes were sealed using parafilm and left 1 hr in the refrigerator, in order to allow for the diffusion of the active compounds of the extracts. Negative controls were done using sterile distilled water instead of active compounds. Then, plates were incubated at 37°C for 24 hr. The susceptibility of the bacteria to extract was estimated by measuring the diameter of inhibition zones using a ruler or caliper and recorded values as the average of three replicates <ref type="bibr" target="#b15">[17]</ref>.</p><p>Agar well diffusion assay: Sabouraud Dextrose Agar (SDA; Difco Co.) was inoculated with tested organisms before the agar solidification. The tested extract was sterilized by Millipore filter (0.22 μm). Discs of the inoculated agar were cut with Cork borer and removed to make agar wells. These wells were filled by tested extract. Controls Petri plates were prepared using distilled water instead addition of extract. Replicates of each treatment were incubated at 28°C for 2-4 days. The susceptibilities of fungi/yeast to the extract were estimated by measuring the diameter of the zones of inhibition. The results were recorded as the average of three replicates <ref type="bibr" target="#b17">[18]</ref>.</p><p>Broth microdilution assay: Suspension equivalent to the turbidity of 0.5 McFarland standard (10 8 cfu/ml) prepared from a fresh subculture in Mueller Hinton Broth (MHB) and Sabouraud Dextrose Broth (SDB) for bacteria and fungi/yeast, respectively, then the suspension was diluted to 10 6 cfu/ml. The adjusted microbial inoculums (100 µl) were added to each well of sterile 96-well flat-bottomed microtiter plate containing the tested concentration of extract (100 µl/well). As a result, last inoculum concentration of 5 × 10 5 cfu/ml was obtained in each well. Three wells containing microbial suspension without tested extract used as growth control and two wells containing only media as a background control were included in the plate. Optical densities were measured at 620 nm after 24 hr at 37°C for bacteria and 48 hr at 28°C for fungi/yeast using an ELISA microplate reader (Sunrise™-TECAN, Switzerland) at the Botany and Microbiology Department, Faculty of Science, Al-Azhar University. Finally, cell concentrations were transformed to a mean growth inhibition percentage (%). The percentage of microbial growth reduction (GR%) was estimated using as reference the control treatment (without extract) as:</p><p>GR % 100</p><formula xml:id="formula_0">C T Cx − = (1)</formula><p>Where, C is the cell concentrations under the control treatment and T is the cell concentrations under the extract treatment. Three replicates were considered. The results were recorded as means ± SE of the triplicate experiment <ref type="bibr" target="#b18">[19]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Determination of minimal inhibitory concentration (MIC):</head><p>The minimum inhibitory concentration was determined by broth microdilution method. Two-fold serial dilution in the same type of broth media of tested extract was diluted to yield concentrations (50, 25, 12.5, 6.25, 3.12, 1.56 and 0.78 mg/ml). Sterile distilled water was added in wells of negative control. The microtitre plates were prepared by adding 100 μl of the same type of appropriate broth media for bacteria and fungi/yeast. Serial dilution was carried out up to well number 12 from which 100 μl were discarded. Twenty microliters of microbial suspension (0.5 McFarland standards) were added to each well except the control wells which contained distilled water and broth media only. An automatic ELISA microplate reader (Sunrise™-TECAN, Switzerland) adjusted at 600 nm was used to measure the absorbance of the plates before and after incubation at 37°C after 24 hr for bacteria and after 48 hr at 28°C for fungi/yeast. The absorbencies were compared to detect an increase or decrease in the growth and the values plotted against concentration. The lowest concentration of the tested extract resulting in inhibition of bacterial or fungal growth was recorded as the MIC <ref type="bibr" target="#b18">[19]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Antivirulence activity</head><p>Biofilm formation assay of bacterial isolates using tissue culture plate method: Tissue culture plate method as a quantitative test described by Christensen et al. <ref type="bibr" target="#b19">[20]</ref> is considered the goldstandard method for biofilm detection. The isolated bacteria were tested for their ability to form biofilm. Briefly, bacteria isolated from fresh agar plates were inoculated in 10 ml of Trypticase Soy Broth (TSB) with 2% glucose. The inoculated broths were incubated at 37°C for 24 hr. The cultures were then diluted (1:100) with fresh medium. Individual wells of sterile 96-well flat bottom polystyrene tissue culture treated plates (Sigma-Aldrich, Costar, USA) were filled with 200 μl of the diluted cultures with 0.5 McFarland standard. Negative control wells inoculated with 200 μl sterile broth medium. The plates were incubated at 37°C for 24 hr. After incubation, the contents of each well were removed (free floating bacteria) by gentle tapping. The wells were washed with 0.2 ml of phosphate buffer saline (pH= 7.2) four times. Biofilm formed by bacteria adherent to the wells were fixed by 2% sodium acetate and stained by crystal violet (0.1%). Excess stain was removed by using deionized water and plates were kept for drying. Optical density (O.D.) of stained adherent biofilm was obtained by using an ELISA microplate reader (Sunrise™-TECAN, Switzerland) at wavelength 570 nm. The experiment was performed in triplicate and repeated three times. The interpretation of biofilm production was done according to the criteria of Stepanović et al. <ref type="bibr" target="#b20">[21]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Biofilm inhibition assay using tissue culture plate method:</head><p>The plant extract was tested for its potential to prevent biofilm formation of bacterial isolates at sub MIC concentrations against each bacterium. An aliquot of two-fold serial dilutions was prepared in the 96-well microtiter plate containing Trypticase Soy Broth (TSB) with 2% glucose (TSBGlc) to obtain the previous concentrations in 100 μl. Bacterial suspensions (50 μl; 5 × 10 5 cfu/ml, final concentration) were then transferred into the plate. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ARCHIVES OF CLINICAL MICROBIOLOGY ISSN 1989-8436</head><p>of the extract on the bacterial growth was evaluated using the microplate reader at optical density of 570 nm. The bacterial biofilm formation in the presence of the tested extract was subsequently determined and compared with positive control <ref type="bibr" target="#b21">[22]</ref>.</p><p>Time kill assays: Dialyzed tested extract (12.5 mg/ml for S. aureus and 25 mg/ml for P. aeruginosa) diluted in sterile distilled water. Suspensions were mixed with bacteria harvested at late logarithmic phase and diluted to approximately 4.0-5.0 log cfu/ ml. A total volume of 25 ml was used consisting of 12.5 ml of Trypticase Soy Broth (TSB), 10 ml of filtered dialyzed extract and 2.5 ml of inoculum, then incubated at 35-37°C and at regular intervals (0, 3, 6, 12 and 24 hrs). A bacterial suspension (1 ml) was collected and the effect of the tested extract on the bacterial growth was evaluated at each previous times using the spectrophotometric assay at optical density of 620 nm. Also, 1 ml or 0.1 ml from bacterial suspension was serially diluted in 0.1% peptone, and plated in triplicate using Tryptic Soy Agar (TSA; TSB, Becton, Dickinson and Company, Sparks, MD and Agar, Fisher Scientific, USA), incubated for 24 hr, at 35-37°C and then cfu enumerated. All experiments were triplicated and average values were reported <ref type="bibr" target="#b22">[23]</ref>.</p><p>Scanning electron microscope examination: Treated and nontreated samples were fixated by glutheraldhyde 2.5% and dehydrated by serial dilution of ethanol using automatic tissue processor (Leica EM TP). Then, the samples drying using CO 2 critical point drier (Tousimis Audosamdri-815). The samples coated by gold sputter coater (SPIModule). Finally, the samples exanimated by scanning electron microscopy (JEOL-JSM-5500LV) by using high vaccum mode at the Regional Center of Mycology and Biotechnology, Al-Azahr University, Cairo, Egypt.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Antibacterial activity</head><p>The inhibition-zone diameters obtained by the Moringa oleifera aqueous extract reflect the strong antibacterial activity against all tested bacterial isolates. The results presented in <ref type="table">Table 1</ref>  18.23 ± 0.81 100 ± 0.44 a) Inhibition zone diameter including the disc diameter of 6 mm was determined by the disc diffusion assay. b) Mean growth inhibition percentage (%) was determined by the broth microdillution tmethod The experiments were performed in triplicate and the data are expressed in the form of mean ± SE. <ref type="table">Table 1</ref> The antibacterial activity of M. oleifera aqueous extract based on the growth inhibition of bacterial isolates using disc diffusion and microdillution methods.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Figure 1 Inhibition zones produced against tested foodborne</head><p>bacterial isolates (B. cereus, S. aureus, E. coli, S. typhi and P. aeruginosa) using M. oleifera aqueous extract (50 mg/ml).  The control of these organisms by the extract would reveal the potentials of this extract as promise naturally-derived antifungal. The findings add impetus to the clarion call by interested and authorities for the replacement of chemically synthesized antifungal agents with "naturally derived" ones <ref type="table" target="#tab_6">(Table 2</ref> and <ref type="figure" target="#fig_2">Figures 3 and 4)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Minimum inhibitory concentrations (MIC) against tested bacterial isolates</head><p>The results obtained from </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Minimum inhibitory concentrations (MIC) against tested fungi/yeast</head><p>According to the results showed in <ref type="table" target="#tab_12">Table 4</ref> and designated in <ref type="figure" target="#fig_7">(Figures 7 and 8</ref> Antivirulence activity Biofilm formation of tested bacterial isolates: The results presented in <ref type="table" target="#tab_9">Table 5</ref> and illustrated in <ref type="figure">Figure 9</ref> showed that, all bacterial isolates exhibit strong potential for biofilm formation with the following optical densities 1.0, 0.9, 0.9, 0.8 and 1.3 (O.D.) for B. cereus, S. aureus, E. coli, S. typhi and P. aeruginosa, respectively. P. aeruginosa which called standard Gram-negative biofilm producing bacteria was showed the strongest biofilm formation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Biofilm inhibition activity</head><p>Despite a different inhibitory effect among the bacterial isolates, a reduced level of biofilm formation in the presence of subinhibitory concentrations of M. oleifera aqueous extract were observed <ref type="figure" target="#fig_9">(Figure 10)</ref>. Doses of sub-MICs from the extract showed a strong biofilm reduction effect against B. cereus, S. aureus, E. coli, S. typhi and P. aeruginosa biofilms.</p><p>Bacillus cereus biofilm: The results presented in <ref type="table" target="#tab_10">Table 6</ref> and illustrated in <ref type="figure" target="#fig_9">Figures 10 and 11</ref>   <ref type="figure" target="#fig_2">Figures 10 and 13)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Slmonella typhi biofilm:</head><p>The results tabulated in <ref type="table">Table 8</ref> and designated in <ref type="figure" target="#fig_3">(Figures 10 and 14)</ref> clearly indicated that, M. oleifera aqueous extract showed complete eradication of S. typhi biofilm formed by this severe pathogenic microorganism,        Microdilution method (two-fold serial dilution 50 mg/ml at initial conc. of M. oleifera aqueous extract).        <ref type="table" target="#tab_16">Table 9</ref> and designated in <ref type="figure" target="#fig_4">Figures 10 and 15</ref> showed that, the biofilm inhibition percentages were 97%, 76% and 60% with biofilms optical densities were 0. <ref type="bibr">039</ref>         </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>E. coli</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sub (MICs) concentrations</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Investigation of treated and non-treated foodborne associated bacteria via scanning electron microscope (SEM)</head><p>The antimicrobial effect of M. oleifera aqueous extract on morphological changes structure of the appearance of the cells of both Gram-positive (S. aureus) and Gram-negative (P. aeruginosa) were observed via SEM to get the images of morphological damages. For treated pathogenic bacteria using relevant (MICs) for each from all the SEM observations, the images illustrated in <ref type="figure">Figure 18A</ref> and 18B directly seemed that, the plant extract caused severe damage to the tested bacteria. Non-treated cells (control) were intact and showed a smooth surface <ref type="figure" target="#fig_0">(Figures 18C1  and 18C2</ref>). In treated bacteria most of the Gram-negative cells and the Gram-positive cells appeared to be shrunk and even some were empty, and the remains were flaccid. Furthermore, most of them appeared to be stuck together and melted. Treated P. aeruginosa showed giant cells and appendages on the cell surface. Pseudomycellium like structures appeared in S. aureus ( <ref type="figure">Figure 18A)</ref>. Generally, SEM images observations confirmed the physical damage and considerable morphological alteration to tested Gram-positive and Gram-negative pathogenic bacteria.  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>S. typhi</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sub (MICs) concentrations</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Time kill assay</head><p>The new biocides are usually tested for concentration and time dependency. M. oleifera aqueous extract was evaluated for its ability as bactericidal agent against the growth of S. aureus as an example for Gram-positive bacteria and P. aeruginosa as an example for Gram-negative bacteria in microbiological media at different time intervals. This assay was used to investigate the time at which the extract kills a bacterial isolates.</p><p>The concentrations of M. oleifera aqueous extract against the previous two bacteria were 12.5 mg/ml (which is MBC for S. aureus) and 25 mg/ml (which is MBC for P. aeruginosa), the results given in <ref type="table" target="#tab_18">Table 10</ref> and illustrated in <ref type="figure" target="#fig_5">Figure 16</ref> showed that, the pattern cell death was shown between 3-6 hrs of incubation for S. aureus and through 6-12 hrs of incubation for P. aeruginosa comparable with the O.D. of untreated-mixture.</p><p>The confirmation of time kill assay using the turbidimetric method was supported by the "pour plate" method on plate count agar and colonies count expressed as (Log 10 cfu/ml). The results shown in <ref type="table" target="#tab_19">Table 11</ref> and illustrated in <ref type="figure" target="#fig_7">Figure 17</ref> were exhibited that, M. oleifera aqueous extract-treated plates showed no count detected for S. aureus and P. aeruginosa after 6 and 12 hrs, respectively   </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ARCHIVES OF CLINICAL MICROBIOLOGY ISSN 1989-8436</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>Antimicrobial agents also regarded as food additives are chemical compounds added to control the target pathogenic and spoilage microorganisms. The classification of antimicrobials is extremely difficult. However, depending on origin, they can be divided into traditional and novel, promising alternative substances (called "naturals"). Traditional category of food antimicrobials includes traditional (have been used for many years), synthetic (synthesized from chemical reactions) and approved (permitted in many countries to add into food). Salt, sugar, nitrites, sodium benzoate, citric acid, malic acid, tartaric acid and sodium metabisulfite are examples of traditional preservatives. Although there is a long history of usage, some allergic reactions in susceptible individuals and the formation of potentially carcinogenic by-products (e.g. nitrosamines from nitrite) are reported with the use of some traditional preservatives <ref type="bibr" target="#b23">[24]</ref>.</p><p>The present study was undertaken specifically to investigate the role of aqueous extract of M. oleifera Lam. leaves as a potential antimicrobial agent against Gram-positive and Gram-negative tested foodborne bacterial isolates, including B. cereus, S. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>M. oleifera aqueous extract</head><p>Staph.aureus treated Stah.aureus P.aeruginosa treated P. aeruginosa <ref type="figure">Figure 18</ref> Scanning electron micrographs (SEM) of non-treate and treated S. aureus and P. aeruginosa with M. oleifera aqueous extract (control: C1&amp;C2, Treated: A) S. aureus; B) P. aeruginosa).  Each reported value for viable count represents the mean (standard error) of three replications of the experiment.</p><p>This plant extract of M. oleifera was active even against organisms that have become resistant to antibiotics <ref type="bibr" target="#b28">[29]</ref>. The antimicrobial activity of the crude extract might be due to the presence of active compounds including alkaloid, quinines, tannins, flavonoides, saponins and iridoids <ref type="bibr" target="#b29">[30]</ref>. It has been shown that, alkaloids are able to intercalate DNA, lipophilic compounds that might bind within or internal to the cytoplasmic membrane <ref type="bibr" target="#b30">[31]</ref>. Active compounds of plants extracts have been shown to cause disruption of the cellular membrane, inhibition of ATPase activity, and release of intracellular ATP and other constituents of several microorganisms such as E. coli, E. coli O157:H7, L. monocytogenes, L. sakei, P. aeruginosa, S. enteritidis, and S. aureus <ref type="bibr" target="#b31">[32,</ref><ref type="bibr" target="#b32">33]</ref>. They reported that, the antimicrobial action of plant extract compounds was related to inactivation of cellular enzymes, which depended on the rate of penetration of the substance into the cell or caused by membrane permeability changes. Increased membrane permeability is a major factor in the mechanism of antimicrobial action, where compounds may disrupt membranes and cause a loss of cellular integrity and eventual cell death <ref type="bibr" target="#b31">[32,</ref><ref type="bibr" target="#b32">33]</ref>.</p><p>On the other hand, our results are in disagreement with Alam et al. <ref type="bibr" target="#b33">[34]</ref>, they reported hot aqueous dried leaves extract of M. oleifera in comparison to tetracycline showed negative results against P. aeruginosa, S. aureus and other organisms tested. This may be attributed to the viscous nature of the extract thus giving not so uniform results. Moreover, direct comparison of results obtained in various studies is problematic and this may be due to a number of factors such as variability in composition of plant extracts as a result of local climatic and environmental conditions, low number of herb and spice samples tested, differences in experimental design including inoculum size, growth phase, strain susceptibility, and culture medium used <ref type="bibr" target="#b34">[35]</ref>.</p><p>Plants extracts and their phyto-constituents have shown promising antifungal activity in vitro and in vivo, where they have been extensively studied against food associated fungi and yeasts <ref type="bibr" target="#b28">[29]</ref>. The obtained results showed the antifungal potential of the M. oleifera aqueous extract against tested organisms. These results give a positive relationship with other findings by Chuang et al. <ref type="bibr" target="#b35">[36]</ref> found that, extracts of M. oleifera seeds and leaves showed anti-fungal activities in vitro against dermatophytes. Also, our findings are consistent with previous study by Sayeed et al. <ref type="bibr" target="#b36">[37]</ref> reported that, the fruit extract of M. oleifera showed a broad-spectrum antifungal activity against Colletotrichum, Curvularia, Fusarium and Alternaria at different concentrations of methanol extract.</p><p>The growth inhibition of tested fungi and the presence of antifungal substance in the plant tissue which had been attributed to the presence of alkaloids and flavonoids <ref type="bibr" target="#b37">[38]</ref>. Considering the lipophilic nature of plants extract and of their components, as well as the interaction of these products with biological membranes, it was decided to investigate the participation of membrane sterols in the antifungal effect exerted by the essential oil of this plant extract. Ergosterol is the principal sterol present in yeasts and filamentous fungi, where it is necessary for the growth and normal function of the fungal cell membrane. Besides controlling the fluidity, asymmetry and integrity of the membrane, ergosterol contributes to the proper functioning of enzymes bound to the membrane <ref type="bibr" target="#b38">[39]</ref>.</p><p>The minimum Inhibitory Concentration (MIC) is defined as the lowest concentration of a drug/compound that will inhibit the visible growth of an organism in vitro after overnight incubation. MICs are considered the "gold standard" for determining the susceptibility of organisms to antimicrobials and are therefore used to judge the performance of all other methods of susceptibility testing <ref type="bibr" target="#b39">[40]</ref>.</p><p>Based on the previous our results, the MICs values against tested foodborne bacterial isolates were a dose dependent manner. Our findings are in the same line with other numerous previous studies on M. oleifera leaves extract from different geographical regions with different extraction methods and different solvents such as aqueous, ethanol, methanol, chloroform and many more reported interesting antibacterial activity against wide spectrum microorganisms, from both gram positive and Gram-negative bacteria <ref type="bibr" target="#b40">[41,</ref><ref type="bibr" target="#b41">42]</ref>.</p><p>Despite, our results do not match with Aiyegoro et al. <ref type="bibr" target="#b42">[43]</ref> which showed that aqueous extracts of plants generally exhibited little or no antimicrobial activities. This may be attributed to the viscous nature of the extract at higher concentrations, thus giving not so uniform results <ref type="bibr" target="#b24">[25]</ref>. Compounds like pterygospermin, benzyl glucosinolate and benzyl isothiocynate have, however, been isolated from M. oleifera leaves and these compounds have been reported to have antimicrobial properties against a wide range of bacteria and fungi <ref type="bibr" target="#b8">[10]</ref>. This would suggest that, the antimicrobial activities observed in this study could be attributed to such compounds. M. oleifera leaf extracts contain small peptides which could play an important role in the plant's antimicrobial defense system <ref type="bibr" target="#b35">[36]</ref>. Antimicrobial peptides probably interact with the membranes in two stages. Firstly, cationic amino acids are attracted by negative charges such as phospholipid head groups on the surface. Secondly, hydrophobic and positively charged patches of the peptide interact with the aliphatic fatty acids and the anionic components <ref type="bibr" target="#b43">[44]</ref>. This induces membrane destabilization, and bacteria are thought to be killed by the leakage of cytoplasmic contents, loss of membrane potential, change of membrane permeability, lipid distribution, the entry</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>12</head><p>This article is available from: www.acmicrob.com</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ARCHIVES OF CLINICAL MICROBIOLOGY ISSN 1989-8436</head><p>of the peptide and blocking of anionic cell components or the triggering of autolytic enzymes <ref type="bibr" target="#b44">[45]</ref>.</p><p>Findings of the current study suggested that, aqueous extract of M. oleifera leaves have potential as antimicrobial compounds against pathogens and their ability to either block or circumvent resistance mechanisms could improve treatment and eradication of microbial strains including food products and therefore may be used as a biopresrvative agent for extending the shelf-life of food products instead of chemical impacts.</p><p>The MICs against tested fungi clearly, show increasing the concentrations of the plant extract exhibited a remarkable increase in antifungal effect on the fungi and yeast tested. Interestingly, other studies are in the same line with our results, but the current study showed higher activity whereby, M. oleifera extract inhibited the radial mycelial growth of all the test fungi namely A. niger, A. ochraceus, A. ustus and C. albicans at the concentration of 100 µg/ml medium. The highest inhibition (52%) of fungal radial mycelial growth was recorded against C. albicans at concentration of 100 µg/ml medium <ref type="bibr" target="#b45">[46]</ref>. The growth inhibition of tested fungi and yeast suggests the presence of antifungal substance in the plant tissue <ref type="bibr" target="#b37">[38]</ref>. The fact that the results of this study showed that M. oleifera exhibits antifungal properties justify their traditional use as medicinal plants. This may be due to the synergistic effect of several compounds that are in various proportions in a M. oleifera which constitute an important source of microbicides, pesticides and many pharmaceutical drugs <ref type="bibr" target="#b46">[47]</ref>.</p><p>In most environments the majority of microorganisms are able to grow as biofilms <ref type="bibr" target="#b47">[48]</ref>. Since they express a different phenotype from their planktonic counterparts <ref type="bibr" target="#b48">[49]</ref>. The main feature of this phenotype is the production of extracellular materials that build an adhesive gel, the matrix, embedding the cells and protecting them from shear forces and harsh conditions, including the presence of most antimicrobial agents <ref type="bibr" target="#b49">[50]</ref>. Food contact surfaces are good substrata for biofilm development. Although, strict cleaning and disinfection procedures can generally assure suitable hygienic conditions in the food industry, destroying planktonic cells and biofilms starting to be formed, they may fall short for the elimination of biofilms that are already well developed. These tend to settle on sites that are especially difficult to clean, due to difficult access, surface irregularities or retention of sticky raw materials. Microbial cell transfer from biofilms to foods, particularly after their hygienization, is a hazard for food safety and quality <ref type="bibr" target="#b50">[51,</ref><ref type="bibr" target="#b51">52]</ref>.</p><p>The obtained results showed that, all tested bacterial isolates exhibit strong potential for biofilm formation. P. aeruginosa which called standard Gram-negative biofilm producing bacteria was showed the strongest biofilm formation. These results are in accordance with Donlan <ref type="bibr" target="#b52">[53]</ref> who assess the ability of the microorganisms attaches to surfaces in food processing and develop biofilms. Faille et al. <ref type="bibr" target="#b53">[54]</ref> concluded that, Bacillus strains were often isolated from biofilms in the food industries. As well as, Tümmler et al. <ref type="bibr" target="#b54">[55]</ref> reported that, the opportunistic pathogens S. epidermidis and S. aureus, as well as P. aeruginosa, rank among the clinically most significant organisms that form biofilms.</p><p>These biofilms can be comprised of single or mixed species <ref type="bibr" target="#b55">[56]</ref>, although mixed species biofilms offer added protection because they are more stable and create a larger and thicker biofilm mass <ref type="bibr" target="#b52">[53]</ref>. Attached microorganisms are generally more resistant to sanitation chemicals than are their detached counterparts. This resistance is due to protection from organic materials and the extracellular polymeric substance (EPS) layer, which prevents chemicals from entering the biofilm or causes inactivation of the sanitizer <ref type="bibr" target="#b52">[53,</ref><ref type="bibr" target="#b56">57]</ref>. So, finding a natural novel biofilm inhibitor for food safety processing and products is a very important field of interest. Interestingly, a different inhibitory effect among the bacterial isolates, a reduced level of biofilm formation in the presence of sub-inhibitory concentrations of M. oleifera aqueous extract were observed in the current study. Doses of sub-MICs from the plant extract showed a strong biofilm reduction effect against B. cereus, S. aureus, E. coli, S. typhi and P. aeruginosa.</p><p>The results obtained clearly, showed the strong effectiveness of M. oleifera aqueous extract against tested foodborne bacterial isolates biofilms in a concentration dependent manner. P. aeruginosa and S. aureus rank among the clinically most significant organisms that form biofilms, and have become the model organisms for studying Gram-positive and Gram-negative biofilms for this reason the substance has antibiofilm activity against both microorganisms is very promise. The trend of our results are in accordance with Carneiro et al.</p><p>[58] and Karlapudi et al.</p><p>[59], they had been reported the antibiofilm effect of various plant extracts against biofilm of human pathogenic bacteria. The increased antibiofilm effect of M. oleifera aqueous extract may be due to the inhibition of exopolysaccharide synthesis limiting the formation of biofilm <ref type="bibr" target="#b59">[60]</ref>, or due to diffusion of plant extract through the channels present in the biofilms followed by the sustained release of phytochemicals in the respective plant extract, which may then impart antimicrobial function. Biochemical composition of the biofilm matrix has been highly reduced. The matrix is one of the most distinctive features of a microbial biofilm. It forms a three dimensional, gel-like, highly hydrated and locally charged environment in which the microorganisms are largely immobilized. Matrix-enclosed micro colonies, sometimes described as stacks or towers, are separated by water channels which provide a mechanism for nutrient circulation within the biofilm. The composition of the matrix varies according to the nature of the organism and reduction in the biochemical composition of the biofilm matrix by plant extract leads to weakening of the biofilm <ref type="bibr" target="#b60">[61]</ref>. Consequently, the ability of M. oleifera aqueous extract to inhibition the biofilm formation of foodborne related bacteria adds impetus to its potential as a novel food preservative.</p><p>Kill-time studies were performed to gain a better insight on bacteriostatic or bactericidal effects of the M. oleifera aqueous extract. The plant extract used in the present study appeared to be particularly effective, as bactericidal effects depending upon minimum bactericidal concentration (MBCs) against tested bacteria (S. aureus and P. aeruginosa) at interval periods of time.</p><p>The broth method is very useful for determination of time-kill assay of an antimicrobial compound. However, one of the major problems with the use of turbidimetric analysis is the minimal range of detection. A bacterial culture with a concentration of 10 6 -10 7 cfu/ml is needed for the spectrophotometer to record a meaningful reading. Thus, in many cases an actively growing culture may be undetected with no increase in absorbance using a spectrophotometer <ref type="bibr" target="#b61">[62]</ref>. Therefore, kill-time studies were confirmed using "pour plate" method on plate count agar and colonies count expressed as (Log 10 cfu/ml) to gain a better data.</p><p>Based on the previous our results the effectiveness of the bactericidal activity of the M. oleifera aqueous extract at MBC treated-mixture against the two previous bacteria the pattern type of death was shown between 3-6 hrs of incubation for S. aureus and through 6-12 hrs of incubation for P. aeruginosa compared by the O.D. of untreated-mixture. As well as, the results of M. oleifera aqueous extract-treated plates showed no count detected for S. aureus and P. aeruginosa after 6 and 12 hrs, respectively. Depending on the previous data the Gram-negative bacteria required longer time of exposure than the Gram-positive one. These findings are in consistence with previous studies by Ashafa and Afolayan <ref type="bibr" target="#b62">[63]</ref>, they reported that, the difference in bacterial response was possible due to the nature of the bacterial species.</p><p>SEM was conducted to get the images of morphological damages in the selected tested bacteria to confirm the antimicrobial activity of the M. oleifera aqueous extract against foodborne related bacteria, including both Gram-positives (S. aureus) and Gram-negatives (P. aeruginosa). These images directly illustrate the destructive effects of the extract on the tested bacteria. There are many possible explanations for the observations in harmony with our current study. The literature suggests that, the active components of the extract might bind to the cell surface and then penetrate to the target sites, possibly the phospholipid bilayer of the cytoplasmic membrane and membrane-bound enzymes <ref type="bibr" target="#b63">[64]</ref>.</p><p>The SEM images show that, some cells present damage as pores or deformity in the cell walls. Also, some authors have suggested that, the damage to the cell wall and cytoplasmic membrane was the loss of structural integrity and the ability of the membrane to act as a permeability barrier <ref type="bibr" target="#b64">[65,</ref><ref type="bibr" target="#b65">66]</ref>. Most of the cells were observed to get clustered and stick to each other, the distortion of the cell physical structure would cause the expansion and destabilization of the membrane and would increase membrane fluidity, which in turn, would increase passive permeability <ref type="bibr" target="#b66">[67]</ref>.</p><p>In addition, most of the Gram-negative cells and the Grampositive cells appeared to be shrunk and even some were empty, and the remains were flaccid. Furthermore, most of the Gramnegative and Gram-positive cells appeared to be stuck together and melted, but the Gram positive cells were more affected <ref type="bibr" target="#b66">[67]</ref>. Furthermore, the SEM-images obtained by the current study are in accordance with other previous studies by <ref type="bibr">Lopez et al. [68]</ref>, Shan et al.</p><p>[69] and Sofy et al. <ref type="bibr" target="#b69">[70]</ref> which explained the causes of the morphological changes of the Gram-positive and Gramnegative bacterial cells which indicated that, the most bioactive compounds of plant extracts were more active against Grampositive bacteria than Gram-negative bacteria. This is likely due to the significant differences in the outer layers of Gram-negative and Gram-positive bacteria. Gram-negative bacteria possess an outer membrane and a unique periplasmic space which is not found in Gram-positive one.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 2</head><label>2</label><figDesc>Antibacterial activity histogram of M. oleifera aqueous extract (50 mg/ml) against foodborne bacterial isolates inhibition zone diameter and mean growth inhibition percentage.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3</head><label>3</label><figDesc>Antifungal activity histogram of M. oleifera aqueous extract (50 mg/ml) against tested fungi/yeast using the inhibition zone diameter and mean growth inhibition percentage.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 4</head><label>4</label><figDesc>Inhibition zones produced against A. niger, A. flavus, P. italicum, Rh. Stolonifer and C. albicans using M. oleifera aqueous extract (50 mg/ml).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 5</head><label>5</label><figDesc>MICs of M. oleifera aqueous extract against tested fungi/ yeast.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure 6</head><label>6</label><figDesc>Microtiter ELISA plate for MICs values of M. oleifera aqueous extract against bacterial isolates. 1) B. cereus, 2) S. aureus, 3) E. coli, 4) S. typhi, 5) P. aeruginosa and B) negative control.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Figure 7</head><label>7</label><figDesc>MICs values of M. oleifera aqueous extract against tested fungi/yeast.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Figure</head><label></label><figDesc>Figure 8 Microtiter ELISA plate for MICs values of M. oleifera aqueous extract against fungi/yeast. C1) control &amp; MIC1=A.niger, C2) control &amp; MIC2=A.flavus, C3) control &amp; MIC3= P. italicum, C4) control &amp; MIC4=Rh. Stolonifer, C5) control &amp; MIC5=C. albicans° and B) negative control.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Figure 10</head><label>10</label><figDesc>Microtiter ELISA plate showing biofilm inhibition assay of M. oleifera aqueous extract against bacterial isolates. 1) B. cereus, 2) S. aureus, 3) E. coli, 4) S. typhi and 5) P. aeruginosa. The strains were grown overnight in polystyrol microtiter wells in TSB supplemented with 2% glucose. The cells that adhered to the plate after washing were then visualized by staining with crystal violet.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head>Figure 11</head><label>11</label><figDesc>Histogram of different sub (MICs) of M. oleifera aqueous extract the bacterial growth (linear charts) and the biofilm formation (column charts) of B. cereus.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_11"><head>Figure 12</head><label>12</label><figDesc>Histogram of different sub (MICs) concentrations of M. oleifera aqueous extract on the bacterial growth (linear charts) and the biofilm formation (column charts) of S. aureus.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_12"><head>Figure 13</head><label>13</label><figDesc>Histogram of different sub (MICs) concentrations of M. oleifera aqueous extract on the bacterial growth (linear charts) and the biofilm formation (column charts) of E. coli.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_13"><head>Figure 14</head><label>14</label><figDesc>Histogram of different sub (MICs) concentrations M. oleifera aqueous extract on the bacterial growth (linear charts) and the biofilm formation (column charts) of S. typhi.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_14"><head>Figure 15</head><label>15</label><figDesc>Histogram of different sub (MICs) concentrations of M. oleifera aqueous extract on the bacterial growth (linear charts) and the biofilm formation (column charts) of P. aeruginosa.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_15"><head>Figure 16</head><label>16</label><figDesc>Curve of time kill assay of M. oleifera aqueous extract against S. aureus and P. aeruginosa held at different time intervals (0, 3, 6, 12 and 24 hr) compared to growth control.2017Vol. 8No. 4:51   10This article is available from: www.acmicrob.com</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_16"><head>Figure 17</head><label>17</label><figDesc>Curve of viable count (log no. cfu/ml) of S. aureus and Ps. aeruginosa held at different time intervals (0, 3, 6, 12 and 24 hr) supplemented with M. oleifera aqueous extract comparable to controls.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2" validated="false"><head>Table 3</head><label>3</label><figDesc>and presented inFigures 5 and 6showed that, a much higher concentration of M. oleifera aqueous extract is required for complete inhibition of Gram- negative bacteria especially P. aeruginosa than Gram-positive one. The (MICs) values in concentration dependent manner were 1.562, 3.125, 6.25, 6.25 and 12.5 (mg/ml) against B. cereus, S. aureus, E. coli, S. typhi and P. aeruginosa, respectively. P. aeruginosa required more milligrams of the plant extract for growth inhibition. While, B. cereus required the lowest concentration for growth inhibition. These results indicated that, the MICs values were a dose dependent manner.</figDesc><table></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3" validated="false"><head></head><label></label><figDesc>), the M. oleifera aqueous extract showed strong antifungal activity with MICs values were 1.562, 3.125, 12.5, 6.25 and 25 (mg/ml) towards A. niger, A. flavus, P. italicum, R. stolonifer and C. albicans, respectively. Interestingly, C. albicans showed the highest MIC value, where the anticandidal activity of M. oleifera aqueous extract required more milligrams for growth inhibition.</figDesc><table></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4" validated="false"><head></head><label></label><figDesc>clearly indicated that, M. oleifera aqueous extract had a strong effect on biofilm formation against B. cereus biofilm with biofilm reduction percentages were 94%, 86%, 77% and 53% at [½ MIC=0.781, ¼ MIC=0.390, 1 / 8 MIC=0.195 and 1 / 16 MIC=0.097 (mg/ml)], respectively. It was found that, at 1 / 32 MIC had no any changes in biofilm formation optical density compared with the control grown in M. oleifera aqueous extract free medium.Staphyllococcus aureus biofilm: S. aureus is a one of the more prominent pathogens causing biofilm related food products. The anti-biofilm efficacy of M. oleifera aqueous extract at sub- inhibitory concentrations were restricted to S. aureus biofilm. The eradication effect of M. oleifera aqueous extract against S. aureus biofilm demonstrated inTable 7and designed in(Figures 10 and 12). The findings indicated that, the biofilm of this opportunistic pathogen even at [ 1 / 32 MIC] of the extract was strongly reduced. The reduction percentages were 98%, 80%, 71%, 60% and 50% at concentrations [ 1 / 2 MIC=1.562, 1 / 4 MIC=0.781, 1 / 8 MIC=0.390, 1 / 16 MIC=0.195, 1 / 8 MIC=0.097 (mg/ml)], respectively. M. oleifera aqueous extract was successfully able to smash up S. aureus biofilm especially at[½ MIC] as dose dependent manner against tested microorganism with strong reduction effect.Escherichia coli biofilm: Concentration-dependent analysis confirms that, M. oleifera aqueous extract at different sub (MICs) was more efficient in disruption of E. coli biofilm with inhibition percentages were 82%, 65%, 40%, 31%, and 18% at</figDesc><table>1 
+
+the concentrations 3.125, 1.562, 0.781, 0.390 and 0.195 (mg/ 
+ml), respectively and the biofilms optical densities recorded were 
+0.0.08 (O.D.), 0.25 (O.D.), 0.5 (O.D.), 0.59 (O.D.) and 0.72 (O.D.), 
+respectively (Table 8 and </table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5" validated="false"><head></head><label></label><figDesc>Inhibition zone diameter including the disc diameter of 6 mm was determined by the agar well-diffusion method. b) Mean growth inhibition percentage (%) was determined by the broth microdillution method The experiments were performed in triplicate and the data are expressed in the form of mean ± SE.</figDesc><table>Tested Fungi/Yeast 
+
+M. oleifera aqueous extract (50 mg/ml) 
+Standard antifungal [Amphotericin B (100 µg)] 
+Inhibition zones 
+diameter (mm) a 
+Mean inhibition 
+percentages (%) b 
+Inhibition zones 
+diameter (mm) a 
+Mean inhibition 
+percentages (%) b 
+A. niger 
+23.4 ± 0.69 
+100 ± 0.71 
+23.7 ± 0.46 
+100 ± 0.00 
+A. flavus 
+26.2 ± 0.71 
+100 ± 0.60 
+19.5 ± 0.42 
+89 ± 0.45 
+P. italicum 
+35.7 ± 0.63 
+100 ± 0.45 
+21.9 ± 0.55 
+98 ± 0.54 
+Rh. stolonifer 
+26.9 ± 0.77 
+100 ± 0.65 
+17.819 ± 0.71 
+89 ± 0.69 
+C. albicans 
+15.2 ± 0.79 
+34.6 ± 0.79 
+19.8 ± 0.45 
+92.1 ± 0.67 
+a) </table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6" validated="false"><head>Table 2</head><label>2</label><figDesc>Screening of antifungal activity of M. oleifera aqueous extract.2017Vol. 8No. 4:51   6 This article is available from: www.acmicrob.com</figDesc><table>2017 
+
+Vol. 8 No. 4:51   </table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_7" validated="true"><head>Table 3</head><label>3</label><figDesc>MICs of M. oleifera aqueous extract against bacterial isolates.</figDesc><table>Bacterial isolates 
+MICs (mg/ml) 
+M. oleifera aqueous extract 
+B. cereus 
+1.562 
+S. aureus 
+3.125 
+E. coli 
+6.25 
+S. typhi 
+6.25 
+P. aeruginosa 
+12.5 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_9" validated="true"><head>Table 5</head><label>5</label><figDesc>Biofilm formation assay of bacterial isolates using (Tissue culture plate method by ELISA reader).</figDesc><table>Figure 9 Microtiter ELISA plate showing biofilm formation of 
+tested bacterial isolates. The tested bacteria were 
+grown overnight in polystyrol microtiter wells in TSB 
+supplemented with 2% glucose. The cells that adhered to 
+the plate after washing were then visualized by staining 
+with crystal violet. 
+
+° 
+
+B. cereus 
+
+Sub (MICs) concentrations 
+
+0 
+mg/ml 
+0.781 
+mg/ml 
+0.390 
+mg/ml 
+0.195 
+mg/ml 
+0.097 
+mg/ml 
+0.0485 
+mg/ml 
+
+Biofilm formation 
+(O.D. 570 nm) 
+1.0 
+0.06 
+0.14 
+0.23 
+0.47 
+1.0 
+
+Biofilm reduction (%) 
+-
+94 % 
+86% 
+77% 
+53% 
+0% 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_10" validated="true"><head>Table 6</head><label>6</label><figDesc>Antibiofilm formation effect of M. oleifera aqueous extract against B. cereus.</figDesc><table>S. aureus 
+
+Sub (MICs) concentrations 
+0 
+mg/ml 
+1. 562 
+mg/ml 
+0.781 
+mg/ml 
+0.390 
+mg/ml 
+0.195 
+mg/ml 
+0.097 
+mg/ml 
+Biofilm formation 
+(O.D. 570 nm) 
+0.9 
+0.08 
+0.1 
+0.19 
+0.3 
+0.39 
+
+Biofilm reduction 
+(%) 
+-
+98 % 
+80 % 
+71 % 
+60% 
+51% 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_11" validated="false"><head>Table 7</head><label>7</label><figDesc>Antibiofilm formation effect of M. oleifera aqueous extract against S. aureus.</figDesc><table></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_12" validated="true"><head>Table 4</head><label>4</label><figDesc>MICs of M. oleifera aqueous extract against tested fungi/yeast.</figDesc><table>Fungi/Yeast 
+MICs (mg/ml) 
+M. oleifera aqueous extract 
+A. niger 
+1.562 
+A. flavus 
+3.125 
+P. italicum 
+12.5 
+Rh. Stolonifer 
+6.25 
+C. albicans 
+25 </table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_14" validated="false"><head></head><label></label><figDesc>Anti biofilm formation effect of M. oleifera aqueous against E. coli.</figDesc><table>0 
+mg/ml 
+3.125 
+mg/ml 
+1.562 
+mg/ml 
+0.781 
+mg/ml 
+0.390 
+mg/ml 
+0.195 
+mg/ml 
+Biofilm 
+formation 
+(O.D. 570 nm) 
+0.9 
+0.08 
+0.25 
+0.5t 
+0.59 
+0.72 
+
+Biofilm 
+reduction (%) 
+-
+82% 
+65 % 
+40% 
+31% 
+18% 
+
+Table 8 </table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_16" validated="false"><head>Table 9</head><label>9</label><figDesc>Antibiofilm formation effect of M. oleifera aqueous extract against S. typhi.</figDesc><table></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_17" validated="true"><head>Table 12 .</head><label>12</label><figDesc></figDesc><table>P. 
+aeruginosa 
+
+Sub (MICs) concentrations 
+
+0 
+mg/ml 
+6.25 
+mg/ml 
+3.125 
+mg/ml 
+1.562 
+mg/ml 
+0.781 
+mg/ml 
+0.390 
+mg/ml 
+
+Biofilm formation 
+(O.D. 570 nm) 
+1.3 
+0.039 0.312 
+0.52 
+1.17 
+1.31 
+
+Biofilm 
+reduction (%) 
+-
+97 % 
+76 % 
+60 % 
+10 % 
+0 % 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_18" validated="false"><head>Table 10</head><label>10</label><figDesc>Anti biofilm formation effect of M. oleifera aqueous extract against P. aeruginosa.</figDesc><table></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_19" validated="false"><head>Table 11</head><label>11</label><figDesc>Time kill assay of M. oleifera aqueous extract against S. aureus</figDesc><table>and P. aeruginosa cultures optical densities held at 37°C for (0, 3, 6, 12 
+and 24 hr). 
+
+Time (hr) 
+Bacterial growth (O.D. 620 
+nm) without treatment 
+
+Bacterial growth (O.D. 620 
+nm) treated with M. oleifera 
+aqueous extract 
+S. aureus P. aeruginosa 
+S. aureus 
+P. aeruginosa 
+0 
+0.011±0.53 
+0.013±0.44 
+0.034±0.53 
+0.087±0.65 
+3 
+0.364±0.46 
+0.479±0.72 
+0.210±0.61 
+0.255±0.42 
+6 
+0.621±0.61 
+0.735±0.60 
+0.010±0.00 
+0.430±0.64 
+12 
+0.811±0.75 
+1.213±0.74 
+0.000±0.00 
+0.011±0.40 
+24 
+1.720±0.87 
+2.011±0.56 
+0.000±0.00 
+0.000±0.00 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_20" validated="false"><head>Table 12</head><label>12</label><figDesc>Time kill assay of M. oleifera aqueous extract against S. aureus</figDesc><table>and P. aeruginosa viable count (Log 10 cfu/ml) held at 37°C for (0, 3, 6, 12 
+and 24 hr). 
+
+Time (hr) 
+
+Bacterial growth 
+Viable count (log 10 cfu/ml) 
+
+Viable bacterial count (log 10 
+cfu/ml) treated with M. 
+oleifera aqueous extract 
+S. aureus P. aeruginosa S. aureus P. aeruginosa 
+0 
+00±00 
+00±00 
+00±00 
+00±00 
+3 
+t2.23±0.81 
+2.64±0.92 
+1.93±0.84 
+2.03± 0.94 
+6 
+4.24±0.92 
+5.13±1.21 
+0.04±0.71 
+3.64± 0.77 
+12 
+5.88±0.84 
+6.67±0.89 
+00±00 
+0.01± 0.28 
+24 
+7.53±0.94 
+8.07±1.07 
+00±00 
+00±00 
+
+</table></figure>
+
+			<note place="foot">Microdilution method (two-fold serial dilution 50 mg/ml at initial conc. of M. oleifera aqueous extract).</note>
+
+			<note place="foot">Vol. 8 No. 4:51</note>
+
+			<note place="foot">This article is available from: www.acmicrob.com</note>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Food borne diseases-the challenges of 20 years ago still persist while new ones continue to emerge</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">R</forename><surname>Ndhlala</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Mulaudzi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Ncube</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">A</forename><surname>Abdelgadir</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">P</forename><surname>Plooy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Food Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">139</biblScope>
+			<biblScope unit="page" from="3" to="15" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Anticandidal activity of pomegranate peel extract aerosol as an applicable sanitizing method</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">A</forename><surname>Tayel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">F</forename><surname>El-Tras</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mycoses</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page" from="117" to="122" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Essential oil from five Zingiberaceae for anti food-borne bacteria</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Natta</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Orapin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Krittika</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Pantip</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int Food Res</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="337" to="346" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Antimicrobial activity of aqueous and ethanol extracts of nine Nigerian spices against four food borne bacteria</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Agatemor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">EJEAFChe</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="195" to="200" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Antimicrobial activity of ethanolic extracts of Syzygium aromaticum and Allium sativum against food associated bacteria and fungi</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">K</forename><surname>Pundir</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Jain</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Sharma</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ethnobotanical Leaflets</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="344" to="360" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Antimicrobial properties of Cinnamomum verum aqueous extracts</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Puangpronpitag</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Sittiwet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Asian J Biol Sci</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="49" to="53" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Antibacterial activity of selected Australian native plant extracts</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><forename type="middle">E</forename><surname>Cock</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="1" to="12" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Antibacterial activity of Cryptolepis buchanani aqueous extract</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Sittiwet</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Puangpronpitag</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="90" to="94" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Moringa oleifera: A review of the medicinal evidence for its nutritional, therapeutic and prophylactic properties. Part 1</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">W</forename><surname>Fahey</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trees for Life Journal</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="1" to="5" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Phytochemical screenings of Nigerian medicinal plants parts</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Odebiyi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">E</forename><surname>Sofowora</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Lyodia</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="234" to="246" />
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">In vitro antimicrobial of water extract of Moringa oleifera leaf stalk on bacterial normally implicated in eye disease</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Thilza</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Sanni</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Zakari</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Muhammed</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Musa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acad Aren</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="80" to="83" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Antibacterial and antifungal efficacy of steam distillate of M. oleifera Lam</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Kekuda</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mtr</forename><surname>Prashith</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Swathi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">V</forename><surname>Nayana</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">A</forename><surname>Meera</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Pharm Sci Res</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="34" to="37" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Antimicrobial activity of ethanolic and aqueous extracts of Sida acuta on microorganisms from skin infections</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">A</forename><surname>Ekpo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">C</forename><surname>Etim</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Med Plants Res</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="621" to="624" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Bergey&apos;s manual of systematic bacteriology</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Bergey&amp;apos;s Manual</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Pub. Williams and Wilkins</title>
+		<editor>Sneath PHA,Shar M, Elizabeth,Holt JG</editor>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="1" to="5" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Antibacterial activity of chitosans and chitosan oligomers with different molecular weights</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">K</forename><surname>No</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">Y</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">H</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">P</forename><surname>Meyers</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Food Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+			<biblScope unit="page" from="65" to="72" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">National Antimicrobial Resistance Monitoring System</title>
+	</analytic>
+	<monogr>
+		<title level="j">NARMS</title>
+		<imprint>
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title/>
+		<idno>1989-8436</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ARCHIVES OF CLINICAL MICROBIOLOGY</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Antimicrobial action of the essential oil of Lippia gracilis Schauer</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">C</forename><surname>Albuquerque</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">R</forename><surname>Camara</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rdr</forename><surname>Marian</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Willadino</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Marcelino</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Braz Archives Bio &amp; Tech</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="527" to="535" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<monogr>
+		<title level="m" type="main">Performance standards for antimicrobial disk susceptibility tests; approved standard-tenth edn 29: M02-A10</title>
+		<imprint>
+			<date type="published" when="2009" />
+		</imprint>
+		<respStmt>
+			<orgName>Clinical and Laboratory Standards Institude ; National Committee for Clinical Laboratory Standards 29</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Adherence of coagulase negative Staphylococci to plastic tissue cultures: a quantitative model for the adherence of Staphylococci to medical devices</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">D</forename><surname>Christensen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">A</forename><surname>Simpson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A</forename><surname>Younger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="996" to="1006" />
+			<date type="published" when="1995" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Quantification of biofilmin microtiter plates: overview of testing conditions and practical recommendations for assessment of biofilm production by Staphylococci</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Stepanović</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Vuković</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Hola</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Di</forename><surname>Bonaventura</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Djukić</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">APMIS</title>
+		<imprint>
+			<biblScope unit="volume">115</biblScope>
+			<biblScope unit="page" from="891" to="899" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Inhibitory effects of 1,2,3,4,6-penta-O-galloyl-β-D-glucopyranose on biofilm formation by Staphylococcusaureus</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">H</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><forename type="middle">R</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">Y</forename><surname>Hua</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><forename type="middle">C</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">T</forename><surname>Liu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Antimicrob Agents Chemo-ther</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="page" from="1021" to="1027" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Sensitivity of spoiling and pathogen food-related bacteria to Origanum vulgare L. (Lamiaceae) essential oil</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Souza Eld</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Tlm</forename><surname>Stamford</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Lima</forename><surname>Edo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Brazilian Journal of Microbiology</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="527" to="532" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Essential oils: their antibacterial properties and potential applications in foods-a review</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Burt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Food Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">94</biblScope>
+			<biblScope unit="page" from="223" to="253" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Antimicrobial activity of Moringa oleifera (Lam.) root extract</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">R</forename><surname>Anith</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">G</forename><surname>Velliyu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">Y</forename><surname>Sangilimuthu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Sudarsanam</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Pharm Res</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="1426" to="1427" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Antimicrobial activity of the methanolic extract of stem bark of Spondias pennata, Moringa oleifera and Alstonia scholaris</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Chetia</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Gogoi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Asian J Trad Med</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="163" to="167" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Physico-chemical characteristics of Moringa oleifera seeds and seed oil from a wild provenance of Pakistan</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Anwar</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">U</forename><surname>Rashid</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Pak J Biolog Sci</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="1443" to="1453" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Screening of some medicinal plants for isolation of antifungal proteins and peptides</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Jamil</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Shahid</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">M</forename><surname>Khan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Ashraf</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Pak J Bot</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="211" to="221" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Plant products as antimicrobial agents</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">M</forename><surname>Cowan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin Microbiol Rev</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="564" to="582" />
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Comparison of Thymus vulgaris (Thyme), Achillea millefolium (Yarrow) and propolis hydroalcoholic extracts versus systemic glucantime in the treatment of cutaneous leishmaniasis in balb/c mice</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">A</forename><surname>Nilforoushzadeh</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">-Bl</forename><surname>Shirani</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">-Ba</forename><surname>Zolfaghari</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Saberi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">H</forename><surname>Siadat</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Vector Borne Dis</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="301" to="306" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Antimicrobial activity of some alkyl esters of gallic acid (3, 4, 5-trihydrobenzoic acid) against E. coli NCTC 5933 with particular reference to n-propilgallate</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Boyd</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">G</forename><surname>Beveridge</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Microbios</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="73" to="85" />
+			<date type="published" when="1981" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Antioxidant and antimicrobial activities of rosemary extracts linked to their polyphenol composition</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Moreno</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Scheyer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Romano</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Vojnov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Free Radic Res</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="223" to="231" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Control of pathogenic and spoilage microorganisms in fresh-cut fruits and fruit 192 juices by traditional and alternative natural antimicrobials</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Raybaudi-Massilia</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Mosqueda-Melgar</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Soliva-Fortuny</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">O</forename><surname>Martinbelloso</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Compr. Rev Food Sci Food Saf</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="157" to="180" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Antibacterial activity of leaf juice and extracts of M. oleifera Lam against some human pathogenic bacteria</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">F</forename><surname>Alam</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">M</forename><surname>Rahman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">I</forename><surname>Sheikh</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">A</forename><surname>Sharmin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">S</forename><surname>Islam</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">CMU J Nat Sci</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">219</biblScope>
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Evaluation of in vitro anti-oxidant activity of flowers of Cassia fistula Linn</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">R</forename><surname>Bhalodia</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">B</forename><surname>Nariya</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">N</forename><surname>Acharya</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><forename type="middle">J</forename><surname>Shukla</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Pharm Tech Res</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="589" to="599" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Antifungal activity of crude extracts and essential oil of Moringa oleifera Lam</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Chuang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Chou</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Murugan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Shieh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioresour Technol</title>
+		<imprint>
+			<biblScope unit="volume">98</biblScope>
+			<biblScope unit="page" from="232" to="236" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Vitro antimicrobial activity of methanolic extract of Moringa oleifera Lam. fruits</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">A</forename><surname>Sayeed</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">S</forename><surname>Hossain</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Meh</forename><surname>Chowdhury</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Haque</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Pharmac &amp; Phytochem</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="94" to="96" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Antifungal properties of Musa paradisiaca (Plantain) peel and stalk extracts</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">I</forename><surname>Okorondu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">O</forename><surname>Akujobi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><forename type="middle">N</forename><surname>Nwachukwn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Biol Chem Sci</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="1527" to="1534" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Molecular basis of resistance to azole antifungals</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Lupetti</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Danesi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Campa</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Del</forename><surname>Tacca</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Kelly</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Mol Med</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="76" to="81" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Determination of minimum inhibitory concentrations (MICs) of antibacterial agents by broth microdilution</title>
+	</analytic>
+	<monogr>
+		<title level="j">European Committee on Antimicrobial Susceptibility Testing</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="1" to="7" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+	<note>Clin Microbiol Infect</note>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Antimicrobial profile of Moringa oleifera Lam. extracts against some food-borne microorganisms</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Bukar</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Uba</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">I</forename><surname>Oyeyi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bayero J Pure &amp; Applied Sci</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="43" to="48" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">The antibacterial evaluation of Moringa oleifera leaf extracts on selected bacterial pathogens</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">E</forename><surname>Abalaka</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">Y</forename><surname>Daniyan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">B</forename><surname>Oyeleke</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">O</forename><surname>Adeyemo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Microbiology Research</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="1" to="4" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Interactions of antibiotics and extracts of Helichrysum pedunculatum against bacteria implicated in wound infections</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">O</forename><forename type="middle">A</forename><surname>Aiyegoro</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">J</forename><surname>Afolayan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">I</forename><surname>Okoh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Folia Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="page" from="176" to="180" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Antimicrobial peptides: current status and therapeutic potential</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">R</forename><surname>Koczulla</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Bals</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Drugs</title>
+		<imprint>
+			<biblScope unit="volume">63</biblScope>
+			<biblScope unit="page" from="389" to="406" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Antimicrobial peptides of multicellular organisms</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Zasloff</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">415</biblScope>
+			<biblScope unit="page" from="389" to="395" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Moringa oleifera: a food Plant with multiple medicinal uses</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Anwar</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Latif</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Ashraf</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">H</forename><surname>Gilani</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phytother Res</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="17" to="25" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Antifungal activity and preliminary phytochemical analysis of bark extracts of Moringa oleifera Lam</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Zaffer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Ahmad</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Sharma</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Mahajan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Gupta</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Biosci</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="26" to="30" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Toward a unified biofilm theory</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">W</forename><surname>Costerton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">The Biofilm Primer</title>
+		<meeting><address><addrLine>Berlin, Germany</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2007" />
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="169" to="180" />
+		</imprint>
+	</monogr>
+	<note>1st ed.; Heidelberg CE.</note>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">The genomics and proteomics of biofilm formation</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Sauer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genome Biol</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="1" to="4" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">The biofilm matrix</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">C</forename><surname>Flemming</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Wingender</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Rev Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="623" to="632" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Microbial retention on open food contact surfaces and implications for food contamination</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Verran</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Airey</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Packer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">A</forename><surname>Whitehead</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv Appl Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="page" from="223" to="246" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Biofilm formation and food safety in food industries</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">X</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">X</forename><surname>Zhu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Food Sci Technol</title>
+		<imprint>
+			<biblScope unit="page" from="1" to="7" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Biofilms: Microbial life on surfaces</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">M</forename><surname>Donlan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Emerg Infect Dis</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="881" to="890" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Sporulation of Bacillus spp. within biofilms: A potential source of contamination in food processing environments</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Faille</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Bénézech</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Midelet-Bourdin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Lequette</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Clarisse</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Food Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="64" to="74" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Infections with Pseudomonas aeruginosa in patients with cystic fibrosis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Tümmler</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Bosshammer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Breitenstein</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Brockhausen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Gudowius</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Behring. Inst Mitt</title>
+		<imprint>
+			<biblScope unit="volume">98</biblScope>
+			<biblScope unit="page" from="249" to="255" />
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Significance of microbial biofilms in the food industry: a review</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">G</forename><surname>Kumar</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">K</forename><surname>Anand</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Food Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="9" to="27" />
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Reflections on Salmonella and other &quot;wee beasties&quot; in foods</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">A</forename><surname>Zottola</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Food Technol</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="page" from="60" to="67" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Casbanediterpene as a promising natural antimicrobial agent against biofilm-associated infections</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><forename type="middle">A</forename><surname>Carneiro</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">S</forename><surname>Santos</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><forename type="middle">V</forename><surname>Arruda</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">N</forename><surname>Bandeira</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">R</forename><surname>Albuquerque</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecules</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="190" to="201" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Investigation of the potential antibiofilm activites of plant extracts</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">A</forename><surname>Karlapudi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Sreenivas</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">T</forename><surname>Tirupati</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Indira</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">J</forename><surname>Babu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Pharm. Pharm Sci</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="282" to="285" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Exopolysaccharide-producing lactic acid bacteria strains from traditional Thai fermented foods: isolation, identification and exopolysaccharide characterization</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Smitinont</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Tansakul</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Tanasupawat</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Keeratipibul</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Navarini</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Food Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="105" to="111" />
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Prosthetic joint infections: Bane of orthopedists</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">L</forename><surname>Joseph</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin Infect Dis</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="1157" to="1161" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Antibacterial activity of some essential oil components against five foodborne pathogens</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">R</forename><surname>Marshall</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">I</forename><surname>Wei</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Agric &amp; Food Chem</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="2839" to="2845" />
+			<date type="published" when="1995" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">Screening the root extracts from Biden pilosa L. var. radiata (Asteraceae) for antimicrobial potentials</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Aot</forename><surname>Ashafa</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">J</forename><surname>Afolayan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Med Plant Res</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="568" to="572" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">Antibacterial properties and major bioactive compon-ents of cinnamon stick (Cinnamomumburmannii): Activity against foodborne pathogenic bacteria</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Shan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><forename type="middle">Z</forename><surname>Cai</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">D</forename><surname>Brooks</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Corke</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Agric Food Chem</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="page" from="5484" to="5490" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main">Antimicrobial properties of some herb essential oils</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Packiyasothy</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Kyle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Food Aust</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page" from="384" to="387" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title level="a" type="main">Anti-bacterial and antifungal activity of juniper berry oil and its selected components</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Filipowicz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Kaminski</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Kurlenda</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Asztemborska</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Ochocka</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phytother Res</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="227" to="231" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">The phenolic hydroxyl group of carvacrol is essential for action against the food-borne pathogen Bacillus cereus</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Ultee</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Bennik</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Moezelaar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl Environ Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="1561" to="1568" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title level="a" type="main">Solid-and vapor-phase antimicrobial activities of six essential oils: susceptibility of selected foodborne bacterial and fungal strains</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Lopez</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Sanchez</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Batlle</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Nerin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Agric Food Chem</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page" from="6939" to="6946" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title level="a" type="main">Antioxidant capacity of 26 spice extracts and characte-rization of their phenolic constituents</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Shan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Cai</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Corke</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Agric Food Chem</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page" from="7749" to="7759" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<analytic>
+		<title level="a" type="main">Structural changes of pathogenic multiple drug resistance bacteria treated with T. vulgaris aqueous extract</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">R</forename><surname>Sofy</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">A</forename><surname>Hmed</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ama</forename><surname>Sharaf</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">A</forename><surname>El-Dougdoug</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature and Science</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="83" to="88" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>
