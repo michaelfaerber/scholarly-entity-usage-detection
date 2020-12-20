@@ -24,7 +24,6 @@ def load_annotation_data(file_path, sep=";"):
     :return: X, y: features and label entries.
     """
     df = pd.read_csv(file_path, sep=sep)
-    df.drop(['used_Felix', 'Anmerkung'], axis=1, inplace=True)
     filtered_df = df[(df['used'] == "1") | (df['used'] == "0")]
     filtered_df = filtered_df.sample(frac=1, random_state=42)
     df_0 = filtered_df[filtered_df['used'] == "0"]
