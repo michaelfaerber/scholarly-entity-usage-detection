@@ -18,3 +18,23 @@ This project is divided into several submodules. A detailed description can be f
 - [classification-pipeline](classification-pipeline): Applies both the TSE-NER model for named entitiy recognition as well as a trained usage classification model to a corpus of documents.
 - [studies](studies) contains several jupyter notebooks for analysis of the results from the classification pipeline.
 - [mag-extension](mag-extension) contains our extensions to the Microsoft Academic Graph.
+
+
+## Contact
+The system has been designed and implemented by Michael Färber, Alexander Albers, and Felix Schüber. Feel free to reach out to us:
+
+[Michael Färber](https://sites.google.com/view/michaelfaerber), michael.faerber@kit&#46;edu
+
+## How to Cite
+Please cite our [work](https://aifb.kit.edu/images/2/2e/Identifying_Methods_Datasets_SDU2021.pdf) as follows:
+```
+@inproceedings{Faerber2021SDU,
+  author    = {Michael F{\"{a}}rber and
+               Alexander Albers and 
+               Felix Schüber},
+  title     = "{Identifying Used Methods and Datasets in Scientific Publications}",
+  booktitle = "{Proceedings of the AAAI-21 Workshop on Scientific Document Understanding (SDU'21)@AAAI'21}",
+  location  = "{Virtual Event}",
+  year      = {2021}
+}
+```
